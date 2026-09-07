@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Predicting Emerging Research Gaps in Scientific Literature via Dual-Channel Temporal Knowledge Graphs"
+authors:
+  - family-names: "<Shaik>"
+    given-names: "<Arshia>"
+version: 1.0.0
+date-released: 2026-09-08
+url: "https://github.com/Arshiask07/temporal-gap-detection"

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project Timeline — Temporal Knowledge Graph Embedding for Emerging Research Gap Detection</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+
+  :root{
+    --ink:#e9ecef;
+    --paper:#0d1520;
+    --panel:#111b28;
+    --line:#233042;
+    --line-soft:#1a2432;
+    --mono:#8fa3b8;
+    --dim:#5b6b7d;
+    --phase:#4fc3d9;
+    --phase-dim:#1c3a42;
+    --review:#f2b84b;
+    --review-dim:#3a2f18;
+    --deadline:#e8735a;
+    --deadline-dim:#3a2119;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:48px 40px;
+    background:
+      linear-gradient(var(--paper), var(--paper)),
+      repeating-linear-gradient(0deg, transparent, transparent 27px, var(--line-soft) 27px, var(--line-soft) 28px),
+      repeating-linear-gradient(90deg, transparent, transparent 27px, var(--line-soft) 27px, var(--line-soft) 28px);
+    color:var(--ink);
+    font-family:'Source Serif 4', Georgia, serif;
+  }
+  .eyebrow{
+    font-family:'Space Mono', monospace; font-size:11px; letter-spacing:0.14em;
+    text-transform:uppercase; color:var(--phase); margin:0 0 10px;
+  }
+  h1{
+    font-size:26px; font-weight:600; margin:0 0 6px; max-width:760px; line-height:1.25;
+  }
+  .subtitle{
+    font-family:'Space Mono', monospace; font-size:12px; color:var(--dim); margin:0 0 30px;
+    letter-spacing:0.02em;
+  }
+  .legend{
+    display:flex; gap:26px; margin-bottom:22px; font-family:'Space Mono', monospace;
+    font-size:11px; color:var(--mono); flex-wrap:wrap;
+  }
+  .legend span{display:inline-flex; align-items:center; gap:7px;}
+  .swatch{width:9px; height:9px; border-radius:50%; display:inline-block;}
+
+  .panel{
+    background:var(--panel); border:1px solid var(--line); border-radius:2px;
+    padding:28px 28px 24px; overflow-x:auto;
+  }
+
+  .gantt{ display:grid; grid-template-columns: 34px 236px 1fr; min-width:960px; row-gap:0; }
+
+  .months{ grid-column:2 / 4; position:relative; height:30px; border-bottom:1px solid var(--line); margin-bottom:2px;}
+  .month-label{
+    position:absolute; top:0; height:30px; display:flex; align-items:flex-end;
+    font-family:'Space Mono', monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--dim); border-left:1px solid var(--line); padding-left:8px; padding-bottom:8px;
+  }
+  .month-spacer{ grid-column:1 / 2; }
+
+  .row{ display:contents; }
+
+  .row-index{
+    font-family:'Space Mono', monospace; font-size:11px; color:var(--dim);
+    display:flex; align-items:center; justify-content:center;
+    border-bottom:1px solid var(--line-soft); padding:14px 0;
+  }
+  .row-index.milestone{ color:var(--review); }
+  .row-index.deadline{ color:var(--deadline); }
+
+  .row-label{
+    padding:14px 14px 14px 4px; font-size:13.5px; line-height:1.4;
+    border-bottom:1px solid var(--line-soft);
+    display:flex; align-items:center;
+  }
+  .row-label .name{ }
+  .row-label.milestone .name{ color:var(--review); font-weight:600; }
+  .row-label.deadline .name{ color:var(--deadline); font-weight:600; }
+
+  .row-track{
+    position:relative; border-bottom:1px solid var(--line-soft); min-height:48px;
+  }
+  .gridline{ position:absolute; top:0; bottom:0; border-left:1px solid var(--line); opacity:0.6;}
+
+  .spine{
+    position:absolute; left:0; right:0; top:50%; height:1px; background:var(--line);
+  }
+  .node{
+    position:absolute; top:50%; width:7px; height:7px; border-radius:50%;
+    transform:translate(-50%,-50%); background:var(--paper); border:2px solid var(--phase);
+    z-index:2;
+  }
+  .node.milestone{ border-color:var(--review); }
+  .node.deadline{ border-color:var(--deadline); background:var(--deadline); }
+
+  .bar{
+    position:absolute; top:50%; transform:translateY(-50%); height:5px; border-radius:3px;
+    background:var(--phase);
+  }
+  .bar.milestone{ background:var(--review); }
+  .bar.deadline{ display:none; }
+
+  .datelabel{
+    position:absolute; top:50%; transform:translateY(-50%);
+    font-family:'Space Mono', monospace; font-size:10.5px; color:var(--mono);
+    white-space:nowrap;
+  }
+
+  .footnote{
+    font-family:'Space Mono', monospace; font-size:10.5px; color:var(--dim); margin-top:20px;
+    line-height:1.7; max-width:700px;
+  }
+</style>
+</head>
+<body>
+
+<p class="eyebrow">Research schedule — 16 weeks</p>
+<h1>Temporal knowledge graph embedding for emerging research gap detection</h1>
+<p class="subtitle">04 AUG — 21 NOV &nbsp;·&nbsp; 6 phases &nbsp;·&nbsp; 3 reviews &nbsp;·&nbsp; 1 submission</p>
+
+<div class="legend">
+  <span><span class="swatch" style="background:var(--phase)"></span>Work phase</span>
+  <span><span class="swatch" style="background:var(--review)"></span>Review milestone</span>
+  <span><span class="swatch" style="background:var(--deadline)"></span>Submission deadline</span>
+</div>
+
+<div class="panel">
+  <div class="gantt" id="gantt"></div>
+</div>
+
+
+
+<script>
+const tasks = [
+  {idx:"01", label:"Proposal finalization", start:"2025-08-04", end:"2025-08-17", type:"phase"},
+  {idx:"—", label:"First review", start:"2025-08-18", end:"2025-08-22", type:"milestone"},
+  {idx:"02", label:"Data collection", start:"2025-08-23", end:"2025-09-12", type:"phase"},
+  {idx:"03", label:"Extraction & graph construction", start:"2025-09-13", end:"2025-09-28", type:"phase"},
+  {idx:"—", label:"Second review", start:"2025-09-29", end:"2025-10-03", type:"milestone"},
+  {idx:"04", label:"Dual-channel gap scoring", start:"2025-10-04", end:"2025-10-24", type:"phase"},
+  {idx:"05", label:"Re-ranking & validation", start:"2025-10-25", end:"2025-11-07", type:"phase"},
+  {idx:"06", label:"Dashboard, results & reporting", start:"2025-11-08", end:"2025-11-16", type:"phase"},
+  {idx:"—", label:"Final review", start:"2025-11-17", end:"2025-11-21", type:"milestone"},
+  {idx:"⚑", label:"Report & supporting material due", start:"2025-11-20", end:"2025-11-20", type:"deadline"},
+];
+
+const parse = d => new Date(d + "T00:00:00");
+const fmt = d => parse(d).toLocaleDateString('en-US', {month:'short', day:'numeric'});
+
+const rangeStart = parse(tasks[0].start);
+const rangeEnd = parse(tasks[tasks.length-2].end); // final review end for range
+const totalDays = (rangeEnd - rangeStart) / 86400000;
+
+const gantt = document.getElementById('gantt');
+
+gantt.innerHTML += `<div class="month-spacer"></div>`;
+const monthsDiv = document.createElement('div');
+monthsDiv.className = 'months';
+gantt.appendChild(monthsDiv);
+
+let cursor = new Date(rangeStart);
+cursor.setDate(1);
+const monthStarts = [];
+while (cursor <= rangeEnd) {
+  monthStarts.push(new Date(cursor));
+  cursor.setMonth(cursor.getMonth()+1);
+}
+monthStarts.forEach((m, i) => {
+  const segStart = m < rangeStart ? rangeStart : m;
+  const nextMonth = new Date(m); nextMonth.setMonth(nextMonth.getMonth()+1);
+  const segEnd = (i === monthStarts.length-1 || nextMonth > rangeEnd) ? rangeEnd : nextMonth;
+  const leftPct = ((segStart - rangeStart)/86400000 / totalDays) * 100;
+  const widthPct = ((segEnd - segStart)/86400000 / totalDays) * 100;
+  const label = document.createElement('div');
+  label.className = 'month-label';
+  label.style.left = leftPct + '%';
+  label.style.width = widthPct + '%';
+  label.textContent = m.toLocaleDateString('en-US', {month:'long'});
+  monthsDiv.appendChild(label);
+});
+
+tasks.forEach(t => {
+  const idxDiv = document.createElement('div');
+  idxDiv.className = 'row-index ' + (t.type !== 'phase' ? t.type : '');
+  idxDiv.textContent = t.idx;
+  gantt.appendChild(idxDiv);
+
+  const labelDiv = document.createElement('div');
+  labelDiv.className = 'row-label ' + (t.type !== 'phase' ? t.type : '');
+  labelDiv.innerHTML = `<span class="name">${t.label}</span>`;
+  gantt.appendChild(labelDiv);
+
+  const trackDiv = document.createElement('div');
+  trackDiv.className = 'row-track';
+
+  monthStarts.forEach(m => {
+    if (m > rangeStart && m < rangeEnd) {
+      const leftPct = ((m - rangeStart)/86400000 / totalDays) * 100;
+      const gl = document.createElement('div');
+      gl.className = 'gridline';
+      gl.style.left = leftPct + '%';
+      trackDiv.appendChild(gl);
+    }
+  });
+
+  const s = parse(t.start), e = parse(t.end);
+  let leftPct = ((s - rangeStart)/86400000 / totalDays) * 100;
+  let rightPct = ((e - rangeStart)/86400000 / totalDays) * 100;
+  if (leftPct === rightPct) rightPct = leftPct + 0.6;
+
+  const spine = document.createElement('div');
+  spine.className = 'spine';
+  spine.style.left = leftPct + '%';
+  spine.style.width = (rightPct - leftPct) + '%';
+  trackDiv.appendChild(spine);
+
+  if (t.type !== 'deadline') {
+    const bar = document.createElement('div');
+    bar.className = 'bar ' + t.type;
+    bar.style.left = leftPct + '%';
+    bar.style.width = (rightPct - leftPct) + '%';
+    trackDiv.appendChild(bar);
+  }
+
+  const nodeStart = document.createElement('div');
+  nodeStart.className = 'node ' + t.type;
+  nodeStart.style.left = leftPct + '%';
+  trackDiv.appendChild(nodeStart);
+
+  if (t.start !== t.end) {
+    const nodeEnd = document.createElement('div');
+    nodeEnd.className = 'node ' + t.type;
+    nodeEnd.style.left = rightPct + '%';
+    trackDiv.appendChild(nodeEnd);
+  }
+
+  const dateLabel = document.createElement('div');
+  dateLabel.className = 'datelabel';
+  const dateText = t.start === t.end ? fmt(t.start) : `${fmt(t.start)} – ${fmt(t.end)}`;
+  dateLabel.textContent = dateText;
+  const labelLeft = rightPct + 1.8;
+  if (labelLeft > 82) {
+    dateLabel.style.right = (100 - leftPct + 1.8) + '%';
+  } else {
+    dateLabel.style.left = labelLeft + '%';
+  }
+  trackDiv.appendChild(dateLabel);
+
+  gantt.appendChild(trackDiv);
+});
+</script>
+
+</body>
+</html>

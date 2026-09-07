@@ -1,0 +1,152 @@
+{
+  "scibert": {
+    "NLP": {
+      "papers": 1400,
+      "total_entities": 28463,
+      "total_relations": 22690,
+      "entity_type_counts": {
+        "Method": 10473,
+        "Task": 4855,
+        "Other": 8997,
+        "Material": 3028,
+        "Metric": 1110
+      },
+      "relation_type_counts": {
+        "METHOD_APPLIED_TO": 2412,
+        "ENTITY_ASSOCIATED_WITH_ENTITY": 7738,
+        "USED_FOR": 9548,
+        "METHOD_EVALUATED_BY": 2992
+      },
+      "typed_relation_share": 0.659,
+      "other_entity_share": 0.3161,
+      "papers_zero_entities": 0,
+      "papers_zero_relations": 8,
+      "entity_per_paper_avg": 20.33,
+      "relation_per_paper_avg": 16.21
+    },
+    "COVID": {
+      "papers": 840,
+      "total_entities": 11918,
+      "total_relations": 8081,
+      "entity_type_counts": {
+        "Other": 4273,
+        "Task": 1319,
+        "Metric": 261,
+        "Method": 3602,
+        "Material": 2463
+      },
+      "relation_type_counts": {
+        "ENTITY_ASSOCIATED_WITH_ENTITY": 4400,
+        "USED_FOR": 2560,
+        "METHOD_APPLIED_TO": 801,
+        "METHOD_EVALUATED_BY": 320
+      },
+      "typed_relation_share": 0.4555,
+      "other_entity_share": 0.3585,
+      "papers_zero_entities": 6,
+      "papers_zero_relations": 92,
+      "entity_per_paper_avg": 14.19,
+      "relation_per_paper_avg": 9.62
+    }
+  },
+  "roberta": {
+    "NLP": {
+      "papers": 1400,
+      "total_entities": 30316,
+      "total_relations": 26236,
+      "entity_type_counts": {
+        "Task": 5506,
+        "Method": 12127,
+        "Other": 7439,
+        "Material": 4623,
+        "Metric": 621
+      },
+      "relation_type_counts": {
+        "METHOD_APPLIED_TO": 3348,
+        "USED_FOR": 9709,
+        "ENTITY_ASSOCIATED_WITH_ENTITY": 10216,
+        "METHOD_EVALUATED_BY": 2963
+      },
+      "typed_relation_share": 0.6106,
+      "other_entity_share": 0.2454,
+      "papers_zero_entities": 0,
+      "papers_zero_relations": 6,
+      "entity_per_paper_avg": 21.65,
+      "relation_per_paper_avg": 18.74
+    },
+    "COVID": {
+      "papers": 840,
+      "total_entities": 13677,
+      "total_relations": 11321,
+      "entity_type_counts": {
+        "Material": 2781,
+        "Other": 3163,
+        "Task": 2650,
+        "Metric": 374,
+        "Method": 4709
+      },
+      "relation_type_counts": {
+        "USED_FOR": 2705,
+        "ENTITY_ASSOCIATED_WITH_ENTITY": 6821,
+        "METHOD_APPLIED_TO": 1313,
+        "METHOD_EVALUATED_BY": 482
+      },
+      "typed_relation_share": 0.3975,
+      "other_entity_share": 0.2313,
+      "papers_zero_entities": 8,
+      "papers_zero_relations": 71,
+      "entity_per_paper_avg": 16.28,
+      "relation_per_paper_avg": 13.48
+    }
+  },
+  "pubmedbert": {
+    "NLP": {
+      "papers": 1400,
+      "total_entities": 31135,
+      "total_relations": 27318,
+      "entity_type_counts": {
+        "Task": 6597,
+        "Method": 10083,
+        "Other": 10480,
+        "Material": 2872,
+        "Metric": 1103
+      },
+      "relation_type_counts": {
+        "METHOD_EVALUATED_BY": 3129,
+        "ENTITY_ASSOCIATED_WITH_ENTITY": 10483,
+        "USED_FOR": 10998,
+        "METHOD_APPLIED_TO": 2708
+      },
+      "typed_relation_share": 0.6163,
+      "other_entity_share": 0.3366,
+      "papers_zero_entities": 0,
+      "papers_zero_relations": 4,
+      "entity_per_paper_avg": 22.24,
+      "relation_per_paper_avg": 19.51
+    },
+    "COVID": {
+      "papers": 840,
+      "total_entities": 14308,
+      "total_relations": 13042,
+      "entity_type_counts": {
+        "Other": 4749,
+        "Task": 3035,
+        "Metric": 529,
+        "Method": 3354,
+        "Material": 2641
+      },
+      "relation_type_counts": {
+        "ENTITY_ASSOCIATED_WITH_ENTITY": 8534,
+        "USED_FOR": 2967,
+        "METHOD_APPLIED_TO": 1179,
+        "METHOD_EVALUATED_BY": 362
+      },
+      "typed_relation_share": 0.3457,
+      "other_entity_share": 0.3319,
+      "papers_zero_entities": 8,
+      "papers_zero_relations": 59,
+      "entity_per_paper_avg": 17.03,
+      "relation_per_paper_avg": 15.53
+    }
+  }
+}

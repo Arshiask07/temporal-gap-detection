@@ -1,0 +1,372 @@
+{
+  "domain": "NLP (ACL/arXiv)",
+  "cutoff_year": 2021,
+  "post_cutoff_range": "2022\u20132024",
+  "alpha": 0.5,
+  "top_k_requested": 25,
+  "entities_considered": 18715,
+  "relations_considered": 15540,
+  "papers_total": 1400,
+  "papers_pre_cutoff": 800,
+  "papers_post_cutoff": 600,
+  "candidate_gaps_scored": 75,
+  "hits": 41,
+  "misses": 34,
+  "hit_rate": 0.5467,
+  "elapsed_seconds": 3.0,
+  "top_hits": [
+    {
+      "u": "canon_Method_00559",
+      "v": "canon_Method_00560",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_01195",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00560",
+      "v": "canon_Method_01195",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00560",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Task_00093",
+      "v": "canon_Task_00140",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Task_00093",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Method_01204",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Method_00578",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Method_01203",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Task_00140",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_01204",
+      "v": "canon_Task_00140",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_01204",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00578",
+      "v": "canon_Task_00093",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00578",
+      "v": "canon_Method_01204",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00578",
+      "v": "canon_Method_01203",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00578",
+      "v": "canon_Other_00050",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00578",
+      "v": "canon_Task_00140",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00578",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_01203",
+      "v": "canon_Method_01204",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Other_00002",
+      "v": "canon_Task_00093",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Other_00002",
+      "v": "canon_Task_00140",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00029",
+      "v": "canon_Method_00084",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00029",
+      "v": "canon_Method_00561",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    },
+    {
+      "u": "canon_Method_00029",
+      "v": "canon_Metric_00300",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": true
+    }
+  ],
+  "top_misses": [
+    {
+      "u": "canon_Method_00559",
+      "v": "canon_Other_00006",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00559",
+      "v": "canon_Method_01195",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00559",
+      "v": "canon_Method_01199",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00559",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01195",
+      "v": "canon_Other_00006",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01195",
+      "v": "canon_Method_01199",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01199",
+      "v": "canon_Other_00006",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01199",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00560",
+      "v": "canon_Other_00006",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00560",
+      "v": "canon_Method_01199",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Other_00398",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00158",
+      "v": "canon_Other_00050",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01204",
+      "v": "canon_Task_00093",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01204",
+      "v": "canon_Other_00398",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01204",
+      "v": "canon_Other_00050",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_00578",
+      "v": "canon_Other_00398",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01203",
+      "v": "canon_Task_00093",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01203",
+      "v": "canon_Other_00398",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01203",
+      "v": "canon_Other_00050",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01203",
+      "v": "canon_Task_00140",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Method_01203",
+      "v": "canon_Other_00002",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Other_00398",
+      "v": "canon_Task_00093",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Other_00398",
+      "v": "canon_Task_00140",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Other_00050",
+      "v": "canon_Task_00093",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    },
+    {
+      "u": "canon_Other_00050",
+      "v": "canon_Other_00398",
+      "pre_cutoff_cooccurrences": 1,
+      "year_first_seen": 2018,
+      "materialized_post_cutoff": false
+    }
+  ],
+  "status": "ok"
+}
