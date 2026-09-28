@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2023,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 3285,
+  "total_structural_entities": 3285,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 6040,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 93,
+    "pairs_after_filter": 28215,
+    "pairs_before_filter": 28308
+  },
+  "total_candidate_pairs_considered": 28215,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_01068",
+      "entity_b": "canon_Other_01506",
+      "surface_form_a": "residual neural network (",
+      "surface_form_b": "resistance mechanisms",
+      "structural_score": 0.999325,
+      "semantic_score": 0.632349,
+      "fused_score": 0.999324,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01069",
+      "entity_b": "canon_Other_01506",
+      "surface_form_a": "ResNet)",
+      "surface_form_b": "resistance mechanisms",
+      "structural_score": 0.999273,
+      "semantic_score": 0.660271,
+      "fused_score": 0.999273,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01068",
+      "entity_b": "canon_Task_00651",
+      "surface_form_a": "residual neural network (",
+      "surface_form_b": "reverse screening of pesticide targets",
+      "structural_score": 0.999266,
+      "semantic_score": 0.680602,
+      "fused_score": 0.999267,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00549",
+      "entity_b": "canon_Method_01068",
+      "surface_form_a": "people",
+      "surface_form_b": "residual neural network (",
+      "structural_score": 0.999264,
+      "semantic_score": 0.790794,
+      "fused_score": 0.999264,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01069",
+      "entity_b": "canon_Task_00651",
+      "surface_form_a": "ResNet)",
+      "surface_form_b": "reverse screening of pesticide targets",
+      "structural_score": 0.99924,
+      "semantic_score": 0.735746,
+      "fused_score": 0.99924,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00450",
+      "entity_b": "canon_Task_00651",
+      "surface_form_a": "cell expression variability",
+      "surface_form_b": "reverse screening of pesticide targets",
+      "structural_score": 0.999239,
+      "semantic_score": 0.697173,
+      "fused_score": 0.999239,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00549",
+      "entity_b": "canon_Method_01069",
+      "surface_form_a": "people",
+      "surface_form_b": "ResNet)",
+      "structural_score": 0.999203,
+      "semantic_score": 0.773278,
+      "fused_score": 0.999203,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00450",
+      "entity_b": "canon_Other_00777",
+      "surface_form_a": "cell expression variability",
+      "surface_form_b": "immunity dynamics",
+      "structural_score": 0.999154,
+      "semantic_score": 0.802943,
+      "fused_score": 0.999154,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_01482",
+      "entity_b": "canon_Other_01506",
+      "surface_form_a": "inflammatory lung injury",
+      "surface_form_b": "resistance mechanisms",
+      "structural_score": 0.999124,
+      "semantic_score": 0.659335,
+      "fused_score": 0.999124,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00450",
+      "entity_b": "canon_Other_01506",
+      "surface_form_a": "cell expression variability",
+      "surface_form_b": "resistance mechanisms",
+      "structural_score": 0.99911,
+      "semantic_score": 0.763903,
+      "fused_score": 0.99911,
+      "alpha": 1.0,
+      "year": 2023
+    }
+  ],
+  "elapsed_seconds": 4.06
+}

@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2024,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 3968,
+  "total_structural_entities": 3968,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 7509,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 121,
+    "pairs_after_filter": 34998,
+    "pairs_before_filter": 35119
+  },
+  "total_candidate_pairs_considered": 34998,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Metric_00048",
+      "entity_b": "canon_Task_00651",
+      "surface_form_a": "dropout rates",
+      "surface_form_b": "reverse screening of pesticide targets",
+      "structural_score": 0.99948,
+      "semantic_score": 0.704324,
+      "fused_score": 0.99948,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Metric_00048",
+      "entity_b": "canon_Other_01506",
+      "surface_form_a": "dropout rates",
+      "surface_form_b": "resistance mechanisms",
+      "structural_score": 0.999417,
+      "semantic_score": 0.714532,
+      "fused_score": 0.999417,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01388",
+      "entity_b": "canon_Task_00651",
+      "surface_form_a": "perceived harm",
+      "surface_form_b": "reverse screening of pesticide targets",
+      "structural_score": 0.999335,
+      "semantic_score": 0.676757,
+      "fused_score": 0.999335,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01802",
+      "entity_b": "canon_Other_01803",
+      "surface_form_a": "antigenicity",
+      "surface_form_b": "spike processing",
+      "structural_score": 0.999324,
+      "semantic_score": 0.720152,
+      "fused_score": 0.999324,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Material_00288",
+      "entity_b": "canon_Task_00651",
+      "surface_form_a": "cell type datasets",
+      "surface_form_b": "reverse screening of pesticide targets",
+      "structural_score": 0.99931,
+      "semantic_score": 0.711244,
+      "fused_score": 0.99931,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01388",
+      "entity_b": "canon_Other_01506",
+      "surface_form_a": "perceived harm",
+      "surface_form_b": "resistance mechanisms",
+      "structural_score": 0.999303,
+      "semantic_score": 0.695472,
+      "fused_score": 0.999303,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01023",
+      "entity_b": "canon_Other_01387",
+      "surface_form_a": "risk perception",
+      "surface_form_b": "user intent",
+      "structural_score": 0.99928,
+      "semantic_score": 0.823301,
+      "fused_score": 0.99928,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01387",
+      "entity_b": "canon_Other_01506",
+      "surface_form_a": "user intent",
+      "surface_form_b": "resistance mechanisms",
+      "structural_score": 0.999258,
+      "semantic_score": 0.67269,
+      "fused_score": 0.999258,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01387",
+      "entity_b": "canon_Task_00651",
+      "surface_form_a": "user intent",
+      "surface_form_b": "reverse screening of pesticide targets",
+      "structural_score": 0.999255,
+      "semantic_score": 0.650851,
+      "fused_score": 0.999255,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01023",
+      "entity_b": "canon_Other_01388",
+      "surface_form_a": "risk perception",
+      "surface_form_b": "perceived harm",
+      "structural_score": 0.999249,
+      "semantic_score": 0.866172,
+      "fused_score": 0.999249,
+      "alpha": 1.0,
+      "year": 2024
+    }
+  ],
+  "elapsed_seconds": 5.021
+}

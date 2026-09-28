@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2023,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 9257,
+  "total_structural_entities": 9257,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 17942,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 778,
+    "pairs_after_filter": 82532,
+    "pairs_before_filter": 83310
+  },
+  "total_candidate_pairs_considered": 82532,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_02651",
+      "entity_b": "canon_Method_02655",
+      "surface_form_a": "multi-encoder approaches",
+      "surface_form_b": "multi-encoder-based",
+      "structural_score": 0.962818,
+      "semantic_score": 0.991796,
+      "fused_score": 0.977936,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_01743",
+      "entity_b": "canon_Task_01208",
+      "surface_form_a": "dialogue summaries",
+      "surface_form_b": "Abstractive Dialogue Summarization",
+      "structural_score": 0.990658,
+      "semantic_score": 0.961568,
+      "fused_score": 0.975531,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_03327",
+      "entity_b": "canon_Method_03328",
+      "surface_form_a": "Joint Training Method",
+      "surface_form_b": "joint training approach",
+      "structural_score": 0.953673,
+      "semantic_score": 0.994452,
+      "fused_score": 0.974013,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_03699",
+      "entity_b": "canon_Method_03701",
+      "surface_form_a": "contrastive learning framework",
+      "surface_form_b": "exemplar-wise contrastive learning",
+      "structural_score": 0.987406,
+      "semantic_score": 0.955949,
+      "fused_score": 0.973705,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.994679,
+      "semantic_score": 0.952093,
+      "fused_score": 0.973692,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Material_00902",
+      "entity_b": "canon_Method_02705",
+      "surface_form_a": "Machine Learning Papers",
+      "surface_form_b": "automatic machine learning pipeline",
+      "structural_score": 0.9794,
+      "semantic_score": 0.964509,
+      "fused_score": 0.973581,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00788",
+      "entity_b": "canon_Other_01738",
+      "surface_form_a": "adversarial loss",
+      "surface_form_b": "adversarial objective",
+      "structural_score": 0.960668,
+      "semantic_score": 0.984796,
+      "fused_score": 0.973447,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Task_00380",
+      "entity_b": "canon_Task_00796",
+      "surface_form_a": "summarization task",
+      "surface_form_b": "summarization evaluation",
+      "structural_score": 0.95564,
+      "semantic_score": 0.988851,
+      "fused_score": 0.972933,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_02467",
+      "entity_b": "canon_Other_02759",
+      "surface_form_a": "aspect category-sentiment pairs",
+      "surface_form_b": "user sentiment",
+      "structural_score": 0.996123,
+      "semantic_score": 0.946076,
+      "fused_score": 0.970388,
+      "alpha": 0.5,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01511",
+      "entity_b": "canon_Method_02699",
+      "surface_form_a": "joint multi-task learning setting",
+      "surface_form_b": "Multi-Task Learning and BERT",
+      "structural_score": 0.958414,
+      "semantic_score": 0.977545,
+      "fused_score": 0.96921,
+      "alpha": 0.5,
+      "year": 2023
+    }
+  ],
+  "elapsed_seconds": 12.093
+}

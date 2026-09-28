@@ -1,0 +1,42 @@
+{
+  "loaded_at": "2026-09-16T07:32:07",
+  "neo4j_driver_version": "5.28.5.0",
+  "neo4j_server_version": "dry-run",
+  "mode": "dry_run",
+  "domains": {
+    "NLP": {
+      "nodes": 12867,
+      "edges": 22690,
+      "relation_types": [
+        "METHOD_APPLIED_TO",
+        "ENTITY_ASSOCIATED_WITH_ENTITY",
+        "USED_FOR",
+        "METHOD_EVALUATED_BY"
+      ],
+      "expected_nodes": 12867,
+      "expected_edges": 22690
+    },
+    "COVID": {
+      "nodes": 5500,
+      "edges": 8081,
+      "relation_types": [
+        "ENTITY_ASSOCIATED_WITH_ENTITY",
+        "USED_FOR",
+        "METHOD_APPLIED_TO",
+        "METHOD_EVALUATED_BY"
+      ],
+      "expected_nodes": 5500,
+      "expected_edges": 8081
+    }
+  },
+  "total_nodes": 18367,
+  "total_edges": 30771,
+  "load_times_seconds": {
+    "data": 0.23298192024230957,
+    "edge_batch": 0.017534971237182617
+  },
+  "validation": {},
+  "cross_domain_edges": 0,
+  "cross_domain_edges_ok": true,
+  "counts_match_expected": true
+}

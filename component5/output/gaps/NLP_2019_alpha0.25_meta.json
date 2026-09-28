@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2019,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 3336,
+  "total_structural_entities": 3336,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 5648,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 1822,
+    "pairs_after_filter": 29480,
+    "pairs_before_filter": 31302
+  },
+  "total_candidate_pairs_considered": 29480,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Task_00380",
+      "entity_b": "canon_Task_00796",
+      "surface_form_a": "summarization task",
+      "surface_form_b": "summarization evaluation",
+      "structural_score": 0.942078,
+      "semantic_score": 0.988851,
+      "fused_score": 0.984418,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_01994",
+      "entity_b": "canon_Method_02175",
+      "surface_form_a": "imitation learning framework",
+      "surface_form_b": "Restricted Imitation Learning",
+      "structural_score": 0.937731,
+      "semantic_score": 0.983277,
+      "fused_score": 0.977551,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00354",
+      "entity_b": "canon_Method_01766",
+      "surface_form_a": "multi-task learning method",
+      "surface_form_b": "Sifted Multi-task Learning",
+      "structural_score": 0.856774,
+      "semantic_score": 0.990569,
+      "fused_score": 0.977493,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01629",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "Transfer and Multi-Task Learning",
+      "structural_score": 0.947794,
+      "semantic_score": 0.978603,
+      "fused_score": 0.975926,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01511",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "joint multi-task learning setting",
+      "structural_score": 0.857308,
+      "semantic_score": 0.98839,
+      "fused_score": 0.975833,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00619",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning approaches",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.807802,
+      "semantic_score": 0.994139,
+      "fused_score": 0.97487,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_01931",
+      "entity_b": "canon_Other_01188",
+      "surface_form_a": "embedding approach",
+      "surface_form_b": "embedding vector",
+      "structural_score": 0.955931,
+      "semantic_score": 0.976807,
+      "fused_score": 0.973966,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00074",
+      "entity_b": "canon_Method_00108",
+      "surface_form_a": "neural network architectures",
+      "surface_form_b": "neural network models",
+      "structural_score": 0.908132,
+      "semantic_score": 0.982147,
+      "fused_score": 0.973185,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_01721",
+      "entity_b": "canon_Method_02266",
+      "surface_form_a": "sentiment classification models",
+      "surface_form_b": "sentiment detection methods",
+      "structural_score": 0.959833,
+      "semantic_score": 0.974173,
+      "fused_score": 0.971933,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00787",
+      "entity_b": "canon_Other_00152",
+      "surface_form_a": "textual content",
+      "surface_form_b": "textual information",
+      "structural_score": 0.994448,
+      "semantic_score": 0.969426,
+      "fused_score": 0.971609,
+      "alpha": 0.25,
+      "year": 2019
+    }
+  ],
+  "elapsed_seconds": 4.534
+}

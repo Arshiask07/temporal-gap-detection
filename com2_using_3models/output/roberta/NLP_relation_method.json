@@ -1,0 +1,5 @@
+{
+  "method": "roberta_relation_finetuned",
+  "model": "roberta-base",
+  "checkpoint": "C:\\STUDY\\VSCode\\cappro\\component2_entity_relation_extraction\\scripts\\checkpoints\\roberta_scierc\\relation"
+}

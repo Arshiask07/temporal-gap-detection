@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2022,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 2614,
+  "total_structural_entities": 2614,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 4504,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 313,
+    "pairs_after_filter": 22305,
+    "pairs_before_filter": 22618
+  },
+  "total_candidate_pairs_considered": 22305,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_01334",
+      "entity_b": "canon_Method_01335",
+      "surface_form_a": "crowdsource knowledge graph based approach",
+      "surface_form_b": "hierarchical crowdsource knowledge graph based framework",
+      "structural_score": 0.985818,
+      "semantic_score": 0.986233,
+      "fused_score": 0.986042,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.976738,
+      "semantic_score": 0.98429,
+      "fused_score": 0.979032,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00108",
+      "entity_b": "canon_Method_00192",
+      "surface_form_a": "iLI",
+      "surface_form_b": "iLINCS",
+      "structural_score": 0.992925,
+      "semantic_score": 0.960141,
+      "fused_score": 0.977056,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_00212",
+      "entity_b": "canon_Other_00515",
+      "surface_form_a": "personalization-privacy paradox",
+      "surface_form_b": "personalization-",
+      "structural_score": 0.992436,
+      "semantic_score": 0.957884,
+      "fused_score": 0.974355,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00928",
+      "entity_b": "canon_Method_00929",
+      "surface_form_a": "Scientometric Review",
+      "surface_form_b": "scientometric analysis",
+      "structural_score": 0.960849,
+      "semantic_score": 0.987257,
+      "fused_score": 0.972932,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00091",
+      "entity_b": "canon_Method_01089",
+      "surface_form_a": "machine learning techniques",
+      "surface_form_b": "machine-learning approach",
+      "structural_score": 0.947602,
+      "semantic_score": 0.991857,
+      "fused_score": 0.96833,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00762",
+      "entity_b": "canon_Method_01089",
+      "surface_form_a": "machine learning strategy",
+      "surface_form_b": "machine-learning approach",
+      "structural_score": 0.946566,
+      "semantic_score": 0.988712,
+      "fused_score": 0.96635,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00044",
+      "entity_b": "canon_Method_00928",
+      "surface_form_a": "bibliometric analysis",
+      "surface_form_b": "Scientometric Review",
+      "structural_score": 0.967946,
+      "semantic_score": 0.963325,
+      "fused_score": 0.964747,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_01265",
+      "entity_b": "canon_Method_01281",
+      "surface_form_a": "sentiment analysis mechanism",
+      "surface_form_b": "sentiment analysis approach",
+      "structural_score": 0.936139,
+      "semantic_score": 0.992764,
+      "fused_score": 0.963691,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00192",
+      "entity_b": "canon_Method_00193",
+      "surface_form_a": "iLINCS",
+      "surface_form_b": "NCS",
+      "structural_score": 0.991317,
+      "semantic_score": 0.934138,
+      "fused_score": 0.961734,
+      "alpha": 0.5,
+      "year": 2022
+    }
+  ],
+  "elapsed_seconds": 3.131
+}

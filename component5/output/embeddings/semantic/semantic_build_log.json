@@ -1,0 +1,17 @@
+{
+  "model_name": "allenai/specter",
+  "embedding_dim": 768,
+  "device": "cuda",
+  "domains": {
+    "NLP": {
+      "entities_embedded": 10611,
+      "embedding_dim": 768
+    },
+    "COVID": {
+      "entities_embedded": 3968,
+      "embedding_dim": 768
+    }
+  },
+  "total_time_s": 277.84,
+  "peak_memory_mb": 185.0
+}

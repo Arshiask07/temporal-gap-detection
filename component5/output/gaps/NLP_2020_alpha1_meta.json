@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2020,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 4840,
+  "total_structural_entities": 4840,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 8660,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 126,
+    "pairs_after_filter": 42095,
+    "pairs_before_filter": 42221
+  },
+  "total_candidate_pairs_considered": 42095,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00182",
+      "entity_b": "canon_Method_02243",
+      "surface_form_a": "computational models",
+      "surface_form_b": "micro-level (",
+      "structural_score": 0.998098,
+      "semantic_score": 0.853783,
+      "fused_score": 0.998098,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00082",
+      "entity_b": "canon_Method_02657",
+      "surface_form_a": "e",
+      "surface_form_b": "dropout methods",
+      "structural_score": 0.998008,
+      "semantic_score": 0.820082,
+      "fused_score": 0.998008,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_02567",
+      "entity_b": "canon_Method_02569",
+      "surface_form_a": "Ridge-M regression",
+      "surface_form_b": "pkudblab-PIP",
+      "structural_score": 0.997965,
+      "semantic_score": 0.802566,
+      "fused_score": 0.997966,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_02657",
+      "entity_b": "canon_Other_00950",
+      "surface_form_a": "dropout methods",
+      "surface_form_b": "character sequence",
+      "structural_score": 0.997962,
+      "semantic_score": 0.833626,
+      "fused_score": 0.997962,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Task_00160",
+      "entity_b": "canon_Task_00696",
+      "surface_form_a": "error analysis",
+      "surface_form_b": "linguistic annotation",
+      "structural_score": 0.997916,
+      "semantic_score": 0.840774,
+      "fused_score": 0.997916,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_02570",
+      "entity_b": "canon_Task_01157",
+      "surface_form_a": "T-PAN-PIP",
+      "surface_form_b": "Agreement Prediction of Arguments",
+      "structural_score": 0.997864,
+      "semantic_score": 0.694876,
+      "fused_score": 0.997865,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00138",
+      "entity_b": "canon_Method_02657",
+      "surface_form_a": "interpretability methods",
+      "surface_form_b": "dropout methods",
+      "structural_score": 0.997791,
+      "semantic_score": 0.8295,
+      "fused_score": 0.997791,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00525",
+      "entity_b": "canon_Method_01754",
+      "surface_form_a": "PAN Summary",
+      "surface_form_b": "plagdet",
+      "structural_score": 0.997696,
+      "semantic_score": 0.877463,
+      "fused_score": 0.997695,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Task_00696",
+      "entity_b": "canon_Task_00697",
+      "surface_form_a": "linguistic annotation",
+      "surface_form_b": "evaluation or",
+      "structural_score": 0.99762,
+      "semantic_score": 0.853374,
+      "fused_score": 0.99762,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00082",
+      "entity_b": "canon_Method_02656",
+      "surface_form_a": "e",
+      "surface_form_b": "noise generation and",
+      "structural_score": 0.9975,
+      "semantic_score": 0.797347,
+      "fused_score": 0.997499,
+      "alpha": 1.0,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 6.446
+}

@@ -1,0 +1,16 @@
+{
+  "precision": 0.6922,
+  "recall": 0.6858,
+  "f1": 0.689,
+  "n_test_pairs": 3248,
+  "n_test_sentences": 454,
+  "relation_types": [
+    "Used-for",
+    "Feature-of",
+    "Hyponym-of",
+    "Part-of",
+    "Compare",
+    "Conjunction",
+    "Evaluate-for"
+  ]
+}

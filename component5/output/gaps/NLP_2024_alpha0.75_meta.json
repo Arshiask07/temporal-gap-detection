@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2024,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 10611,
+  "total_structural_entities": 10611,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 21413,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 321,
+    "pairs_after_filter": 92789,
+    "pairs_before_filter": 93110
+  },
+  "total_candidate_pairs_considered": 92789,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Task_00351",
+      "entity_b": "canon_Task_01538",
+      "surface_form_a": "Entity resolution (",
+      "surface_form_b": "biomedical entity linking (",
+      "structural_score": 0.998301,
+      "semantic_score": 0.936269,
+      "fused_score": 0.992191,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_04424",
+      "entity_b": "canon_Task_01108",
+      "surface_form_a": "caption generators",
+      "surface_form_b": "Video Captioning tasks",
+      "structural_score": 0.996965,
+      "semantic_score": 0.935083,
+      "fused_score": 0.991275,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_01743",
+      "entity_b": "canon_Task_01208",
+      "surface_form_a": "dialogue summaries",
+      "surface_form_b": "Abstractive Dialogue Summarization",
+      "structural_score": 0.993679,
+      "semantic_score": 0.961568,
+      "fused_score": 0.990523,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_02467",
+      "entity_b": "canon_Other_02759",
+      "surface_form_a": "aspect category-sentiment pairs",
+      "surface_form_b": "user sentiment",
+      "structural_score": 0.995925,
+      "semantic_score": 0.946076,
+      "fused_score": 0.990457,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Task_00352",
+      "entity_b": "canon_Task_01539",
+      "surface_form_a": "ER)",
+      "surface_form_b": "BEL)",
+      "structural_score": 0.997302,
+      "semantic_score": 0.926779,
+      "fused_score": 0.990333,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00282",
+      "entity_b": "canon_Other_01498",
+      "surface_form_a": "pla",
+      "surface_form_b": "other",
+      "structural_score": 0.994764,
+      "semantic_score": 0.946358,
+      "fused_score": 0.989933,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_03833",
+      "entity_b": "canon_Metric_00381",
+      "surface_form_a": "multi-label generator model",
+      "surface_form_b": "Ground-truth Label Effect Ratio",
+      "structural_score": 0.996761,
+      "semantic_score": 0.921249,
+      "fused_score": 0.989643,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_02758",
+      "entity_b": "canon_Task_00352",
+      "surface_form_a": "goal completion",
+      "surface_form_b": "ER)",
+      "structural_score": 0.99858,
+      "semantic_score": 0.898386,
+      "fused_score": 0.989166,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_03951",
+      "entity_b": "canon_Other_00282",
+      "surface_form_a": "PhVEC",
+      "surface_form_b": "pla",
+      "structural_score": 0.996621,
+      "semantic_score": 0.91562,
+      "fused_score": 0.988665,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_02214",
+      "entity_b": "canon_Other_02522",
+      "surface_form_a": "document structure",
+      "surface_form_b": "text space",
+      "structural_score": 0.996143,
+      "semantic_score": 0.913932,
+      "fused_score": 0.988155,
+      "alpha": 0.75,
+      "year": 2024
+    }
+  ],
+  "elapsed_seconds": 13.431
+}

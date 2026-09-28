@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2018,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 1815,
+  "total_structural_entities": 1815,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 2823,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 92,
+    "pairs_after_filter": 15762,
+    "pairs_before_filter": 15854
+  },
+  "total_candidate_pairs_considered": 15762,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.996627,
+      "semantic_score": 0.952093,
+      "fused_score": 0.992306,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Other_00680",
+      "entity_b": "canon_Task_00318",
+      "surface_form_a": "entity information",
+      "surface_form_b": "entity typing",
+      "structural_score": 0.996652,
+      "semantic_score": 0.92899,
+      "fused_score": 0.990194,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Material_00012",
+      "entity_b": "canon_Task_00070",
+      "surface_form_a": "labeled data",
+      "surface_form_b": "sequence labeling",
+      "structural_score": 0.996091,
+      "semantic_score": 0.901742,
+      "fused_score": 0.987214,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01692",
+      "entity_b": "canon_Method_01694",
+      "surface_form_a": "bidirectional-LSTMs",
+      "surface_form_b": "Dependency Tree-LSTMs",
+      "structural_score": 0.994662,
+      "semantic_score": 0.912524,
+      "fused_score": 0.986421,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00612",
+      "entity_b": "canon_Method_01242",
+      "surface_form_a": "sememe-based linguistic knowledge bases",
+      "surface_form_b": "linguistic common-sense knowledge bases",
+      "structural_score": 0.99649,
+      "semantic_score": 0.895356,
+      "fused_score": 0.986406,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01498",
+      "entity_b": "canon_Method_01738",
+      "surface_form_a": "Distantly-supervised Relation Extraction (RE) methods",
+      "surface_form_b": "word-level distant supervised approach",
+      "structural_score": 0.992864,
+      "semantic_score": 0.927816,
+      "fused_score": 0.986235,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Metric_00053",
+      "entity_b": "canon_Task_00157",
+      "surface_form_a": "non",
+      "surface_form_b": "NLG)",
+      "structural_score": 0.997617,
+      "semantic_score": 0.879605,
+      "fused_score": 0.986036,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Material_00441",
+      "entity_b": "canon_Material_00444",
+      "surface_form_a": "WMT14 English-German,",
+      "surface_form_b": "WMT17 Chinese-English translation tasks",
+      "structural_score": 0.994516,
+      "semantic_score": 0.905315,
+      "fused_score": 0.985991,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01302",
+      "entity_b": "canon_Method_01304",
+      "surface_form_a": "FOFE counterparts",
+      "surface_form_b": "dual FOFE",
+      "structural_score": 0.99008,
+      "semantic_score": 0.932828,
+      "fused_score": 0.98538,
+      "alpha": 0.75,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Task_00171",
+      "entity_b": "canon_Task_00699",
+      "surface_form_a": "structured prediction",
+      "surface_form_b": "Corpus Creation",
+      "structural_score": 0.994701,
+      "semantic_score": 0.892336,
+      "fused_score": 0.985266,
+      "alpha": 0.75,
+      "year": 2018
+    }
+  ],
+  "elapsed_seconds": 2.452
+}

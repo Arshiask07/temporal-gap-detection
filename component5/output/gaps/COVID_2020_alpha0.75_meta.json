@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2020,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 1346,
+  "total_structural_entities": 1346,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1926,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 47,
+    "pairs_after_filter": 11459,
+    "pairs_before_filter": 11506
+  },
+  "total_candidate_pairs_considered": 11459,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.993195,
+      "semantic_score": 0.969037,
+      "fused_score": 0.990972,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Task_00208",
+      "entity_b": "canon_Task_00258",
+      "surface_form_a": "patient care",
+      "surface_form_b": "preventive care",
+      "structural_score": 0.99587,
+      "semantic_score": 0.934939,
+      "fused_score": 0.989326,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00828",
+      "entity_b": "canon_Other_00550",
+      "surface_form_a": "C",
+      "surface_form_b": "proc",
+      "structural_score": 0.994098,
+      "semantic_score": 0.919025,
+      "fused_score": 0.987663,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00296",
+      "entity_b": "canon_Method_00370",
+      "surface_form_a": "sentiment",
+      "surface_form_b": "emotionized text representations",
+      "structural_score": 0.996368,
+      "semantic_score": 0.895163,
+      "fused_score": 0.98711,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00067",
+      "entity_b": "canon_Other_00421",
+      "surface_form_a": "strategies",
+      "surface_form_b": "cont",
+      "structural_score": 0.995931,
+      "semantic_score": 0.909496,
+      "fused_score": 0.987068,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00427",
+      "entity_b": "canon_Other_00458",
+      "surface_form_a": "Patient-reported outcome measures",
+      "surface_form_b": "survivorship care plans",
+      "structural_score": 0.993787,
+      "semantic_score": 0.916601,
+      "fused_score": 0.986841,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00277",
+      "entity_b": "canon_Other_00553",
+      "surface_form_a": "PLpro",
+      "surface_form_b": "proofreading",
+      "structural_score": 0.996375,
+      "semantic_score": 0.897042,
+      "fused_score": 0.986831,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00421",
+      "entity_b": "canon_Other_00860",
+      "surface_form_a": "cont",
+      "surface_form_b": "in",
+      "structural_score": 0.991694,
+      "semantic_score": 0.937768,
+      "fused_score": 0.986377,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00192",
+      "entity_b": "canon_Method_00193",
+      "surface_form_a": "iLINCS",
+      "surface_form_b": "NCS",
+      "structural_score": 0.990231,
+      "semantic_score": 0.934138,
+      "fused_score": 0.985442,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Task_00258",
+      "entity_b": "canon_Task_00259",
+      "surface_form_a": "preventive care",
+      "surface_form_b": "individualized health management",
+      "structural_score": 0.996184,
+      "semantic_score": 0.87734,
+      "fused_score": 0.985375,
+      "alpha": 0.75,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 1.606
+}

@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2021,
+  "alpha": 0.0,
+  "index_vector_type": "fused_alpha_0.0",
+  "total_entities_in_slice": 6299,
+  "total_structural_entities": 6299,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 11572,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 4695,
+    "pairs_after_filter": 54546,
+    "pairs_before_filter": 59241
+  },
+  "total_candidate_pairs_considered": 54546,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00749",
+      "entity_b": "canon_Method_03027",
+      "surface_form_a": "fine-tuning approach",
+      "surface_form_b": "fine-tuning method",
+      "structural_score": 0.483156,
+      "semantic_score": 0.997997,
+      "fused_score": 0.997997,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00908",
+      "entity_b": "canon_Method_03027",
+      "surface_form_a": "fine-tuning strategy",
+      "surface_form_b": "fine-tuning method",
+      "structural_score": 0.381009,
+      "semantic_score": 0.997238,
+      "fused_score": 0.997238,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00749",
+      "entity_b": "canon_Method_00908",
+      "surface_form_a": "fine-tuning approach",
+      "surface_form_b": "fine-tuning strategy",
+      "structural_score": 0.476878,
+      "semantic_score": 0.996931,
+      "fused_score": 0.996932,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_03002",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "multi-task learning approach",
+      "structural_score": 0.471278,
+      "semantic_score": 0.996634,
+      "fused_score": 0.996634,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00567",
+      "entity_b": "canon_Method_00619",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning approaches",
+      "structural_score": 0.314018,
+      "semantic_score": 0.996505,
+      "fused_score": 0.996505,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00722",
+      "entity_b": "canon_Method_00756",
+      "surface_form_a": "pre-training approach",
+      "surface_form_b": "pre-training techniques",
+      "structural_score": 0.508068,
+      "semantic_score": 0.996164,
+      "fused_score": 0.996163,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00186",
+      "entity_b": "canon_Method_02750",
+      "surface_form_a": "regularization method",
+      "surface_form_b": "regularization strategy",
+      "structural_score": 0.168393,
+      "semantic_score": 0.995381,
+      "fused_score": 0.995382,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01348",
+      "entity_b": "canon_Method_01902",
+      "surface_form_a": "autoencoder framework",
+      "surface_form_b": "autoencoder model",
+      "structural_score": 0.398844,
+      "semantic_score": 0.994943,
+      "fused_score": 0.994943,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_03327",
+      "entity_b": "canon_Method_03328",
+      "surface_form_a": "Joint Training Method",
+      "surface_form_b": "joint training approach",
+      "structural_score": 0.971105,
+      "semantic_score": 0.994452,
+      "fused_score": 0.994452,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00619",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning approaches",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.282772,
+      "semantic_score": 0.994139,
+      "fused_score": 0.994139,
+      "alpha": 0.0,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 8.888
+}

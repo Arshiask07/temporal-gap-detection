@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2024,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 10611,
+  "total_structural_entities": 10611,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 21413,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 6838,
+    "pairs_after_filter": 96337,
+    "pairs_before_filter": 103175
+  },
+  "total_candidate_pairs_considered": 96337,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_03327",
+      "entity_b": "canon_Method_03328",
+      "surface_form_a": "Joint Training Method",
+      "surface_form_b": "joint training approach",
+      "structural_score": 0.897778,
+      "semantic_score": 0.994452,
+      "fused_score": 0.985655,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01511",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "joint multi-task learning setting",
+      "structural_score": 0.954837,
+      "semantic_score": 0.98839,
+      "fused_score": 0.985217,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Task_00380",
+      "entity_b": "canon_Task_00796",
+      "surface_form_a": "summarization task",
+      "surface_form_b": "summarization evaluation",
+      "structural_score": 0.943102,
+      "semantic_score": 0.988851,
+      "fused_score": 0.984296,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Task_00734",
+      "entity_b": "canon_Task_02366",
+      "surface_form_a": "computer vision problems",
+      "surface_form_b": "computer vision tasks",
+      "structural_score": 0.952679,
+      "semantic_score": 0.984599,
+      "fused_score": 0.980829,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Material_00244",
+      "entity_b": "canon_Material_01064",
+      "surface_form_a": "English wikipedia",
+      "surface_form_b": "Wikipedia languages",
+      "structural_score": 0.937309,
+      "semantic_score": 0.983636,
+      "fused_score": 0.979045,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00788",
+      "entity_b": "canon_Other_01738",
+      "surface_form_a": "adversarial loss",
+      "surface_form_b": "adversarial objective",
+      "structural_score": 0.893941,
+      "semantic_score": 0.984796,
+      "fused_score": 0.977962,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_01150",
+      "entity_b": "canon_Method_05070",
+      "surface_form_a": "PEFT methods",
+      "surface_form_b": "PEFT approach",
+      "structural_score": 0.863865,
+      "semantic_score": 0.98755,
+      "fused_score": 0.976709,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_01558",
+      "entity_b": "canon_Method_03144",
+      "surface_form_a": "web-based interface",
+      "surface_form_b": "web-based tool",
+      "structural_score": 0.914029,
+      "semantic_score": 0.981519,
+      "fused_score": 0.975098,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_01511",
+      "entity_b": "canon_Method_02699",
+      "surface_form_a": "joint multi-task learning setting",
+      "surface_form_b": "Multi-Task Learning and BERT",
+      "structural_score": 0.951982,
+      "semantic_score": 0.977545,
+      "fused_score": 0.975,
+      "alpha": 0.25,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_01444",
+      "entity_b": "canon_Method_02479",
+      "surface_form_a": "cross-lingual approaches",
+      "surface_form_b": "cross-lingual representation",
+      "structural_score": 0.934603,
+      "semantic_score": 0.977462,
+      "fused_score": 0.97453,
+      "alpha": 0.25,
+      "year": 2024
+    }
+  ],
+  "elapsed_seconds": 13.909
+}

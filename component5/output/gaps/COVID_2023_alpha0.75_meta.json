@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2023,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 3285,
+  "total_structural_entities": 3285,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 6040,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 119,
+    "pairs_after_filter": 27976,
+    "pairs_before_filter": 28095
+  },
+  "total_candidate_pairs_considered": 27976,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.9952,
+      "semantic_score": 0.969037,
+      "fused_score": 0.992607,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_01610",
+      "entity_b": "canon_Other_01613",
+      "surface_form_a": "supply chain design",
+      "surface_form_b": "digital supply chain",
+      "structural_score": 0.993133,
+      "semantic_score": 0.936899,
+      "fused_score": 0.988456,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00451",
+      "entity_b": "canon_Other_00631",
+      "surface_form_a": "MSCs",
+      "surface_form_b": "empanelm",
+      "structural_score": 0.998223,
+      "semantic_score": 0.889076,
+      "fused_score": 0.988144,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00631",
+      "entity_b": "canon_Other_00776",
+      "surface_form_a": "empanelm",
+      "surface_form_b": "rollout speed",
+      "structural_score": 0.998577,
+      "semantic_score": 0.883866,
+      "fused_score": 0.98797,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00832",
+      "entity_b": "canon_Other_00839",
+      "surface_form_a": "anxiety disorders",
+      "surface_form_b": "emotional disturbance",
+      "structural_score": 0.994692,
+      "semantic_score": 0.92262,
+      "fused_score": 0.987799,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00568",
+      "entity_b": "canon_Other_01242",
+      "surface_form_a": "meta-cognitive ratings of on",
+      "surface_form_b": "public attitudes",
+      "structural_score": 0.996605,
+      "semantic_score": 0.903762,
+      "fused_score": 0.98775,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00451",
+      "entity_b": "canon_Other_00776",
+      "surface_form_a": "MSCs",
+      "surface_form_b": "rollout speed",
+      "structural_score": 0.998551,
+      "semantic_score": 0.878751,
+      "fused_score": 0.987572,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00341",
+      "entity_b": "canon_Other_01477",
+      "surface_form_a": "respiratory syncytial virus",
+      "surface_form_b": "metapneumovirus",
+      "structural_score": 0.997726,
+      "semantic_score": 0.891629,
+      "fused_score": 0.987433,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01334",
+      "entity_b": "canon_Method_01335",
+      "surface_form_a": "crowdsource knowledge graph based approach",
+      "surface_form_b": "hierarchical crowdsource knowledge graph based framework",
+      "structural_score": 0.98738,
+      "semantic_score": 0.986233,
+      "fused_score": 0.987355,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00687",
+      "entity_b": "canon_Other_01242",
+      "surface_form_a": "discriminatory politics",
+      "surface_form_b": "public attitudes",
+      "structural_score": 0.995734,
+      "semantic_score": 0.904126,
+      "fused_score": 0.987076,
+      "alpha": 0.75,
+      "year": 2023
+    }
+  ],
+  "elapsed_seconds": 3.966
+}

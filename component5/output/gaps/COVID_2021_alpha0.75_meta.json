@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2021,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 1881,
+  "total_structural_entities": 1881,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 2950,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 89,
+    "pairs_after_filter": 15972,
+    "pairs_before_filter": 16061
+  },
+  "total_candidate_pairs_considered": 15972,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Task_00181",
+      "entity_b": "canon_Task_00415",
+      "surface_form_a": "Health Care",
+      "surface_form_b": "health applications",
+      "structural_score": 0.996977,
+      "semantic_score": 0.923124,
+      "fused_score": 0.989164,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00108",
+      "entity_b": "canon_Method_00192",
+      "surface_form_a": "iLI",
+      "surface_form_b": "iLINCS",
+      "structural_score": 0.991301,
+      "semantic_score": 0.960141,
+      "fused_score": 0.988574,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00228",
+      "entity_b": "canon_Method_00039",
+      "surface_form_a": "Chap",
+      "surface_form_b": "rem",
+      "structural_score": 0.996275,
+      "semantic_score": 0.913837,
+      "fused_score": 0.987874,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Task_00224",
+      "entity_b": "canon_Task_00225",
+      "surface_form_a": "tax fraud",
+      "surface_form_b": "fraud risk assessment",
+      "structural_score": 0.995367,
+      "semantic_score": 0.922289,
+      "fused_score": 0.987541,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00227",
+      "entity_b": "canon_Method_00039",
+      "surface_form_a": "cid",
+      "surface_form_b": "rem",
+      "structural_score": 0.996864,
+      "semantic_score": 0.898009,
+      "fused_score": 0.987108,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00692",
+      "entity_b": "canon_Other_00863",
+      "surface_form_a": "present",
+      "surface_form_b": "open reading frame 1",
+      "structural_score": 0.996598,
+      "semantic_score": 0.890515,
+      "fused_score": 0.986595,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00446",
+      "entity_b": "canon_Task_00416",
+      "surface_form_a": "written and spoken language",
+      "surface_form_b": "speech and conversation",
+      "structural_score": 0.995197,
+      "semantic_score": 0.915885,
+      "fused_score": 0.986591,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00863",
+      "entity_b": "canon_Other_01030",
+      "surface_form_a": "open reading frame 1",
+      "surface_form_b": "NTD N5 loop",
+      "structural_score": 0.998629,
+      "semantic_score": 0.872977,
+      "fused_score": 0.985999,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00039",
+      "entity_b": "canon_Other_00863",
+      "surface_form_a": "rem",
+      "surface_form_b": "open reading frame 1",
+      "structural_score": 0.998001,
+      "semantic_score": 0.869784,
+      "fused_score": 0.985615,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00247",
+      "entity_b": "canon_Other_00863",
+      "surface_form_a": "des",
+      "surface_form_b": "open reading frame 1",
+      "structural_score": 0.998031,
+      "semantic_score": 0.869439,
+      "fused_score": 0.985547,
+      "alpha": 0.75,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 2.255
+}

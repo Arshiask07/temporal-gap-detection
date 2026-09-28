@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2019,
+  "alpha": 0.0,
+  "index_vector_type": "fused_alpha_0.0",
+  "total_entities_in_slice": 783,
+  "total_structural_entities": 783,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1016,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 219,
+    "pairs_after_filter": 6920,
+    "pairs_before_filter": 7139
+  },
+  "total_candidate_pairs_considered": 6920,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00012",
+      "entity_b": "canon_Method_00022",
+      "surface_form_a": "deep learning models",
+      "surface_form_b": "deep learning algorithms",
+      "structural_score": 0.269518,
+      "semantic_score": 0.994528,
+      "fused_score": 0.994527,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.978641,
+      "semantic_score": 0.994029,
+      "fused_score": 0.994029,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00012",
+      "entity_b": "canon_Method_00110",
+      "surface_form_a": "deep learning models",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.469539,
+      "semantic_score": 0.992525,
+      "fused_score": 0.992525,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.965173,
+      "semantic_score": 0.992523,
+      "fused_score": 0.992523,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00023",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.63253,
+      "semantic_score": 0.992492,
+      "fused_score": 0.992492,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00012",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning models",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.333297,
+      "semantic_score": 0.992268,
+      "fused_score": 0.992267,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00110",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.549664,
+      "semantic_score": 0.992187,
+      "fused_score": 0.992188,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00023",
+      "entity_b": "canon_Method_00110",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.636732,
+      "semantic_score": 0.991577,
+      "fused_score": 0.991577,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.529316,
+      "semantic_score": 0.991214,
+      "fused_score": 0.991213,
+      "alpha": 0.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00019",
+      "entity_b": "canon_Method_00091",
+      "surface_form_a": "machine learning models",
+      "surface_form_b": "machine learning techniques",
+      "structural_score": 0.577962,
+      "semantic_score": 0.990179,
+      "fused_score": 0.990179,
+      "alpha": 0.0,
+      "year": 2019
+    }
+  ],
+  "elapsed_seconds": 0.956
+}

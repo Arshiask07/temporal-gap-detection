@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2021,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 6299,
+  "total_structural_entities": 6299,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 11572,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 137,
+    "pairs_after_filter": 55231,
+    "pairs_before_filter": 55368
+  },
+  "total_candidate_pairs_considered": 55231,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_01212",
+      "entity_b": "canon_Other_01898",
+      "surface_form_a": "self-distillation",
+      "surface_form_b": "potential function",
+      "structural_score": 0.999226,
+      "semantic_score": 0.765059,
+      "fused_score": 0.999227,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01212",
+      "entity_b": "canon_Method_01610",
+      "surface_form_a": "self-distillation",
+      "surface_form_b": "neural query auto-completion",
+      "structural_score": 0.999211,
+      "semantic_score": 0.75607,
+      "fused_score": 0.999211,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01212",
+      "entity_b": "canon_Task_01327",
+      "surface_form_a": "self-distillation",
+      "surface_form_b": "recognition",
+      "structural_score": 0.999201,
+      "semantic_score": 0.724445,
+      "fused_score": 0.999201,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01610",
+      "entity_b": "canon_Other_00786",
+      "surface_form_a": "neural query auto-completion",
+      "surface_form_b": "attention information",
+      "structural_score": 0.999187,
+      "semantic_score": 0.778711,
+      "fused_score": 0.999186,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_01371",
+      "entity_b": "canon_Other_00786",
+      "surface_form_a": "production",
+      "surface_form_b": "attention information",
+      "structural_score": 0.999102,
+      "semantic_score": 0.693658,
+      "fused_score": 0.999102,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00786",
+      "entity_b": "canon_Other_01898",
+      "surface_form_a": "attention information",
+      "surface_form_b": "potential function",
+      "structural_score": 0.999096,
+      "semantic_score": 0.832475,
+      "fused_score": 0.999096,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00786",
+      "entity_b": "canon_Task_01327",
+      "surface_form_a": "attention information",
+      "surface_form_b": "recognition",
+      "structural_score": 0.999095,
+      "semantic_score": 0.853074,
+      "fused_score": 0.999096,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_01371",
+      "entity_b": "canon_Method_01212",
+      "surface_form_a": "production",
+      "surface_form_b": "self-distillation",
+      "structural_score": 0.999071,
+      "semantic_score": 0.772361,
+      "fused_score": 0.999071,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01393",
+      "entity_b": "canon_Task_01327",
+      "surface_form_a": "target-side bridging model",
+      "surface_form_b": "recognition",
+      "structural_score": 0.998997,
+      "semantic_score": 0.618359,
+      "fused_score": 0.998997,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01394",
+      "entity_b": "canon_Task_01327",
+      "surface_form_a": "direct bridging model",
+      "surface_form_b": "recognition",
+      "structural_score": 0.998917,
+      "semantic_score": 0.666905,
+      "fused_score": 0.998917,
+      "alpha": 1.0,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 8.235
+}

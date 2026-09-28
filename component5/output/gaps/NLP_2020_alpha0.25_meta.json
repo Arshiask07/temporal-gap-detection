@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2020,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 4840,
+  "total_structural_entities": 4840,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 8660,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 2845,
+    "pairs_after_filter": 43122,
+    "pairs_before_filter": 45967
+  },
+  "total_candidate_pairs_considered": 43122,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_02651",
+      "entity_b": "canon_Method_02655",
+      "surface_form_a": "multi-encoder approaches",
+      "surface_form_b": "multi-encoder-based",
+      "structural_score": 0.950217,
+      "semantic_score": 0.991796,
+      "fused_score": 0.987392,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Task_00380",
+      "entity_b": "canon_Task_00796",
+      "surface_form_a": "summarization task",
+      "surface_form_b": "summarization evaluation",
+      "structural_score": 0.928775,
+      "semantic_score": 0.988851,
+      "fused_score": 0.983181,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00805",
+      "entity_b": "canon_Method_01507",
+      "surface_form_a": "Multi-Task Neural Model",
+      "surface_form_b": "Neural Multi-Task Learning Models",
+      "structural_score": 0.925716,
+      "semantic_score": 0.989382,
+      "fused_score": 0.982943,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00805",
+      "entity_b": "canon_Method_01508",
+      "surface_form_a": "Multi-Task Neural Model",
+      "surface_form_b": "neural multi-task learning architectures",
+      "structural_score": 0.914866,
+      "semantic_score": 0.989753,
+      "fused_score": 0.982448,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00788",
+      "entity_b": "canon_Other_01738",
+      "surface_form_a": "adversarial loss",
+      "surface_form_b": "adversarial objective",
+      "structural_score": 0.922584,
+      "semantic_score": 0.984796,
+      "fused_score": 0.978726,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01511",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "joint multi-task learning setting",
+      "structural_score": 0.866956,
+      "semantic_score": 0.98839,
+      "fused_score": 0.976592,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_02165",
+      "entity_b": "canon_Method_02719",
+      "surface_form_a": "Text classification approaches",
+      "surface_form_b": "text classification system",
+      "structural_score": 0.94329,
+      "semantic_score": 0.97977,
+      "fused_score": 0.975626,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_01511",
+      "entity_b": "canon_Method_02699",
+      "surface_form_a": "joint multi-task learning setting",
+      "surface_form_b": "Multi-Task Learning and BERT",
+      "structural_score": 0.957808,
+      "semantic_score": 0.977545,
+      "fused_score": 0.974808,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01629",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "Transfer and Multi-Task Learning",
+      "structural_score": 0.937184,
+      "semantic_score": 0.978603,
+      "fused_score": 0.97446,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00354",
+      "entity_b": "canon_Method_01766",
+      "surface_form_a": "multi-task learning method",
+      "surface_form_b": "Sifted Multi-task Learning",
+      "structural_score": 0.831045,
+      "semantic_score": 0.990569,
+      "fused_score": 0.974061,
+      "alpha": 0.25,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 6.56
+}

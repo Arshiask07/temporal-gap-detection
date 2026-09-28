@@ -1,0 +1,93 @@
+[
+  {
+    "domain": "NLP",
+    "year": 2018,
+    "nodes": 1815,
+    "edges": 2823,
+    "status": "cached"
+  },
+  {
+    "domain": "NLP",
+    "year": 2019,
+    "nodes": 3336,
+    "edges": 5648,
+    "status": "cached"
+  },
+  {
+    "domain": "NLP",
+    "year": 2020,
+    "nodes": 4840,
+    "edges": 8660,
+    "status": "cached"
+  },
+  {
+    "domain": "NLP",
+    "year": 2021,
+    "nodes": 6299,
+    "edges": 11572,
+    "status": "cached"
+  },
+  {
+    "domain": "NLP",
+    "year": 2022,
+    "nodes": 7810,
+    "edges": 14670,
+    "status": "cached"
+  },
+  {
+    "domain": "NLP",
+    "year": 2023,
+    "nodes": 9257,
+    "edges": 17942,
+    "status": "cached"
+  },
+  {
+    "domain": "NLP",
+    "year": 2024,
+    "nodes": 10611,
+    "edges": 21413,
+    "status": "cached"
+  },
+  {
+    "domain": "COVID",
+    "year": 2019,
+    "nodes": 783,
+    "edges": 1016,
+    "status": "cached"
+  },
+  {
+    "domain": "COVID",
+    "year": 2020,
+    "nodes": 1346,
+    "edges": 1926,
+    "status": "cached"
+  },
+  {
+    "domain": "COVID",
+    "year": 2021,
+    "nodes": 1881,
+    "edges": 2950,
+    "status": "cached"
+  },
+  {
+    "domain": "COVID",
+    "year": 2022,
+    "nodes": 2614,
+    "edges": 4504,
+    "status": "cached"
+  },
+  {
+    "domain": "COVID",
+    "year": 2023,
+    "nodes": 3285,
+    "edges": 6040,
+    "status": "cached"
+  },
+  {
+    "domain": "COVID",
+    "year": 2024,
+    "nodes": 3968,
+    "edges": 7509,
+    "status": "cached"
+  }
+]

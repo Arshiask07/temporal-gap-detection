@@ -1,0 +1,1024 @@
+{
+  "domain": "COVID-19 (CS-adjacent)",
+  "cutoff_year": 2021,
+  "post_cutoff_range": "2022\u20132024",
+  "alpha": 0.5,
+  "top_k_requested": 25,
+  "entities_considered": 7247,
+  "relations_considered": 5459,
+  "papers_total": 840,
+  "papers_pre_cutoff": 420,
+  "papers_post_cutoff": 420,
+  "candidate_gaps_scored": 75,
+  "hits": 27,
+  "misses": 48,
+  "hit_rate": 0.36,
+  "elapsed_seconds": 33.74,
+  "top_hits": [
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00083",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01558,
+      "sim_t": 0.6301,
+      "delta_sim": 0.0247,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6054,
+        "2021": 0.6301,
+        "2022": 0.4923,
+        "2023": 0.5477,
+        "2024": 0.4852
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00034",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.03323,
+      "sim_t": 0.7967,
+      "delta_sim": 0.0417,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.755,
+        "2021": 0.7967,
+        "2022": 0.6066,
+        "2023": 0.5165,
+        "2024": 0.6018
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00904",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01618,
+      "sim_t": 0.7228,
+      "delta_sim": 0.0224,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7005,
+        "2021": 0.7228,
+        "2022": 0.7532,
+        "2023": 0.6292,
+        "2024": 0.6367
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00883",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.02384,
+      "sim_t": 0.6205,
+      "delta_sim": 0.0384,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5821,
+        "2021": 0.6205,
+        "2022": 0.5246,
+        "2023": 0.579,
+        "2024": 0.4952
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00823",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01243,
+      "sim_t": 0.7749,
+      "delta_sim": 0.016,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7589,
+        "2021": 0.7749,
+        "2022": 0.6019,
+        "2023": 0.652,
+        "2024": 0.6258
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00788",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00604,
+      "sim_t": 0.7393,
+      "delta_sim": 0.0082,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7312,
+        "2021": 0.7393,
+        "2022": 0.4179,
+        "2023": 0.5315,
+        "2024": 0.4867
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00717",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.06353,
+      "sim_t": 0.774,
+      "delta_sim": 0.0821,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6919,
+        "2021": 0.774,
+        "2022": 0.7025,
+        "2023": 0.6685,
+        "2024": 0.5114
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00661",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01679,
+      "sim_t": 0.8125,
+      "delta_sim": 0.0207,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7918,
+        "2021": 0.8125,
+        "2022": 0.5964,
+        "2023": 0.596,
+        "2024": 0.5936
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00558",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00065,
+      "sim_t": 0.7347,
+      "delta_sim": 0.0009,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7339,
+        "2021": 0.7347,
+        "2022": 0.4396,
+        "2023": 0.4708,
+        "2024": 0.4441
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00542",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.07,
+      "sim_t": 0.7278,
+      "delta_sim": 0.0962,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6316,
+        "2021": 0.7278,
+        "2022": 0.7374,
+        "2023": 0.6856,
+        "2024": 0.6907
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00535",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01407,
+      "sim_t": 0.7792,
+      "delta_sim": 0.0181,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7612,
+        "2021": 0.7792,
+        "2022": 0.6116,
+        "2023": 0.6612,
+        "2024": 0.6271
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00534",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.0068,
+      "sim_t": 0.7778,
+      "delta_sim": 0.0087,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7691,
+        "2021": 0.7778,
+        "2022": 0.5844,
+        "2023": 0.6277,
+        "2024": 0.5625
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00485",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01357,
+      "sim_t": 0.812,
+      "delta_sim": 0.0167,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7952,
+        "2021": 0.812,
+        "2022": 0.6367,
+        "2023": 0.6797,
+        "2024": 0.669
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00084",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00296,
+      "sim_t": 0.7273,
+      "delta_sim": 0.0041,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7232,
+        "2021": 0.7273,
+        "2022": 0.4353,
+        "2023": 0.5837,
+        "2024": 0.5118
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00087",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.03815,
+      "sim_t": 0.6589,
+      "delta_sim": 0.0579,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.601,
+        "2021": 0.6589,
+        "2022": 0.4528,
+        "2023": 0.5287,
+        "2024": 0.4454
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00395",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01672,
+      "sim_t": 0.5894,
+      "delta_sim": 0.0284,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5611,
+        "2021": 0.5894,
+        "2022": 0.5735,
+        "2023": 0.7108,
+        "2024": 0.7207
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00380",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00416,
+      "sim_t": 0.7514,
+      "delta_sim": 0.0055,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7459,
+        "2021": 0.7514,
+        "2022": 0.5575,
+        "2023": 0.5862,
+        "2024": 0.4943
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00323",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01986,
+      "sim_t": 0.6762,
+      "delta_sim": 0.0294,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6469,
+        "2021": 0.6762,
+        "2022": 0.6011,
+        "2023": 0.444,
+        "2024": 0.4591
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00311",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.05912,
+      "sim_t": 0.7133,
+      "delta_sim": 0.0829,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6304,
+        "2021": 0.7133,
+        "2022": 0.4847,
+        "2023": 0.5294,
+        "2024": 0.4922
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00310",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.06244,
+      "sim_t": 0.6888,
+      "delta_sim": 0.0906,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5982,
+        "2021": 0.6888,
+        "2022": 0.444,
+        "2023": 0.4964,
+        "2024": 0.4614
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00445",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.04149,
+      "sim_t": 0.6627,
+      "delta_sim": 0.0626,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6001,
+        "2021": 0.6627,
+        "2022": 0.4821,
+        "2023": 0.5574,
+        "2024": 0.451
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00720",
+      "v": "canon_Task_00381",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01921,
+      "sim_t": 0.6683,
+      "delta_sim": 0.0287,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6396,
+        "2021": 0.6683,
+        "2022": 0.6331,
+        "2023": 0.667,
+        "2024": 0.6121
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00720",
+      "v": "canon_Task_00380",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.03855,
+      "sim_t": 0.7837,
+      "delta_sim": 0.0492,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7345,
+        "2021": 0.7837,
+        "2022": 0.64,
+        "2023": 0.6822,
+        "2024": 0.6194
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00720",
+      "v": "canon_Task_00371",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.02737,
+      "sim_t": 0.7184,
+      "delta_sim": 0.0381,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6803,
+        "2021": 0.7184,
+        "2022": 0.5353,
+        "2023": 0.6094,
+        "2024": 0.585
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00720",
+      "v": "canon_Task_00325",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00952,
+      "sim_t": 0.6348,
+      "delta_sim": 0.015,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6198,
+        "2021": 0.6348,
+        "2022": 0.4493,
+        "2023": 0.4707,
+        "2024": 0.4802
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    }
+  ],
+  "top_misses": [
+    {
+      "u": "canon_Material_00008",
+      "v": "canon_Material_00015",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.04311,
+      "sim_t": 0.5851,
+      "delta_sim": 0.0737,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5852,
+        "2020": 0.5115,
+        "2021": 0.5851,
+        "2022": 0.5486,
+        "2023": 0.5058,
+        "2024": 0.5379
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Metric_00057",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.03919,
+      "sim_t": 0.5964,
+      "delta_sim": 0.0657,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5307,
+        "2021": 0.5964,
+        "2022": 0.5527,
+        "2023": 0.5678,
+        "2024": 0.5501
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00901",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.03011,
+      "sim_t": 0.5877,
+      "delta_sim": 0.0512,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5365,
+        "2021": 0.5877,
+        "2022": 0.5993,
+        "2023": 0.5988,
+        "2024": 0.5697
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00876",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.11267,
+      "sim_t": 0.8126,
+      "delta_sim": 0.1387,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6739,
+        "2021": 0.8126,
+        "2022": 0.596,
+        "2023": 0.5976,
+        "2024": 0.5843
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00793",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01276,
+      "sim_t": 0.6505,
+      "delta_sim": 0.0196,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6309,
+        "2021": 0.6505,
+        "2022": 0.5472,
+        "2023": 0.5067,
+        "2024": 0.5181
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00739",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00074,
+      "sim_t": 0.7766,
+      "delta_sim": 0.0009,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7756,
+        "2021": 0.7766,
+        "2022": 0.4859,
+        "2023": 0.5482,
+        "2024": 0.5349
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00623",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00191,
+      "sim_t": 0.741,
+      "delta_sim": 0.0026,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7384,
+        "2021": 0.741,
+        "2022": 0.5509,
+        "2023": 0.6036,
+        "2024": 0.5848
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00604",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.0031,
+      "sim_t": 0.8224,
+      "delta_sim": 0.0038,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.8186,
+        "2021": 0.8224,
+        "2022": 0.4995,
+        "2023": 0.5862,
+        "2024": 0.5658
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00594",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01186,
+      "sim_t": 0.8254,
+      "delta_sim": 0.0144,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.811,
+        "2021": 0.8254,
+        "2022": 0.5206,
+        "2023": 0.6747,
+        "2024": 0.599
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00562",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.05715,
+      "sim_t": 0.6088,
+      "delta_sim": 0.0939,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.515,
+        "2021": 0.6088,
+        "2022": 0.7659,
+        "2023": 0.8228,
+        "2024": 0.7622
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00561",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.0352,
+      "sim_t": 0.5726,
+      "delta_sim": 0.0615,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5111,
+        "2021": 0.5726,
+        "2022": 0.7365,
+        "2023": 0.8124,
+        "2024": 0.7401
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00488",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.03299,
+      "sim_t": 0.7493,
+      "delta_sim": 0.044,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7052,
+        "2021": 0.7493,
+        "2022": 0.6806,
+        "2023": 0.6914,
+        "2024": 0.5754
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00484",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00072,
+      "sim_t": 0.659,
+      "delta_sim": 0.0011,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6579,
+        "2021": 0.659,
+        "2022": 0.4966,
+        "2023": 0.5565,
+        "2024": 0.4785
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00469",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01307,
+      "sim_t": 0.7529,
+      "delta_sim": 0.0174,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7355,
+        "2021": 0.7529,
+        "2022": 0.5891,
+        "2023": 0.6361,
+        "2024": 0.5844
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00460",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00881,
+      "sim_t": 0.766,
+      "delta_sim": 0.0115,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7545,
+        "2021": 0.766,
+        "2022": 0.6222,
+        "2023": 0.6651,
+        "2024": 0.6007
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Other_00457",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00166,
+      "sim_t": 0.714,
+      "delta_sim": 0.0023,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7117,
+        "2021": 0.714,
+        "2022": 0.5142,
+        "2023": 0.5308,
+        "2024": 0.4946
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00089",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00133,
+      "sim_t": 0.5518,
+      "delta_sim": 0.0024,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5493,
+        "2021": 0.5518,
+        "2022": 0.4862,
+        "2023": 0.4739,
+        "2024": 0.5091
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00721",
+      "v": "canon_Task_00374",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 0,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01044,
+      "sim_t": 0.6478,
+      "delta_sim": 0.0161,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6317,
+        "2021": 0.6478,
+        "2022": 0.6321,
+        "2023": 0.6341,
+        "2024": 0.4995
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Metric_00040",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.02054,
+      "sim_t": 0.7218,
+      "delta_sim": 0.0285,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6934,
+        "2021": 0.7218,
+        "2022": 0.6795,
+        "2023": 0.7075,
+        "2024": 0.5478
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Metric_00031",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.02629,
+      "sim_t": 0.5878,
+      "delta_sim": 0.0447,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5431,
+        "2021": 0.5878,
+        "2022": 0.5323,
+        "2023": 0.597,
+        "2024": 0.5285
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Metric_00028",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00398,
+      "sim_t": 0.6945,
+      "delta_sim": 0.0057,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6887,
+        "2021": 0.6945,
+        "2022": 0.6678,
+        "2023": 0.6965,
+        "2024": 0.6803
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Method_01112",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.04809,
+      "sim_t": 0.6075,
+      "delta_sim": 0.0792,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5283,
+        "2021": 0.6075,
+        "2022": 0.5402,
+        "2023": 0.5007,
+        "2024": 0.5134
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Method_00767",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.02102,
+      "sim_t": 0.5913,
+      "delta_sim": 0.0356,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5558,
+        "2021": 0.5913,
+        "2022": 0.5958,
+        "2023": 0.6118,
+        "2024": 0.4998
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Method_00764",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.02179,
+      "sim_t": 0.603,
+      "delta_sim": 0.0361,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5669,
+        "2021": 0.603,
+        "2022": 0.6154,
+        "2023": 0.6067,
+        "2024": 0.5006
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_00725",
+      "v": "canon_Method_00746",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00014,
+      "sim_t": 0.5738,
+      "delta_sim": 0.0002,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5736,
+        "2021": 0.5738,
+        "2022": 0.6238,
+        "2023": 0.605,
+        "2024": 0.6366
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    }
+  ],
+  "scoring_method": "embedding",
+  "status": "ok"
+}

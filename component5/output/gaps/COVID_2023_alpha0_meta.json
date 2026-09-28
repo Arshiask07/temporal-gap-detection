@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2023,
+  "alpha": 0.0,
+  "index_vector_type": "fused_alpha_0.0",
+  "total_entities_in_slice": 3285,
+  "total_structural_entities": 3285,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 6040,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 1914,
+    "pairs_after_filter": 28044,
+    "pairs_before_filter": 29958
+  },
+  "total_candidate_pairs_considered": 28044,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00097",
+      "entity_b": "canon_Method_01580",
+      "surface_form_a": "recommender algorithms",
+      "surface_form_b": "recommender systems",
+      "structural_score": 0.484,
+      "semantic_score": 0.997059,
+      "fused_score": 0.997059,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00023",
+      "entity_b": "canon_Method_00207",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning approach",
+      "structural_score": 0.333869,
+      "semantic_score": 0.996355,
+      "fused_score": 0.996355,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00207",
+      "entity_b": "canon_Method_00891",
+      "surface_form_a": "deep learning approach",
+      "surface_form_b": "deep learning based",
+      "structural_score": 0.295286,
+      "semantic_score": 0.995724,
+      "fused_score": 0.995724,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00207",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "deep learning approach",
+      "structural_score": 0.132462,
+      "semantic_score": 0.995436,
+      "fused_score": 0.995436,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00025",
+      "entity_b": "canon_Method_00091",
+      "surface_form_a": "machine learning approach",
+      "surface_form_b": "machine learning techniques",
+      "structural_score": 0.491915,
+      "semantic_score": 0.99537,
+      "fused_score": 0.99537,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01237",
+      "entity_b": "canon_Method_01240",
+      "surface_form_a": "text mining techniques",
+      "surface_form_b": "text mining approaches",
+      "structural_score": 0.672225,
+      "semantic_score": 0.995178,
+      "fused_score": 0.995177,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00150",
+      "entity_b": "canon_Method_01300",
+      "surface_form_a": "classification algorithms",
+      "surface_form_b": "classification techniques",
+      "structural_score": 0.441532,
+      "semantic_score": 0.994623,
+      "fused_score": 0.994623,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00012",
+      "entity_b": "canon_Method_00022",
+      "surface_form_a": "deep learning models",
+      "surface_form_b": "deep learning algorithms",
+      "structural_score": 0.546464,
+      "semantic_score": 0.994528,
+      "fused_score": 0.994527,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00016",
+      "entity_b": "canon_Method_00091",
+      "surface_form_a": "machine learning algorithms",
+      "surface_form_b": "machine learning techniques",
+      "structural_score": 0.612141,
+      "semantic_score": 0.994493,
+      "fused_score": 0.994493,
+      "alpha": 0.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.716229,
+      "semantic_score": 0.994029,
+      "fused_score": 0.994029,
+      "alpha": 0.0,
+      "year": 2023
+    }
+  ],
+  "elapsed_seconds": 3.967
+}

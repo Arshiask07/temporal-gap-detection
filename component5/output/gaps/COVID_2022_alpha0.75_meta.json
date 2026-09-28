@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2022,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 2614,
+  "total_structural_entities": 2614,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 4504,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 124,
+    "pairs_after_filter": 22295,
+    "pairs_before_filter": 22419
+  },
+  "total_candidate_pairs_considered": 22295,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00108",
+      "entity_b": "canon_Method_00192",
+      "surface_form_a": "iLI",
+      "surface_form_b": "iLINCS",
+      "structural_score": 0.992925,
+      "semantic_score": 0.960141,
+      "fused_score": 0.990006,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_00212",
+      "entity_b": "canon_Other_00515",
+      "surface_form_a": "personalization-privacy paradox",
+      "surface_form_b": "personalization-",
+      "structural_score": 0.992436,
+      "semantic_score": 0.957884,
+      "fused_score": 0.988637,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00841",
+      "entity_b": "canon_Other_00631",
+      "surface_form_a": "generalized",
+      "surface_form_b": "empanelm",
+      "structural_score": 0.996592,
+      "semantic_score": 0.909877,
+      "fused_score": 0.98776,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00159",
+      "entity_b": "canon_Method_00841",
+      "surface_form_a": "R",
+      "surface_form_b": "generalized",
+      "structural_score": 0.997772,
+      "semantic_score": 0.89331,
+      "fused_score": 0.986937,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00613",
+      "entity_b": "canon_Other_00879",
+      "surface_form_a": "behavior-change theory",
+      "surface_form_b": "global rating of change scale",
+      "structural_score": 0.995727,
+      "semantic_score": 0.90254,
+      "fused_score": 0.986905,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_01334",
+      "entity_b": "canon_Method_01335",
+      "surface_form_a": "crowdsource knowledge graph based approach",
+      "surface_form_b": "hierarchical crowdsource knowledge graph based framework",
+      "structural_score": 0.985818,
+      "semantic_score": 0.986233,
+      "fused_score": 0.985869,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00192",
+      "entity_b": "canon_Method_00193",
+      "surface_form_a": "iLINCS",
+      "surface_form_b": "NCS",
+      "structural_score": 0.991317,
+      "semantic_score": 0.934138,
+      "fused_score": 0.985364,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00159",
+      "entity_b": "canon_Other_01154",
+      "surface_form_a": "R",
+      "surface_form_b": "intra-class discrepancy",
+      "structural_score": 0.99871,
+      "semantic_score": 0.8663,
+      "fused_score": 0.985314,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00841",
+      "entity_b": "canon_Other_01154",
+      "surface_form_a": "generalized",
+      "surface_form_b": "intra-class discrepancy",
+      "structural_score": 0.997199,
+      "semantic_score": 0.879951,
+      "fused_score": 0.985285,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00828",
+      "entity_b": "canon_Other_00550",
+      "surface_form_a": "C",
+      "surface_form_b": "proc",
+      "structural_score": 0.992477,
+      "semantic_score": 0.919025,
+      "fused_score": 0.985134,
+      "alpha": 0.75,
+      "year": 2022
+    }
+  ],
+  "elapsed_seconds": 3.182
+}

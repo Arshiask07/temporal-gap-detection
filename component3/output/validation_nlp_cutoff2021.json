@@ -1,0 +1,1042 @@
+{
+  "domain": "NLP (ACL/arXiv)",
+  "cutoff_year": 2021,
+  "post_cutoff_range": "2022\u20132024",
+  "alpha": 0.5,
+  "top_k_requested": 25,
+  "entities_considered": 18715,
+  "relations_considered": 15540,
+  "papers_total": 1400,
+  "papers_pre_cutoff": 800,
+  "papers_post_cutoff": 600,
+  "candidate_gaps_scored": 75,
+  "hits": 38,
+  "misses": 37,
+  "hit_rate": 0.5067,
+  "elapsed_seconds": 41.99,
+  "top_hits": [
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01206",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00931,
+      "sim_t": 0.635,
+      "delta_sim": 0.0147,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6204,
+        "2021": 0.635,
+        "2022": 0.6438,
+        "2023": 0.5911,
+        "2024": 0.5615
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01182",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.02675,
+      "sim_t": 0.5664,
+      "delta_sim": 0.0472,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5192,
+        "2021": 0.5664,
+        "2022": 0.5556,
+        "2023": 0.5183,
+        "2024": 0.5706
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01174",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00013,
+      "sim_t": 0.5898,
+      "delta_sim": 0.0002,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5896,
+        "2021": 0.5898,
+        "2022": 0.5777,
+        "2023": 0.6623,
+        "2024": 0.6146
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01108",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00242,
+      "sim_t": 0.5796,
+      "delta_sim": 0.0042,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5754,
+        "2021": 0.5796,
+        "2022": 0.6141,
+        "2023": 0.6706,
+        "2024": 0.6969
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01077",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.08648,
+      "sim_t": 0.6984,
+      "delta_sim": 0.1238,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5745,
+        "2021": 0.6984,
+        "2022": 0.7042,
+        "2023": 0.6973,
+        "2024": 0.6436
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01076",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01262,
+      "sim_t": 0.6738,
+      "delta_sim": 0.0187,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6551,
+        "2021": 0.6738,
+        "2022": 0.5886,
+        "2023": 0.6787,
+        "2024": 0.5941
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01016",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01161,
+      "sim_t": 0.6278,
+      "delta_sim": 0.0185,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6392,
+        "2020": 0.6093,
+        "2021": 0.6278,
+        "2022": 0.5735,
+        "2023": 0.6442,
+        "2024": 0.499
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00998",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01386,
+      "sim_t": 0.6906,
+      "delta_sim": 0.0201,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5855,
+        "2020": 0.6706,
+        "2021": 0.6906,
+        "2022": 0.6399,
+        "2023": 0.6628,
+        "2024": 0.5889
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00992",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00624,
+      "sim_t": 0.6296,
+      "delta_sim": 0.0099,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5918,
+        "2020": 0.6197,
+        "2021": 0.6296,
+        "2022": 0.5348,
+        "2023": 0.5733,
+        "2024": 0.5779
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00951",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.0053,
+      "sim_t": 0.5742,
+      "delta_sim": 0.0092,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6323,
+        "2020": 0.565,
+        "2021": 0.5742,
+        "2022": 0.5986,
+        "2023": 0.5752,
+        "2024": 0.59
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00949",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00689,
+      "sim_t": 0.7046,
+      "delta_sim": 0.0098,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6986,
+        "2020": 0.6948,
+        "2021": 0.7046,
+        "2022": 0.6773,
+        "2023": 0.6601,
+        "2024": 0.6418
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00895",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00382,
+      "sim_t": 0.6517,
+      "delta_sim": 0.0059,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6428,
+        "2020": 0.6458,
+        "2021": 0.6517,
+        "2022": 0.5953,
+        "2023": 0.7134,
+        "2024": 0.6556
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00848",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00772,
+      "sim_t": 0.6939,
+      "delta_sim": 0.0111,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6815,
+        "2020": 0.6828,
+        "2021": 0.6939,
+        "2022": 0.627,
+        "2023": 0.7627,
+        "2024": 0.6229
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00660",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01458,
+      "sim_t": 0.6777,
+      "delta_sim": 0.0215,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6468,
+        "2020": 0.6562,
+        "2021": 0.6777,
+        "2022": 0.6335,
+        "2023": 0.683,
+        "2024": 0.5543
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00613",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01195,
+      "sim_t": 0.5741,
+      "delta_sim": 0.0208,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5714,
+        "2020": 0.5532,
+        "2021": 0.5741,
+        "2022": 0.5738,
+        "2023": 0.6083,
+        "2024": 0.5343
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00597",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00689,
+      "sim_t": 0.6643,
+      "delta_sim": 0.0104,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6755,
+        "2020": 0.6539,
+        "2021": 0.6643,
+        "2022": 0.6647,
+        "2023": 0.6969,
+        "2024": 0.6523
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00393",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.05936,
+      "sim_t": 0.6546,
+      "delta_sim": 0.0907,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5639,
+        "2021": 0.6546,
+        "2022": 0.6007,
+        "2023": 0.6729,
+        "2024": 0.6184
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00153",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.06854,
+      "sim_t": 0.6283,
+      "delta_sim": 0.1091,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5731,
+        "2020": 0.5193,
+        "2021": 0.6283,
+        "2022": 0.6354,
+        "2023": 0.7083,
+        "2024": 0.6425
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00142",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.02985,
+      "sim_t": 0.6251,
+      "delta_sim": 0.0478,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6324,
+        "2020": 0.5773,
+        "2021": 0.6251,
+        "2022": 0.6661,
+        "2023": 0.7102,
+        "2024": 0.6539
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00056",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.01371,
+      "sim_t": 0.6241,
+      "delta_sim": 0.022,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6006,
+        "2020": 0.6021,
+        "2021": 0.6241,
+        "2022": 0.5992,
+        "2023": 0.6094,
+        "2024": 0.5422
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Other_02119",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.00222,
+      "sim_t": 0.5976,
+      "delta_sim": 0.0037,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6267,
+        "2020": 0.5939,
+        "2021": 0.5976,
+        "2022": 0.6528,
+        "2023": 0.6213,
+        "2024": 0.5422
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Other_01836",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.017,
+      "sim_t": 0.6161,
+      "delta_sim": 0.0276,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5885,
+        "2021": 0.6161,
+        "2022": 0.6807,
+        "2023": 0.63,
+        "2024": 0.5295
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01189",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.0445,
+      "sim_t": 0.597,
+      "delta_sim": 0.0745,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5225,
+        "2021": 0.597,
+        "2022": 0.6036,
+        "2023": 0.5928,
+        "2024": 0.5566
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Metric_00156",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.06295,
+      "sim_t": 0.6156,
+      "delta_sim": 0.1023,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5133,
+        "2021": 0.6156,
+        "2022": 0.5181,
+        "2023": 0.5495,
+        "2024": 0.5355
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Metric_00151",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": true,
+      "gap_score": 0.03245,
+      "sim_t": 0.7733,
+      "delta_sim": 0.042,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7314,
+        "2021": 0.7733,
+        "2022": 0.743,
+        "2023": 0.7546,
+        "2024": 0.7062
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    }
+  ],
+  "top_misses": [
+    {
+      "u": "canon_Material_00028",
+      "v": "canon_Material_00058",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.03541,
+      "sim_t": 0.6013,
+      "delta_sim": 0.0589,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5436,
+        "2020": 0.5424,
+        "2021": 0.6013,
+        "2022": 0.5961,
+        "2023": 0.5447,
+        "2024": 0.6509
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01145",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00854,
+      "sim_t": 0.6168,
+      "delta_sim": 0.0138,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.603,
+        "2021": 0.6168,
+        "2022": 0.5462,
+        "2023": 0.6189,
+        "2024": 0.5944
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01117",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.05081,
+      "sim_t": 0.6726,
+      "delta_sim": 0.0755,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.597,
+        "2021": 0.6726,
+        "2022": 0.6238,
+        "2023": 0.686,
+        "2024": 0.6217
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01087",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01909,
+      "sim_t": 0.5867,
+      "delta_sim": 0.0325,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5542,
+        "2021": 0.5867,
+        "2022": 0.5874,
+        "2023": 0.579,
+        "2024": 0.4782
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00971",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01455,
+      "sim_t": 0.5946,
+      "delta_sim": 0.0245,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6219,
+        "2020": 0.5701,
+        "2021": 0.5946,
+        "2022": 0.6021,
+        "2023": 0.6689,
+        "2024": 0.6178
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00691",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00342,
+      "sim_t": 0.6343,
+      "delta_sim": 0.0054,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.6382,
+        "2020": 0.6289,
+        "2021": 0.6343,
+        "2022": 0.6906,
+        "2023": 0.7125,
+        "2024": 0.6615
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00375",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.009,
+      "sim_t": 0.5361,
+      "delta_sim": 0.0168,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5596,
+        "2020": 0.5194,
+        "2021": 0.5361,
+        "2022": 0.583,
+        "2023": 0.6422,
+        "2024": 0.6005
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_00297",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00534,
+      "sim_t": 0.5914,
+      "delta_sim": 0.009,
+      "priority": 0.0,
+      "sim_history": {
+        "2019": 0.5742,
+        "2020": 0.5824,
+        "2021": 0.5914,
+        "2022": 0.5801,
+        "2023": 0.5954,
+        "2024": 0.4614
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Other_02871",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.02775,
+      "sim_t": 0.6095,
+      "delta_sim": 0.0455,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.564,
+        "2021": 0.6095,
+        "2022": 0.601,
+        "2023": 0.6092,
+        "2024": 0.5618
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01259",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.04752,
+      "sim_t": 0.7394,
+      "delta_sim": 0.0643,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6751,
+        "2021": 0.7394,
+        "2022": 0.6884,
+        "2023": 0.6256,
+        "2024": 0.6687
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Other_01632",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.04184,
+      "sim_t": 0.6374,
+      "delta_sim": 0.0657,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5717,
+        "2021": 0.6374,
+        "2022": 0.6355,
+        "2023": 0.6346,
+        "2024": 0.6118
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02349",
+      "v": "canon_Task_01278",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2019,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00241,
+      "sim_t": 0.704,
+      "delta_sim": 0.0034,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.7006,
+        "2021": 0.704,
+        "2022": 0.6377,
+        "2023": 0.7101,
+        "2024": 0.5586
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Other_00206",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.03679,
+      "sim_t": 0.6863,
+      "delta_sim": 0.0536,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6327,
+        "2021": 0.6863,
+        "2022": 0.6558,
+        "2023": 0.6499,
+        "2024": 0.6763
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Other_00196",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.02547,
+      "sim_t": 0.519,
+      "delta_sim": 0.0491,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.4699,
+        "2021": 0.519,
+        "2022": 0.4631,
+        "2023": 0.5125,
+        "2024": 0.5307
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Other_00192",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.06012,
+      "sim_t": 0.7151,
+      "delta_sim": 0.0841,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.631,
+        "2021": 0.7151,
+        "2022": 0.6359,
+        "2023": 0.6736,
+        "2024": 0.5563
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Other_00185",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00714,
+      "sim_t": 0.5572,
+      "delta_sim": 0.0128,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5444,
+        "2021": 0.5572,
+        "2022": 0.5558,
+        "2023": 0.5788,
+        "2024": 0.5694
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Other_00052",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.07503,
+      "sim_t": 0.5829,
+      "delta_sim": 0.1287,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.4542,
+        "2021": 0.5829,
+        "2022": 0.5006,
+        "2023": 0.5217,
+        "2024": 0.5497
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Metric_00356",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.04195,
+      "sim_t": 0.7079,
+      "delta_sim": 0.0593,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6486,
+        "2021": 0.7079,
+        "2022": 0.6706,
+        "2023": 0.5711,
+        "2024": 0.5937
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Metric_00176",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.0087,
+      "sim_t": 0.4739,
+      "delta_sim": 0.0184,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.4555,
+        "2021": 0.4739,
+        "2022": 0.4727,
+        "2023": 0.52,
+        "2024": 0.5504
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Metric_00043",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.0399,
+      "sim_t": 0.6137,
+      "delta_sim": 0.065,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5487,
+        "2021": 0.6137,
+        "2022": 0.5484,
+        "2023": 0.6231,
+        "2024": 0.5912
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Metric_00031",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.00172,
+      "sim_t": 0.6642,
+      "delta_sim": 0.0026,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6616,
+        "2021": 0.6642,
+        "2022": 0.6628,
+        "2023": 0.5433,
+        "2024": 0.6305
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Method_02875",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.03004,
+      "sim_t": 0.6025,
+      "delta_sim": 0.0499,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.5527,
+        "2021": 0.6025,
+        "2022": 0.5897,
+        "2023": 0.5807,
+        "2024": 0.5852
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Method_02852",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.06217,
+      "sim_t": 0.6979,
+      "delta_sim": 0.0891,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6088,
+        "2021": 0.6979,
+        "2022": 0.6829,
+        "2023": 0.7017,
+        "2024": 0.646
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Method_02851",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01265,
+      "sim_t": 0.6736,
+      "delta_sim": 0.0188,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6548,
+        "2021": 0.6736,
+        "2022": 0.6591,
+        "2023": 0.6615,
+        "2024": 0.6309
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    },
+    {
+      "u": "canon_Method_02350",
+      "v": "canon_Method_02689",
+      "pre_cutoff_cooccurrences": 0,
+      "year_first_seen": 2020,
+      "materialized_post_cutoff": false,
+      "gap_score": 0.01733,
+      "sim_t": 0.6482,
+      "delta_sim": 0.0267,
+      "priority": 0.0,
+      "sim_history": {
+        "2020": 0.6215,
+        "2021": 0.6482,
+        "2022": 0.6307,
+        "2023": 0.6397,
+        "2024": 0.606
+      },
+      "vel_u": 0.0,
+      "vel_v": 0.0
+    }
+  ],
+  "scoring_method": "embedding",
+  "status": "ok"
+}

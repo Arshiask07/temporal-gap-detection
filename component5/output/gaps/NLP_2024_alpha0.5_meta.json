@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2024,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 10611,
+  "total_structural_entities": 10611,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 21413,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 864,
+    "pairs_after_filter": 94809,
+    "pairs_before_filter": 95673
+  },
+  "total_candidate_pairs_considered": 94809,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Other_01743",
+      "entity_b": "canon_Task_01208",
+      "surface_form_a": "dialogue summaries",
+      "surface_form_b": "Abstractive Dialogue Summarization",
+      "structural_score": 0.993679,
+      "semantic_score": 0.961568,
+      "fused_score": 0.977709,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Material_00902",
+      "entity_b": "canon_Method_02705",
+      "surface_form_a": "Machine Learning Papers",
+      "surface_form_b": "automatic machine learning pipeline",
+      "structural_score": 0.987383,
+      "semantic_score": 0.964509,
+      "fused_score": 0.977033,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_03699",
+      "entity_b": "canon_Method_03701",
+      "surface_form_a": "contrastive learning framework",
+      "surface_form_b": "exemplar-wise contrastive learning",
+      "structural_score": 0.989115,
+      "semantic_score": 0.955949,
+      "fused_score": 0.973821,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Task_01032",
+      "entity_b": "canon_Task_01202",
+      "surface_form_a": "syntactically-controlled sentence generation",
+      "surface_form_b": "Lexically constrained generation",
+      "structural_score": 0.989634,
+      "semantic_score": 0.956939,
+      "fused_score": 0.972876,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01511",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "joint multi-task learning setting",
+      "structural_score": 0.954837,
+      "semantic_score": 0.98839,
+      "fused_score": 0.972234,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Material_01800",
+      "entity_b": "canon_Material_01801",
+      "surface_form_a": "English essays",
+      "surface_form_b": "essayforum",
+      "structural_score": 0.987555,
+      "semantic_score": 0.95809,
+      "fused_score": 0.971955,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_03224",
+      "entity_b": "canon_Task_02241",
+      "surface_form_a": "cross-modal nature",
+      "surface_form_b": "cross-modal task",
+      "structural_score": 0.975741,
+      "semantic_score": 0.96466,
+      "fused_score": 0.971495,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00282",
+      "entity_b": "canon_Other_01498",
+      "surface_form_a": "pla",
+      "surface_form_b": "other",
+      "structural_score": 0.994764,
+      "semantic_score": 0.946358,
+      "fused_score": 0.971289,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_02467",
+      "entity_b": "canon_Other_02759",
+      "surface_form_a": "aspect category-sentiment pairs",
+      "surface_form_b": "user sentiment",
+      "structural_score": 0.995925,
+      "semantic_score": 0.946076,
+      "fused_score": 0.970507,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Task_00352",
+      "entity_b": "canon_Task_02356",
+      "surface_form_a": "ER)",
+      "surface_form_b": "LCG)",
+      "structural_score": 0.990269,
+      "semantic_score": 0.94674,
+      "fused_score": 0.96918,
+      "alpha": 0.5,
+      "year": 2024
+    }
+  ],
+  "elapsed_seconds": 13.654
+}

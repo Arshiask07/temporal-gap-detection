@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2021,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 6299,
+  "total_structural_entities": 6299,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 11572,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 186,
+    "pairs_after_filter": 55507,
+    "pairs_before_filter": 55693
+  },
+  "total_candidate_pairs_considered": 55507,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.996592,
+      "semantic_score": 0.952093,
+      "fused_score": 0.992114,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Metric_00398",
+      "entity_b": "canon_Other_01498",
+      "surface_form_a": "coherence",
+      "surface_form_b": "other",
+      "structural_score": 0.995957,
+      "semantic_score": 0.936817,
+      "fused_score": 0.989839,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_02451",
+      "entity_b": "canon_Task_01327",
+      "surface_form_a": "neural-based systems",
+      "surface_form_b": "recognition",
+      "structural_score": 0.997559,
+      "semantic_score": 0.904855,
+      "fused_score": 0.988487,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01814",
+      "entity_b": "canon_Method_02451",
+      "surface_form_a": "recurrent network hidden layers",
+      "surface_form_b": "neural-based systems",
+      "structural_score": 0.995182,
+      "semantic_score": 0.921844,
+      "fused_score": 0.988018,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00940",
+      "entity_b": "canon_Other_01498",
+      "surface_form_a": "cohesion",
+      "surface_form_b": "other",
+      "structural_score": 0.996207,
+      "semantic_score": 0.916159,
+      "fused_score": 0.987786,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_01498",
+      "entity_b": "canon_Other_01898",
+      "surface_form_a": "other",
+      "surface_form_b": "potential function",
+      "structural_score": 0.997385,
+      "semantic_score": 0.890893,
+      "fused_score": 0.987305,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_01201",
+      "entity_b": "canon_Other_01202",
+      "surface_form_a": "passage-level relevance judgments",
+      "surface_form_b": "cross-domain notions of relevance",
+      "structural_score": 0.993261,
+      "semantic_score": 0.931778,
+      "fused_score": 0.986715,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01815",
+      "entity_b": "canon_Task_01327",
+      "surface_form_a": "classifier layers",
+      "surface_form_b": "recognition",
+      "structural_score": 0.995569,
+      "semantic_score": 0.903694,
+      "fused_score": 0.986673,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_01773",
+      "entity_b": "canon_Task_01327",
+      "surface_form_a": "appearance",
+      "surface_form_b": "recognition",
+      "structural_score": 0.995876,
+      "semantic_score": 0.901937,
+      "fused_score": 0.986322,
+      "alpha": 0.75,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_01682",
+      "entity_b": "canon_Other_01683",
+      "surface_form_a": "boundary tokens",
+      "surface_form_b": "internal token connection",
+      "structural_score": 0.995795,
+      "semantic_score": 0.898581,
+      "fused_score": 0.986025,
+      "alpha": 0.75,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 8.425
+}

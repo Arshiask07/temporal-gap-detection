@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2022,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 2614,
+  "total_structural_entities": 2614,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 4504,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 88,
+    "pairs_after_filter": 22577,
+    "pairs_before_filter": 22665
+  },
+  "total_candidate_pairs_considered": 22577,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00607",
+      "entity_b": "canon_Other_00789",
+      "surface_form_a": "viral pneumonia",
+      "surface_form_b": "attention maps",
+      "structural_score": 0.999192,
+      "semantic_score": 0.685414,
+      "fused_score": 0.999192,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00607",
+      "entity_b": "canon_Task_00246",
+      "surface_form_a": "viral pneumonia",
+      "surface_form_b": "diagnostic",
+      "structural_score": 0.999105,
+      "semantic_score": 0.748928,
+      "fused_score": 0.999105,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_00789",
+      "entity_b": "canon_Other_01258",
+      "surface_form_a": "attention maps",
+      "surface_form_b": "pulmonary",
+      "structural_score": 0.999079,
+      "semantic_score": 0.736587,
+      "fused_score": 0.999079,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00607",
+      "entity_b": "canon_Other_01154",
+      "surface_form_a": "viral pneumonia",
+      "surface_form_b": "intra-class discrepancy",
+      "structural_score": 0.999072,
+      "semantic_score": 0.699215,
+      "fused_score": 0.999072,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00159",
+      "entity_b": "canon_Other_00789",
+      "surface_form_a": "R",
+      "surface_form_b": "attention maps",
+      "structural_score": 0.999015,
+      "semantic_score": 0.847361,
+      "fused_score": 0.999015,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_00627",
+      "entity_b": "canon_Task_00246",
+      "surface_form_a": "human capital",
+      "surface_form_b": "diagnostic",
+      "structural_score": 0.999009,
+      "semantic_score": 0.759733,
+      "fused_score": 0.999008,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_00423",
+      "entity_b": "canon_Other_00853",
+      "surface_form_a": "\u00e9pid\u00e9miolog",
+      "surface_form_b": "ACE2 receptors",
+      "structural_score": 0.998998,
+      "semantic_score": 0.725907,
+      "fused_score": 0.998998,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00159",
+      "entity_b": "canon_Task_00246",
+      "surface_form_a": "R",
+      "surface_form_b": "diagnostic",
+      "structural_score": 0.998989,
+      "semantic_score": 0.839845,
+      "fused_score": 0.998989,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00392",
+      "entity_b": "canon_Other_00423",
+      "surface_form_a": "\u00e9conom\u00e9triques",
+      "surface_form_b": "\u00e9pid\u00e9miolog",
+      "structural_score": 0.99896,
+      "semantic_score": 0.81446,
+      "fused_score": 0.99896,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_01258",
+      "entity_b": "canon_Task_00246",
+      "surface_form_a": "pulmonary",
+      "surface_form_b": "diagnostic",
+      "structural_score": 0.998952,
+      "semantic_score": 0.786931,
+      "fused_score": 0.998952,
+      "alpha": 1.0,
+      "year": 2022
+    }
+  ],
+  "elapsed_seconds": 3.226
+}

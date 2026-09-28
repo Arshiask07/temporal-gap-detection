@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2021,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 1881,
+  "total_structural_entities": 1881,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 2950,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 209,
+    "pairs_after_filter": 15822,
+    "pairs_before_filter": 16031
+  },
+  "total_candidate_pairs_considered": 15822,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.9839,
+      "semantic_score": 0.992523,
+      "fused_score": 0.987859,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.975554,
+      "semantic_score": 0.98429,
+      "fused_score": 0.979855,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00108",
+      "entity_b": "canon_Method_00192",
+      "surface_form_a": "iLI",
+      "surface_form_b": "iLINCS",
+      "structural_score": 0.991301,
+      "semantic_score": 0.960141,
+      "fused_score": 0.976415,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00928",
+      "entity_b": "canon_Method_00929",
+      "surface_form_a": "Scientometric Review",
+      "surface_form_b": "scientometric analysis",
+      "structural_score": 0.957273,
+      "semantic_score": 0.987257,
+      "fused_score": 0.971556,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00212",
+      "entity_b": "canon_Other_00515",
+      "surface_form_a": "personalization-privacy paradox",
+      "surface_form_b": "personalization-",
+      "structural_score": 0.969046,
+      "semantic_score": 0.957884,
+      "fused_score": 0.96689,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00001",
+      "entity_b": "canon_Method_00287",
+      "surface_form_a": "sentiment analysis",
+      "surface_form_b": "sentiment classification",
+      "structural_score": 0.952088,
+      "semantic_score": 0.9785,
+      "fused_score": 0.964227,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00516",
+      "entity_b": "canon_Task_00421",
+      "surface_form_a": "multi-scale convolutional features",
+      "surface_form_b": "Large-Scale Image Recognition",
+      "structural_score": 0.97972,
+      "semantic_score": 0.945663,
+      "fused_score": 0.963319,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00091",
+      "entity_b": "canon_Method_00762",
+      "surface_form_a": "machine learning techniques",
+      "surface_form_b": "machine learning strategy",
+      "structural_score": 0.938122,
+      "semantic_score": 0.98968,
+      "fused_score": 0.962966,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00407",
+      "entity_b": "canon_Material_00522",
+      "surface_form_a": "International Fact-Checking Network (",
+      "surface_form_b": "fact-checking content",
+      "structural_score": 0.973261,
+      "semantic_score": 0.952247,
+      "fused_score": 0.962826,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00192",
+      "entity_b": "canon_Method_00193",
+      "surface_form_a": "iLINCS",
+      "surface_form_b": "NCS",
+      "structural_score": 0.990301,
+      "semantic_score": 0.934138,
+      "fused_score": 0.962789,
+      "alpha": 0.5,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 2.259
+}

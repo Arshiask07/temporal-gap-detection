@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2020,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 4840,
+  "total_structural_entities": 4840,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 8660,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 170,
+    "pairs_after_filter": 42202,
+    "pairs_before_filter": 42372
+  },
+  "total_candidate_pairs_considered": 42202,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.993737,
+      "semantic_score": 0.952093,
+      "fused_score": 0.989551,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00989",
+      "entity_b": "canon_Method_00165",
+      "surface_form_a": "one",
+      "surface_form_b": "three",
+      "structural_score": 0.994781,
+      "semantic_score": 0.939519,
+      "fused_score": 0.989074,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_02746",
+      "entity_b": "canon_Method_02806",
+      "surface_form_a": "Pretrained contextualized text encoders",
+      "surface_form_b": "language encoders",
+      "structural_score": 0.996434,
+      "semantic_score": 0.913705,
+      "fused_score": 0.988047,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00156",
+      "entity_b": "canon_Other_01579",
+      "surface_form_a": "visual features",
+      "surface_form_b": "visual and textual representation",
+      "structural_score": 0.994798,
+      "semantic_score": 0.913009,
+      "fused_score": 0.985993,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_01692",
+      "entity_b": "canon_Method_01694",
+      "surface_form_a": "bidirectional-LSTMs",
+      "surface_form_b": "Dependency Tree-LSTMs",
+      "structural_score": 0.994123,
+      "semantic_score": 0.912524,
+      "fused_score": 0.98552,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00525",
+      "entity_b": "canon_Method_01754",
+      "surface_form_a": "PAN Summary",
+      "surface_form_b": "plagdet",
+      "structural_score": 0.997696,
+      "semantic_score": 0.877463,
+      "fused_score": 0.985507,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_02656",
+      "entity_b": "canon_Other_01419",
+      "surface_form_a": "noise generation and",
+      "surface_form_b": "data noise",
+      "structural_score": 0.99321,
+      "semantic_score": 0.912923,
+      "fused_score": 0.985457,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00730",
+      "entity_b": "canon_Task_00674",
+      "surface_form_a": "PERSuAsive oNline Discussions",
+      "surface_form_b": "argument search",
+      "structural_score": 0.995035,
+      "semantic_score": 0.895793,
+      "fused_score": 0.985063,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00883",
+      "entity_b": "canon_Other_01743",
+      "surface_form_a": "unstructured daily chats",
+      "surface_form_b": "dialogue summaries",
+      "structural_score": 0.996037,
+      "semantic_score": 0.884267,
+      "fused_score": 0.984777,
+      "alpha": 0.75,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_01021",
+      "entity_b": "canon_Other_01780",
+      "surface_form_a": "reward shaping",
+      "surface_form_b": "policy space",
+      "structural_score": 0.996026,
+      "semantic_score": 0.880437,
+      "fused_score": 0.984741,
+      "alpha": 0.75,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 6.472
+}

@@ -1,0 +1,3 @@
+S2 API unreachable at 2026-09-21 20:25:19
+Using mention-velocity fallback for NLP.
+To retry API fetch: delete /Users/anjan/Desktop/capstone_sep_15/component6/output/citations/NLP_FALLBACK.txt and re-run with --force.

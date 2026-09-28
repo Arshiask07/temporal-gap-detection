@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2022,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 2614,
+  "total_structural_entities": 2614,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 4504,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 1231,
+    "pairs_after_filter": 22970,
+    "pairs_before_filter": 24201
+  },
+  "total_candidate_pairs_considered": 22970,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00091",
+      "entity_b": "canon_Method_01089",
+      "surface_form_a": "machine learning techniques",
+      "surface_form_b": "machine-learning approach",
+      "structural_score": 0.947602,
+      "semantic_score": 0.991857,
+      "fused_score": 0.987178,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_01265",
+      "entity_b": "canon_Method_01281",
+      "surface_form_a": "sentiment analysis mechanism",
+      "surface_form_b": "sentiment analysis approach",
+      "structural_score": 0.936139,
+      "semantic_score": 0.992764,
+      "fused_score": 0.986829,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_01334",
+      "entity_b": "canon_Method_01335",
+      "surface_form_a": "crowdsource knowledge graph based approach",
+      "surface_form_b": "hierarchical crowdsource knowledge graph based framework",
+      "structural_score": 0.985818,
+      "semantic_score": 0.986233,
+      "fused_score": 0.986201,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00762",
+      "entity_b": "canon_Method_01089",
+      "surface_form_a": "machine learning strategy",
+      "surface_form_b": "machine-learning approach",
+      "structural_score": 0.946566,
+      "semantic_score": 0.988712,
+      "fused_score": 0.984185,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00928",
+      "entity_b": "canon_Method_00929",
+      "surface_form_a": "Scientometric Review",
+      "surface_form_b": "scientometric analysis",
+      "structural_score": 0.960849,
+      "semantic_score": 0.987257,
+      "fused_score": 0.984057,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00091",
+      "entity_b": "canon_Method_00762",
+      "surface_form_a": "machine learning techniques",
+      "surface_form_b": "machine learning strategy",
+      "structural_score": 0.937642,
+      "semantic_score": 0.98968,
+      "fused_score": 0.98388,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.976738,
+      "semantic_score": 0.98429,
+      "fused_score": 0.982796,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Metric_00129",
+      "entity_b": "canon_Other_01117",
+      "surface_form_a": "sentiment polarity",
+      "surface_form_b": "sentiments",
+      "structural_score": 0.882699,
+      "semantic_score": 0.97834,
+      "fused_score": 0.967417,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_01064",
+      "entity_b": "canon_Method_01081",
+      "surface_form_a": "model optimization",
+      "surface_form_b": "optimal model",
+      "structural_score": 0.941797,
+      "semantic_score": 0.9681,
+      "fused_score": 0.966227,
+      "alpha": 0.25,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00005",
+      "entity_b": "canon_Material_00102",
+      "surface_form_a": "social media platforms",
+      "surface_form_b": "social media content",
+      "structural_score": 0.766492,
+      "semantic_score": 0.986799,
+      "fused_score": 0.965071,
+      "alpha": 0.25,
+      "year": 2022
+    }
+  ],
+  "elapsed_seconds": 3.259
+}

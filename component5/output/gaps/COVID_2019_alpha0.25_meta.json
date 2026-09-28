@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2019,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 783,
+  "total_structural_entities": 783,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1016,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 193,
+    "pairs_after_filter": 7112,
+    "pairs_before_filter": 7305
+  },
+  "total_candidate_pairs_considered": 7112,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.978641,
+      "semantic_score": 0.994029,
+      "fused_score": 0.992462,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.965173,
+      "semantic_score": 0.992523,
+      "fused_score": 0.989642,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.983527,
+      "semantic_score": 0.98429,
+      "fused_score": 0.983713,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.990613,
+      "semantic_score": 0.969037,
+      "fused_score": 0.970115,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00554",
+      "entity_b": "canon_Other_00594",
+      "surface_form_a": "\u00e1lc",
+      "surface_form_b": "ina",
+      "structural_score": 0.965747,
+      "semantic_score": 0.969025,
+      "fused_score": 0.968567,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00071",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep transfer learning",
+      "structural_score": 0.850191,
+      "semantic_score": 0.976177,
+      "fused_score": 0.96338,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00286",
+      "entity_b": "canon_Method_00411",
+      "surface_form_a": "single-cell sequencing technology",
+      "surface_form_b": "single cell RNA sequencing studies",
+      "structural_score": 0.957292,
+      "semantic_score": 0.961433,
+      "fused_score": 0.960888,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00108",
+      "entity_b": "canon_Method_00192",
+      "surface_form_a": "iLI",
+      "surface_form_b": "iLINCS",
+      "structural_score": 0.976083,
+      "semantic_score": 0.960141,
+      "fused_score": 0.9608,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00492",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep transfer learning methods",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.807581,
+      "semantic_score": 0.979578,
+      "fused_score": 0.960749,
+      "alpha": 0.25,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00001",
+      "entity_b": "canon_Other_00542",
+      "surface_form_a": "sentiment analysis",
+      "surface_form_b": "sentiment messages",
+      "structural_score": 0.952767,
+      "semantic_score": 0.960106,
+      "fused_score": 0.959708,
+      "alpha": 0.25,
+      "year": 2019
+    }
+  ],
+  "elapsed_seconds": 1.01
+}

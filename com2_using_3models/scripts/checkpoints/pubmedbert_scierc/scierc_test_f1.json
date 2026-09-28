@@ -1,0 +1,16 @@
+{
+  "model_key": "pubmedbert",
+  "model": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext",
+  "precision": 0.591138530566461,
+  "recall": 0.6262626262626263,
+  "f1": 0.6081938834391231,
+  "n_test_sentences": 551,
+  "entity_types": [
+    "Task",
+    "Method",
+    "Metric",
+    "Material",
+    "OtherScientificTerm",
+    "Generic"
+  ]
+}

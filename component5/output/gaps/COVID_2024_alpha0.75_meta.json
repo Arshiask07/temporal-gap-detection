@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2024,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 3968,
+  "total_structural_entities": 3968,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 7509,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 168,
+    "pairs_after_filter": 34814,
+    "pairs_before_filter": 34982
+  },
+  "total_candidate_pairs_considered": 34814,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00581",
+      "entity_b": "canon_Method_01147",
+      "surface_form_a": "ImageNet database",
+      "surface_form_b": "DenseNet169",
+      "structural_score": 0.997453,
+      "semantic_score": 0.946576,
+      "fused_score": 0.992485,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.993669,
+      "semantic_score": 0.969037,
+      "fused_score": 0.991396,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00614",
+      "entity_b": "canon_Other_01814",
+      "surface_form_a": "Human Factors",
+      "surface_form_b": "personal factors",
+      "structural_score": 0.99447,
+      "semantic_score": 0.950933,
+      "fused_score": 0.990195,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_01334",
+      "entity_b": "canon_Method_01335",
+      "surface_form_a": "crowdsource knowledge graph based approach",
+      "surface_form_b": "hierarchical crowdsource knowledge graph based framework",
+      "structural_score": 0.989124,
+      "semantic_score": 0.986233,
+      "fused_score": 0.98946,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00614",
+      "entity_b": "canon_Other_01023",
+      "surface_form_a": "Human Factors",
+      "surface_form_b": "risk perception",
+      "structural_score": 0.998518,
+      "semantic_score": 0.888489,
+      "fused_score": 0.988259,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00832",
+      "entity_b": "canon_Other_00837",
+      "surface_form_a": "anxiety disorders",
+      "surface_form_b": "somatization disorder",
+      "structural_score": 0.993579,
+      "semantic_score": 0.924534,
+      "fused_score": 0.987373,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_00928",
+      "entity_b": "canon_Method_00929",
+      "surface_form_a": "Scientometric Review",
+      "surface_form_b": "scientometric analysis",
+      "structural_score": 0.987121,
+      "semantic_score": 0.987257,
+      "fused_score": 0.987296,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00614",
+      "entity_b": "canon_Other_01387",
+      "surface_form_a": "Human Factors",
+      "surface_form_b": "user intent",
+      "structural_score": 0.998847,
+      "semantic_score": 0.8744,
+      "fused_score": 0.987014,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00295",
+      "entity_b": "canon_Other_00407",
+      "surface_form_a": "Is",
+      "surface_form_b": "occurrence",
+      "structural_score": 0.994616,
+      "semantic_score": 0.910798,
+      "fused_score": 0.986736,
+      "alpha": 0.75,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00832",
+      "entity_b": "canon_Other_00839",
+      "surface_form_a": "anxiety disorders",
+      "surface_form_b": "emotional disturbance",
+      "structural_score": 0.993194,
+      "semantic_score": 0.92262,
+      "fused_score": 0.986622,
+      "alpha": 0.75,
+      "year": 2024
+    }
+  ],
+  "elapsed_seconds": 4.966
+}

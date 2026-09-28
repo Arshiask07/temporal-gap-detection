@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2023,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 9257,
+  "total_structural_entities": 9257,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 17942,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 200,
+    "pairs_after_filter": 79899,
+    "pairs_before_filter": 80099
+  },
+  "total_candidate_pairs_considered": 79899,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00315",
+      "entity_b": "canon_Method_04695",
+      "surface_form_a": "multi-party dialogues",
+      "surface_form_b": "maximization",
+      "structural_score": 0.999784,
+      "semantic_score": 0.689952,
+      "fused_score": 0.999785,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_04740",
+      "entity_b": "canon_Other_03010",
+      "surface_form_a": "TM-HGNN)",
+      "surface_form_b": "frequent neutral words",
+      "structural_score": 0.999235,
+      "semantic_score": 0.725155,
+      "fused_score": 0.999235,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_04739",
+      "entity_b": "canon_Method_04740",
+      "surface_form_a": "taxonomy-aware multi-level hypergraph neural network (",
+      "surface_form_b": "TM-HGNN)",
+      "structural_score": 0.999191,
+      "semantic_score": 0.629411,
+      "fused_score": 0.999191,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_04740",
+      "entity_b": "canon_Other_02195",
+      "surface_form_a": "TM-HGNN)",
+      "surface_form_b": "imbalanced data distribution",
+      "structural_score": 0.999163,
+      "semantic_score": 0.784966,
+      "fused_score": 0.999163,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Task_01646",
+      "entity_b": "canon_Task_01648",
+      "surface_form_a": "Task-Specific Knowledge Distillation",
+      "surface_form_b": "relevance-based text retrieval",
+      "structural_score": 0.998917,
+      "semantic_score": 0.801142,
+      "fused_score": 0.998917,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_04739",
+      "entity_b": "canon_Other_03010",
+      "surface_form_a": "taxonomy-aware multi-level hypergraph neural network (",
+      "surface_form_b": "frequent neutral words",
+      "structural_score": 0.998693,
+      "semantic_score": 0.77547,
+      "fused_score": 0.998693,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_02288",
+      "entity_b": "canon_Other_02402",
+      "surface_form_a": "EDIT",
+      "surface_form_b": "non-local patterns",
+      "structural_score": 0.998595,
+      "semantic_score": 0.810348,
+      "fused_score": 0.998595,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_04740",
+      "entity_b": "canon_Other_03011",
+      "surface_form_a": "TM-HGNN)",
+      "surface_form_b": "hierarchies",
+      "structural_score": 0.998519,
+      "semantic_score": 0.772556,
+      "fused_score": 0.998519,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00282",
+      "entity_b": "canon_Other_02288",
+      "surface_form_a": "pla",
+      "surface_form_b": "EDIT",
+      "structural_score": 0.998505,
+      "semantic_score": 0.832915,
+      "fused_score": 0.998504,
+      "alpha": 1.0,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_02289",
+      "entity_b": "canon_Other_02402",
+      "surface_form_a": "edit spans",
+      "surface_form_b": "non-local patterns",
+      "structural_score": 0.998494,
+      "semantic_score": 0.892291,
+      "fused_score": 0.998494,
+      "alpha": 1.0,
+      "year": 2023
+    }
+  ],
+  "elapsed_seconds": 11.642
+}

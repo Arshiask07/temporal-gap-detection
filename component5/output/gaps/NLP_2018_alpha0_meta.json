@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2018,
+  "alpha": 0.0,
+  "index_vector_type": "fused_alpha_0.0",
+  "total_entities_in_slice": 1815,
+  "total_structural_entities": 1815,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 2823,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 1057,
+    "pairs_after_filter": 15925,
+    "pairs_before_filter": 16982
+  },
+  "total_candidate_pairs_considered": 15925,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00567",
+      "entity_b": "canon_Method_00619",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning approaches",
+      "structural_score": 0.420082,
+      "semantic_score": 0.996505,
+      "fused_score": 0.996505,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00619",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning approaches",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.770632,
+      "semantic_score": 0.994139,
+      "fused_score": 0.994139,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00315",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning model",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.575845,
+      "semantic_score": 0.993944,
+      "fused_score": 0.993945,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00567",
+      "entity_b": "canon_Method_01226",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning systems",
+      "structural_score": 0.090373,
+      "semantic_score": 0.993912,
+      "fused_score": 0.993912,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00291",
+      "entity_b": "canon_Method_00315",
+      "surface_form_a": "deep learning architecture",
+      "surface_form_b": "deep learning model",
+      "structural_score": 0.376536,
+      "semantic_score": 0.993555,
+      "fused_score": 0.993555,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00291",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning architecture",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.41734,
+      "semantic_score": 0.993335,
+      "fused_score": 0.993335,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00619",
+      "entity_b": "canon_Method_01226",
+      "surface_form_a": "deep learning approaches",
+      "surface_form_b": "deep learning systems",
+      "structural_score": 0.653226,
+      "semantic_score": 0.992073,
+      "fused_score": 0.992073,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00567",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.160898,
+      "semantic_score": 0.991577,
+      "fused_score": 0.991577,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01226",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning systems",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.484164,
+      "semantic_score": 0.991438,
+      "fused_score": 0.991438,
+      "alpha": 0.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00315",
+      "entity_b": "canon_Method_00567",
+      "surface_form_a": "deep learning model",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.364174,
+      "semantic_score": 0.990244,
+      "fused_score": 0.990243,
+      "alpha": 0.0,
+      "year": 2018
+    }
+  ],
+  "elapsed_seconds": 2.608
+}

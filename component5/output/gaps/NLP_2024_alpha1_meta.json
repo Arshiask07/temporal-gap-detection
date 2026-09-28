@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2024,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 10611,
+  "total_structural_entities": 10611,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 21413,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 239,
+    "pairs_after_filter": 92386,
+    "pairs_before_filter": 92625
+  },
+  "total_candidate_pairs_considered": 92386,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00315",
+      "entity_b": "canon_Method_04695",
+      "surface_form_a": "multi-party dialogues",
+      "surface_form_b": "maximization",
+      "structural_score": 0.999746,
+      "semantic_score": 0.689952,
+      "fused_score": 0.999745,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00921",
+      "entity_b": "canon_Task_00351",
+      "surface_form_a": "frame structures",
+      "surface_form_b": "Entity resolution (",
+      "structural_score": 0.999029,
+      "semantic_score": 0.807534,
+      "fused_score": 0.999029,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00923",
+      "entity_b": "canon_Task_00351",
+      "surface_form_a": "alternating verbs",
+      "surface_form_b": "Entity resolution (",
+      "structural_score": 0.998897,
+      "semantic_score": 0.761075,
+      "fused_score": 0.998897,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00921",
+      "entity_b": "canon_Task_00352",
+      "surface_form_a": "frame structures",
+      "surface_form_b": "ER)",
+      "structural_score": 0.998857,
+      "semantic_score": 0.837066,
+      "fused_score": 0.998857,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00923",
+      "entity_b": "canon_Task_00352",
+      "surface_form_a": "alternating verbs",
+      "surface_form_b": "ER)",
+      "structural_score": 0.99869,
+      "semantic_score": 0.763283,
+      "fused_score": 0.99869,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_04558",
+      "entity_b": "canon_Task_01538",
+      "surface_form_a": "tabular QA models",
+      "surface_form_b": "biomedical entity linking (",
+      "structural_score": 0.998656,
+      "semantic_score": 0.74909,
+      "fused_score": 0.998656,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Material_01124",
+      "entity_b": "canon_Method_04771",
+      "surface_form_a": "H",
+      "surface_form_b": "KGC methods",
+      "structural_score": 0.998652,
+      "semantic_score": 0.868079,
+      "fused_score": 0.998652,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00921",
+      "entity_b": "canon_Task_01538",
+      "surface_form_a": "frame structures",
+      "surface_form_b": "biomedical entity linking (",
+      "structural_score": 0.998624,
+      "semantic_score": 0.778077,
+      "fused_score": 0.998624,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00923",
+      "entity_b": "canon_Task_01538",
+      "surface_form_a": "alternating verbs",
+      "surface_form_b": "biomedical entity linking (",
+      "structural_score": 0.99861,
+      "semantic_score": 0.793366,
+      "fused_score": 0.99861,
+      "alpha": 1.0,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_02758",
+      "entity_b": "canon_Task_00352",
+      "surface_form_a": "goal completion",
+      "surface_form_b": "ER)",
+      "structural_score": 0.99858,
+      "semantic_score": 0.898386,
+      "fused_score": 0.99858,
+      "alpha": 1.0,
+      "year": 2024
+    }
+  ],
+  "elapsed_seconds": 13.263
+}

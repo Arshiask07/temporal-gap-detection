@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2024,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 3968,
+  "total_structural_entities": 3968,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 7509,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 447,
+    "pairs_after_filter": 34163,
+    "pairs_before_filter": 34610
+  },
+  "total_candidate_pairs_considered": 34163,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_01334",
+      "entity_b": "canon_Method_01335",
+      "surface_form_a": "crowdsource knowledge graph based approach",
+      "surface_form_b": "hierarchical crowdsource knowledge graph based framework",
+      "structural_score": 0.989124,
+      "semantic_score": 0.986233,
+      "fused_score": 0.988768,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_00928",
+      "entity_b": "canon_Method_00929",
+      "surface_form_a": "Scientometric Review",
+      "surface_form_b": "scientometric analysis",
+      "structural_score": 0.987121,
+      "semantic_score": 0.987257,
+      "fused_score": 0.987457,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.993669,
+      "semantic_score": 0.969037,
+      "fused_score": 0.982304,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.967394,
+      "semantic_score": 0.98429,
+      "fused_score": 0.977216,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_01877",
+      "entity_b": "canon_Method_01878",
+      "surface_form_a": "multiple linear regression (MLR)",
+      "surface_form_b": "partial least square regression (PLSR)",
+      "structural_score": 0.986075,
+      "semantic_score": 0.959287,
+      "fused_score": 0.974173,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00614",
+      "entity_b": "canon_Other_01814",
+      "surface_form_a": "Human Factors",
+      "surface_form_b": "personal factors",
+      "structural_score": 0.99447,
+      "semantic_score": 0.950933,
+      "fused_score": 0.973903,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Material_00581",
+      "entity_b": "canon_Method_01147",
+      "surface_form_a": "ImageNet database",
+      "surface_form_b": "DenseNet169",
+      "structural_score": 0.997453,
+      "semantic_score": 0.946576,
+      "fused_score": 0.972475,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Other_00212",
+      "entity_b": "canon_Other_00515",
+      "surface_form_a": "personalization-privacy paradox",
+      "surface_form_b": "personalization-",
+      "structural_score": 0.975162,
+      "semantic_score": 0.957884,
+      "fused_score": 0.969212,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Method_01496",
+      "entity_b": "canon_Method_01528",
+      "surface_form_a": "docking and",
+      "surface_form_b": "docking software",
+      "structural_score": 0.951167,
+      "semantic_score": 0.981498,
+      "fused_score": 0.966567,
+      "alpha": 0.5,
+      "year": 2024
+    },
+    {
+      "entity_a": "canon_Material_00401",
+      "entity_b": "canon_Material_00544",
+      "surface_form_a": "global digital social networks",
+      "surface_form_b": "online and social networking platforms",
+      "structural_score": 0.983689,
+      "semantic_score": 0.939378,
+      "fused_score": 0.963442,
+      "alpha": 0.5,
+      "year": 2024
+    }
+  ],
+  "elapsed_seconds": 4.906
+}

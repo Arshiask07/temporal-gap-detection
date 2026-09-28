@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2019,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 783,
+  "total_structural_entities": 783,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1016,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 88,
+    "pairs_after_filter": 6735,
+    "pairs_before_filter": 6823
+  },
+  "total_candidate_pairs_considered": 6735,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.978641,
+      "semantic_score": 0.994029,
+      "fused_score": 0.986502,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.983527,
+      "semantic_score": 0.98429,
+      "fused_score": 0.983062,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.965173,
+      "semantic_score": 0.992523,
+      "fused_score": 0.978448,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.990613,
+      "semantic_score": 0.969037,
+      "fused_score": 0.978395,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00554",
+      "entity_b": "canon_Other_00594",
+      "surface_form_a": "\u00e1lc",
+      "surface_form_b": "ina",
+      "structural_score": 0.965747,
+      "semantic_score": 0.969025,
+      "fused_score": 0.967139,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00108",
+      "entity_b": "canon_Method_00192",
+      "surface_form_a": "iLI",
+      "surface_form_b": "iLINCS",
+      "structural_score": 0.976083,
+      "semantic_score": 0.960141,
+      "fused_score": 0.966577,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00212",
+      "entity_b": "canon_Other_00515",
+      "surface_form_a": "personalization-privacy paradox",
+      "surface_form_b": "personalization-",
+      "structural_score": 0.976199,
+      "semantic_score": 0.957884,
+      "fused_score": 0.965655,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Task_00208",
+      "entity_b": "canon_Task_00258",
+      "surface_form_a": "patient care",
+      "surface_form_b": "preventive care",
+      "structural_score": 0.99511,
+      "semantic_score": 0.934939,
+      "fused_score": 0.962511,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00288",
+      "entity_b": "canon_Other_00450",
+      "surface_form_a": "cell type datasets",
+      "surface_form_b": "cell expression variability",
+      "structural_score": 0.98693,
+      "semantic_score": 0.935215,
+      "fused_score": 0.960738,
+      "alpha": 0.5,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00399",
+      "entity_b": "canon_Other_00401",
+      "surface_form_a": "affective character of",
+      "surface_form_b": "emotional information",
+      "structural_score": 0.982542,
+      "semantic_score": 0.941896,
+      "fused_score": 0.96072,
+      "alpha": 0.5,
+      "year": 2019
+    }
+  ],
+  "elapsed_seconds": 0.931
+}

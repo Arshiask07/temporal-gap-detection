@@ -1,0 +1,223 @@
+[
+  {
+    "domain": "NLP",
+    "year": 2018,
+    "slice_nodes": 1815,
+    "slice_edges": 2823,
+    "status": "built",
+    "node2vec_fit_time_s": 4.597,
+    "alignment_applied": false,
+    "shared_with_prev_year": 0,
+    "nodes": 1815,
+    "embedding_shape": [
+      1815,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/NLP_2018_id_map.json",
+    "npy_path": "output/embeddings/structural/NLP_2018.npy"
+  },
+  {
+    "domain": "NLP",
+    "year": 2019,
+    "slice_nodes": 3336,
+    "slice_edges": 5648,
+    "status": "built",
+    "node2vec_fit_time_s": 11.046,
+    "shared_with_prev_year": 1815,
+    "alignment_applied": true,
+    "nodes": 3336,
+    "embedding_shape": [
+      3336,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/NLP_2019_id_map.json",
+    "npy_path": "output/embeddings/structural/NLP_2019.npy"
+  },
+  {
+    "domain": "NLP",
+    "year": 2020,
+    "slice_nodes": 4840,
+    "slice_edges": 8660,
+    "status": "built",
+    "node2vec_fit_time_s": 19.566,
+    "shared_with_prev_year": 3336,
+    "alignment_applied": true,
+    "nodes": 4840,
+    "embedding_shape": [
+      4840,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/NLP_2020_id_map.json",
+    "npy_path": "output/embeddings/structural/NLP_2020.npy"
+  },
+  {
+    "domain": "NLP",
+    "year": 2021,
+    "slice_nodes": 6299,
+    "slice_edges": 11572,
+    "status": "built",
+    "node2vec_fit_time_s": 28.697,
+    "shared_with_prev_year": 4840,
+    "alignment_applied": true,
+    "nodes": 6299,
+    "embedding_shape": [
+      6299,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/NLP_2021_id_map.json",
+    "npy_path": "output/embeddings/structural/NLP_2021.npy"
+  },
+  {
+    "domain": "NLP",
+    "year": 2022,
+    "slice_nodes": 7810,
+    "slice_edges": 14670,
+    "status": "built",
+    "node2vec_fit_time_s": 37.275,
+    "shared_with_prev_year": 6299,
+    "alignment_applied": true,
+    "nodes": 7810,
+    "embedding_shape": [
+      7810,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/NLP_2022_id_map.json",
+    "npy_path": "output/embeddings/structural/NLP_2022.npy"
+  },
+  {
+    "domain": "NLP",
+    "year": 2023,
+    "slice_nodes": 9257,
+    "slice_edges": 17942,
+    "status": "built",
+    "node2vec_fit_time_s": 49.231,
+    "shared_with_prev_year": 7810,
+    "alignment_applied": true,
+    "nodes": 9257,
+    "embedding_shape": [
+      9257,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/NLP_2023_id_map.json",
+    "npy_path": "output/embeddings/structural/NLP_2023.npy"
+  },
+  {
+    "domain": "NLP",
+    "year": 2024,
+    "slice_nodes": 10611,
+    "slice_edges": 21413,
+    "status": "built",
+    "node2vec_fit_time_s": 61.706,
+    "shared_with_prev_year": 9257,
+    "alignment_applied": true,
+    "nodes": 10611,
+    "embedding_shape": [
+      10611,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/NLP_2024_id_map.json",
+    "npy_path": "output/embeddings/structural/NLP_2024.npy"
+  },
+  {
+    "domain": "COVID",
+    "year": 2019,
+    "slice_nodes": 783,
+    "slice_edges": 1016,
+    "status": "built",
+    "node2vec_fit_time_s": 4.037,
+    "alignment_applied": false,
+    "shared_with_prev_year": 0,
+    "nodes": 783,
+    "embedding_shape": [
+      783,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/COVID_2019_id_map.json",
+    "npy_path": "output/embeddings/structural/COVID_2019.npy"
+  },
+  {
+    "domain": "COVID",
+    "year": 2020,
+    "slice_nodes": 1346,
+    "slice_edges": 1926,
+    "status": "built",
+    "node2vec_fit_time_s": 7.413,
+    "shared_with_prev_year": 783,
+    "alignment_applied": true,
+    "nodes": 1346,
+    "embedding_shape": [
+      1346,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/COVID_2020_id_map.json",
+    "npy_path": "output/embeddings/structural/COVID_2020.npy"
+  },
+  {
+    "domain": "COVID",
+    "year": 2021,
+    "slice_nodes": 1881,
+    "slice_edges": 2950,
+    "status": "built",
+    "node2vec_fit_time_s": 10.915,
+    "shared_with_prev_year": 1346,
+    "alignment_applied": true,
+    "nodes": 1881,
+    "embedding_shape": [
+      1881,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/COVID_2021_id_map.json",
+    "npy_path": "output/embeddings/structural/COVID_2021.npy"
+  },
+  {
+    "domain": "COVID",
+    "year": 2022,
+    "slice_nodes": 2614,
+    "slice_edges": 4504,
+    "status": "built",
+    "node2vec_fit_time_s": 14.302,
+    "shared_with_prev_year": 1881,
+    "alignment_applied": true,
+    "nodes": 2614,
+    "embedding_shape": [
+      2614,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/COVID_2022_id_map.json",
+    "npy_path": "output/embeddings/structural/COVID_2022.npy"
+  },
+  {
+    "domain": "COVID",
+    "year": 2023,
+    "slice_nodes": 3285,
+    "slice_edges": 6040,
+    "status": "built",
+    "node2vec_fit_time_s": 17.107,
+    "shared_with_prev_year": 2614,
+    "alignment_applied": true,
+    "nodes": 3285,
+    "embedding_shape": [
+      3285,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/COVID_2023_id_map.json",
+    "npy_path": "output/embeddings/structural/COVID_2023.npy"
+  },
+  {
+    "domain": "COVID",
+    "year": 2024,
+    "slice_nodes": 3968,
+    "slice_edges": 7509,
+    "status": "built",
+    "node2vec_fit_time_s": 20.319,
+    "shared_with_prev_year": 3285,
+    "alignment_applied": true,
+    "nodes": 3968,
+    "embedding_shape": [
+      3968,
+      128
+    ],
+    "id_map_path": "output/embeddings/structural/COVID_2024_id_map.json",
+    "npy_path": "output/embeddings/structural/COVID_2024.npy"
+  }
+]

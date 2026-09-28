@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2022,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 7810,
+  "total_structural_entities": 7810,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 14670,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 225,
+    "pairs_after_filter": 68839,
+    "pairs_before_filter": 69064
+  },
+  "total_candidate_pairs_considered": 68839,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Other_01743",
+      "entity_b": "canon_Task_01208",
+      "surface_form_a": "dialogue summaries",
+      "surface_form_b": "Abstractive Dialogue Summarization",
+      "structural_score": 0.994514,
+      "semantic_score": 0.961568,
+      "fused_score": 0.991663,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.993022,
+      "semantic_score": 0.952093,
+      "fused_score": 0.989469,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Metric_00115",
+      "entity_b": "canon_Metric_00426",
+      "surface_form_a": "average",
+      "surface_form_b": "correlation score",
+      "structural_score": 0.994459,
+      "semantic_score": 0.933824,
+      "fused_score": 0.98881,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_00156",
+      "entity_b": "canon_Other_01579",
+      "surface_form_a": "visual features",
+      "surface_form_b": "visual and textual representation",
+      "structural_score": 0.996353,
+      "semantic_score": 0.913009,
+      "fused_score": 0.988525,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Metric_00315",
+      "entity_b": "canon_Other_02402",
+      "surface_form_a": "annotation speed",
+      "surface_form_b": "non-local patterns",
+      "structural_score": 0.996208,
+      "semantic_score": 0.912685,
+      "fused_score": 0.987984,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_01870",
+      "entity_b": "canon_Task_01471",
+      "surface_form_a": "information retrieval (IR) techniques",
+      "surface_form_b": "Multi-Task Retrieval",
+      "structural_score": 0.995657,
+      "semantic_score": 0.908316,
+      "fused_score": 0.98748,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_03699",
+      "entity_b": "canon_Method_03701",
+      "surface_form_a": "contrastive learning framework",
+      "surface_form_b": "exemplar-wise contrastive learning",
+      "structural_score": 0.990042,
+      "semantic_score": 0.955949,
+      "fused_score": 0.986505,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Task_00738",
+      "entity_b": "canon_Task_01093",
+      "surface_form_a": "question-answering and dialog systems",
+      "surface_form_b": "goal-oriented dialog systems",
+      "structural_score": 0.994984,
+      "semantic_score": 0.900891,
+      "fused_score": 0.986,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_01754",
+      "entity_b": "canon_Other_00470",
+      "surface_form_a": "plagdet",
+      "surface_form_b": "measure",
+      "structural_score": 0.997643,
+      "semantic_score": 0.873748,
+      "fused_score": 0.985943,
+      "alpha": 0.75,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_02746",
+      "entity_b": "canon_Method_02806",
+      "surface_form_a": "Pretrained contextualized text encoders",
+      "surface_form_b": "language encoders",
+      "structural_score": 0.992939,
+      "semantic_score": 0.913705,
+      "fused_score": 0.985844,
+      "alpha": 0.75,
+      "year": 2022
+    }
+  ],
+  "elapsed_seconds": 9.966
+}

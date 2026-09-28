@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2021,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 6299,
+  "total_structural_entities": 6299,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 11572,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 545,
+    "pairs_after_filter": 56323,
+    "pairs_before_filter": 56868
+  },
+  "total_candidate_pairs_considered": 56323,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_03327",
+      "entity_b": "canon_Method_03328",
+      "surface_form_a": "Joint Training Method",
+      "surface_form_b": "joint training approach",
+      "structural_score": 0.971105,
+      "semantic_score": 0.994452,
+      "fused_score": 0.98204,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_01743",
+      "entity_b": "canon_Task_01208",
+      "surface_form_a": "dialogue summaries",
+      "surface_form_b": "Abstractive Dialogue Summarization",
+      "structural_score": 0.987866,
+      "semantic_score": 0.961568,
+      "fused_score": 0.973264,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.996592,
+      "semantic_score": 0.952093,
+      "fused_score": 0.973119,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01511",
+      "entity_b": "canon_Method_02699",
+      "surface_form_a": "joint multi-task learning setting",
+      "surface_form_b": "Multi-Task Learning and BERT",
+      "structural_score": 0.967001,
+      "semantic_score": 0.977545,
+      "fused_score": 0.971054,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00082",
+      "entity_b": "canon_Material_01124",
+      "surface_form_a": "e",
+      "surface_form_b": "H",
+      "structural_score": 0.989341,
+      "semantic_score": 0.951006,
+      "fused_score": 0.970416,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01511",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "joint multi-task learning setting",
+      "structural_score": 0.95301,
+      "semantic_score": 0.98839,
+      "fused_score": 0.968678,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Task_00380",
+      "entity_b": "canon_Task_00796",
+      "surface_form_a": "summarization task",
+      "surface_form_b": "summarization evaluation",
+      "structural_score": 0.944598,
+      "semantic_score": 0.988851,
+      "fused_score": 0.965976,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Metric_00398",
+      "entity_b": "canon_Other_01498",
+      "surface_form_a": "coherence",
+      "surface_form_b": "other",
+      "structural_score": 0.995957,
+      "semantic_score": 0.936817,
+      "fused_score": 0.965527,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01994",
+      "entity_b": "canon_Method_02175",
+      "surface_form_a": "imitation learning framework",
+      "surface_form_b": "Restricted Imitation Learning",
+      "structural_score": 0.945478,
+      "semantic_score": 0.983277,
+      "fused_score": 0.964274,
+      "alpha": 0.5,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00421",
+      "entity_b": "canon_Other_00871",
+      "surface_form_a": "sentiment association",
+      "surface_form_b": "sentiment conflict",
+      "structural_score": 0.966413,
+      "semantic_score": 0.964138,
+      "fused_score": 0.964265,
+      "alpha": 0.5,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 8.648
+}

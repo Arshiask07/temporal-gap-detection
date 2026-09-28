@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2019,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 783,
+  "total_structural_entities": 783,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1016,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 18,
+    "pairs_after_filter": 7081,
+    "pairs_before_filter": 7099
+  },
+  "total_candidate_pairs_considered": 7081,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00030",
+      "entity_b": "canon_Method_00015",
+      "surface_form_a": "Embase",
+      "surface_form_b": "chat",
+      "structural_score": 0.999239,
+      "semantic_score": 0.756163,
+      "fused_score": 0.999239,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00230",
+      "entity_b": "canon_Other_00231",
+      "surface_form_a": "GRAF PENDULUM",
+      "surface_form_b": "Graceful Fibonacci",
+      "structural_score": 0.998791,
+      "semantic_score": 0.857503,
+      "fused_score": 0.998791,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00374",
+      "entity_b": "canon_Task_00181",
+      "surface_form_a": "Conceptual",
+      "surface_form_b": "Health Care",
+      "structural_score": 0.998529,
+      "semantic_score": 0.796797,
+      "fused_score": 0.998528,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00437",
+      "entity_b": "canon_Method_00370",
+      "surface_form_a": "age",
+      "surface_form_b": "emotionized text representations",
+      "structural_score": 0.998469,
+      "semantic_score": 0.681465,
+      "fused_score": 0.998469,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00296",
+      "entity_b": "canon_Method_00370",
+      "surface_form_a": "sentiment",
+      "surface_form_b": "emotionized text representations",
+      "structural_score": 0.998246,
+      "semantic_score": 0.895163,
+      "fused_score": 0.998246,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Metric_00043",
+      "entity_b": "canon_Other_00511",
+      "surface_form_a": "operational effectiveness",
+      "surface_form_b": "financial",
+      "structural_score": 0.99815,
+      "semantic_score": 0.801873,
+      "fused_score": 0.99815,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00370",
+      "entity_b": "canon_Method_00608",
+      "surface_form_a": "emotionized text representations",
+      "surface_form_b": "bidirectional encoders",
+      "structural_score": 0.998068,
+      "semantic_score": 0.769092,
+      "fused_score": 0.998068,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00511",
+      "entity_b": "canon_Task_00278",
+      "surface_form_a": "financial",
+      "surface_form_b": "MIRS)",
+      "structural_score": 0.998054,
+      "semantic_score": 0.742657,
+      "fused_score": 0.998054,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_00024",
+      "entity_b": "canon_Task_00243",
+      "surface_form_a": "AI)",
+      "surface_form_b": "robotic",
+      "structural_score": 0.997946,
+      "semantic_score": 0.775915,
+      "fused_score": 0.997946,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00437",
+      "entity_b": "canon_Other_00191",
+      "surface_form_a": "age",
+      "surface_form_b": "technique",
+      "structural_score": 0.997804,
+      "semantic_score": 0.798839,
+      "fused_score": 0.997804,
+      "alpha": 1.0,
+      "year": 2019
+    }
+  ],
+  "elapsed_seconds": 0.997
+}

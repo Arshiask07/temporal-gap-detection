@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2022,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 7810,
+  "total_structural_entities": 7810,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 14670,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 650,
+    "pairs_after_filter": 70103,
+    "pairs_before_filter": 70753
+  },
+  "total_candidate_pairs_considered": 70103,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_03327",
+      "entity_b": "canon_Method_03328",
+      "surface_form_a": "Joint Training Method",
+      "surface_form_b": "joint training approach",
+      "structural_score": 0.984237,
+      "semantic_score": 0.994452,
+      "fused_score": 0.989207,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_01743",
+      "entity_b": "canon_Task_01208",
+      "surface_form_a": "dialogue summaries",
+      "surface_form_b": "Abstractive Dialogue Summarization",
+      "structural_score": 0.994514,
+      "semantic_score": 0.961568,
+      "fused_score": 0.979297,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.993022,
+      "semantic_score": 0.952093,
+      "fused_score": 0.9747,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_00421",
+      "entity_b": "canon_Other_00871",
+      "surface_form_a": "sentiment association",
+      "surface_form_b": "sentiment conflict",
+      "structural_score": 0.978639,
+      "semantic_score": 0.964138,
+      "fused_score": 0.973698,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_03699",
+      "entity_b": "canon_Method_03701",
+      "surface_form_a": "contrastive learning framework",
+      "surface_form_b": "exemplar-wise contrastive learning",
+      "structural_score": 0.990042,
+      "semantic_score": 0.955949,
+      "fused_score": 0.972992,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00902",
+      "entity_b": "canon_Method_02705",
+      "surface_form_a": "Machine Learning Papers",
+      "surface_form_b": "automatic machine learning pipeline",
+      "structural_score": 0.975834,
+      "semantic_score": 0.964509,
+      "fused_score": 0.970259,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Task_00380",
+      "entity_b": "canon_Task_00796",
+      "surface_form_a": "summarization task",
+      "surface_form_b": "summarization evaluation",
+      "structural_score": 0.947383,
+      "semantic_score": 0.988851,
+      "fused_score": 0.968638,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_02298",
+      "entity_b": "canon_Task_00380",
+      "surface_form_a": "Reinforced Summarization Models",
+      "surface_form_b": "summarization task",
+      "structural_score": 0.963144,
+      "semantic_score": 0.966589,
+      "fused_score": 0.967374,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Metric_00115",
+      "entity_b": "canon_Metric_00426",
+      "surface_form_a": "average",
+      "surface_form_b": "correlation score",
+      "structural_score": 0.994459,
+      "semantic_score": 0.933824,
+      "fused_score": 0.966244,
+      "alpha": 0.5,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_00319",
+      "entity_b": "canon_Method_02298",
+      "surface_form_a": "summarization systems",
+      "surface_form_b": "Reinforced Summarization Models",
+      "structural_score": 0.947236,
+      "semantic_score": 0.980897,
+      "fused_score": 0.965774,
+      "alpha": 0.5,
+      "year": 2022
+    }
+  ],
+  "elapsed_seconds": 10.229
+}

@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2018,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 1815,
+  "total_structural_entities": 1815,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 2823,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 56,
+    "pairs_after_filter": 15758,
+    "pairs_before_filter": 15814
+  },
+  "total_candidate_pairs_considered": 15758,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Other_00263",
+      "entity_b": "canon_Task_00708",
+      "surface_form_a": "adversarial perturbations",
+      "surface_form_b": "machine vision",
+      "structural_score": 0.998708,
+      "semantic_score": 0.802349,
+      "fused_score": 0.998708,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00315",
+      "entity_b": "canon_Task_00078",
+      "surface_form_a": "deep learning model",
+      "surface_form_b": "link prediction",
+      "structural_score": 0.998399,
+      "semantic_score": 0.823541,
+      "fused_score": 0.998399,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Other_00263",
+      "entity_b": "canon_Task_00310",
+      "surface_form_a": "adversarial perturbations",
+      "surface_form_b": "perception",
+      "structural_score": 0.998365,
+      "semantic_score": 0.736023,
+      "fused_score": 0.998365,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Task_00160",
+      "entity_b": "canon_Task_00696",
+      "surface_form_a": "error analysis",
+      "surface_form_b": "linguistic annotation",
+      "structural_score": 0.998312,
+      "semantic_score": 0.840774,
+      "fused_score": 0.998312,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01365",
+      "entity_b": "canon_Other_00883",
+      "surface_form_a": "Semantic Verbal Fluency tests",
+      "surface_form_b": "Dementia",
+      "structural_score": 0.998229,
+      "semantic_score": 0.756848,
+      "fused_score": 0.998229,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Other_00315",
+      "entity_b": "canon_Other_01059",
+      "surface_form_a": "AI",
+      "surface_form_b": "opinion-holder-target structures",
+      "structural_score": 0.998175,
+      "semantic_score": 0.761527,
+      "fused_score": 0.998175,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Task_00309",
+      "entity_b": "canon_Task_00707",
+      "surface_form_a": "Neural Image Captioning",
+      "surface_form_b": "language grounding",
+      "structural_score": 0.998079,
+      "semantic_score": 0.858535,
+      "fused_score": 0.998079,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01280",
+      "entity_b": "canon_Other_02891",
+      "surface_form_a": "Siamese network",
+      "surface_form_b": "likelihood",
+      "structural_score": 0.997957,
+      "semantic_score": 0.797353,
+      "fused_score": 0.997957,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Material_00168",
+      "entity_b": "canon_Task_00699",
+      "surface_form_a": "Hindi-English Code-Mixed Social Media Text",
+      "surface_form_b": "Corpus Creation",
+      "structural_score": 0.997952,
+      "semantic_score": 0.856719,
+      "fused_score": 0.997952,
+      "alpha": 1.0,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Task_00309",
+      "entity_b": "canon_Task_00708",
+      "surface_form_a": "Neural Image Captioning",
+      "surface_form_b": "machine vision",
+      "structural_score": 0.997938,
+      "semantic_score": 0.854254,
+      "fused_score": 0.997938,
+      "alpha": 1.0,
+      "year": 2018
+    }
+  ],
+  "elapsed_seconds": 2.393
+}

@@ -1,0 +1,5 @@
+{
+  "method": "scibert_finetuned",
+  "model": "allenai/scibert_scivocab_uncased",
+  "checkpoint": "C:\\STUDY\\VSCode\\cappro\\component2_entity_relation_extraction\\scripts\\checkpoints\\scibert_scierc\\ner"
+}

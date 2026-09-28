@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2020,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 1346,
+  "total_structural_entities": 1346,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1926,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 455,
+    "pairs_after_filter": 12080,
+    "pairs_before_filter": 12535
+  },
+  "total_candidate_pairs_considered": 12080,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.97547,
+      "semantic_score": 0.992523,
+      "fused_score": 0.990975,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00025",
+      "entity_b": "canon_Method_00762",
+      "surface_form_a": "machine learning approach",
+      "surface_form_b": "machine learning strategy",
+      "structural_score": 0.938142,
+      "semantic_score": 0.992395,
+      "fused_score": 0.987301,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00025",
+      "entity_b": "canon_Method_00091",
+      "surface_form_a": "machine learning approach",
+      "surface_form_b": "machine learning techniques",
+      "structural_score": 0.91296,
+      "semantic_score": 0.99537,
+      "fused_score": 0.987035,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00091",
+      "entity_b": "canon_Method_00762",
+      "surface_form_a": "machine learning techniques",
+      "surface_form_b": "machine learning strategy",
+      "structural_score": 0.935531,
+      "semantic_score": 0.98968,
+      "fused_score": 0.983538,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.880606,
+      "semantic_score": 0.994029,
+      "fused_score": 0.982329,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.950794,
+      "semantic_score": 0.98429,
+      "fused_score": 0.982264,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00001",
+      "entity_b": "canon_Method_00287",
+      "surface_form_a": "sentiment analysis",
+      "surface_form_b": "sentiment classification",
+      "structural_score": 0.923308,
+      "semantic_score": 0.9785,
+      "fused_score": 0.973807,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.993195,
+      "semantic_score": 0.969037,
+      "fused_score": 0.971781,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00005",
+      "entity_b": "canon_Material_00406",
+      "surface_form_a": "social media platforms",
+      "surface_form_b": "social media outlet",
+      "structural_score": 0.944591,
+      "semantic_score": 0.971884,
+      "fused_score": 0.970057,
+      "alpha": 0.25,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00012",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning models",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.761947,
+      "semantic_score": 0.992268,
+      "fused_score": 0.969393,
+      "alpha": 0.25,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 1.778
+}

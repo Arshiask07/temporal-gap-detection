@@ -1,0 +1,92 @@
+{
+  "NLP": {
+    "domain": "NLP",
+    "papers_total": 1400,
+    "papers_processed_ok": 1400,
+    "papers_skipped_empty_abstract": 0,
+    "papers_errored": 0,
+    "total_entities": 30248,
+    "total_relations": 13122,
+    "entity_type_counts": {
+      "Other": 16665,
+      "Method": 7387,
+      "Task": 3364,
+      "Material": 1887,
+      "Metric": 945
+    },
+    "relation_type_counts": {
+      "ENTITY_ASSOCIATED_WITH_ENTITY": 12562,
+      "METHOD_IMPROVES_TASK": 321,
+      "USED_FOR": 167,
+      "METHOD_APPLIED_TO": 21,
+      "METHOD_EVALUATED_BY": 51
+    },
+    "papers_by_year": {
+      "2018": 200,
+      "2019": 200,
+      "2020": 200,
+      "2021": 200,
+      "2022": 200,
+      "2023": 200,
+      "2024": 200
+    },
+    "papers_zero_entities": 0,
+    "papers_zero_relations": 0,
+    "zero_entity_paper_ids_sample": [],
+    "zero_relation_paper_ids_sample": [],
+    "failed_papers": []
+  },
+  "COVID": {
+    "domain": "COVID",
+    "papers_total": 840,
+    "papers_processed_ok": 840,
+    "papers_skipped_empty_abstract": 0,
+    "papers_errored": 0,
+    "total_entities": 29814,
+    "total_relations": 12162,
+    "entity_type_counts": {
+      "Other": 22196,
+      "Method": 4426,
+      "Task": 1571,
+      "Material": 858,
+      "Metric": 763
+    },
+    "relation_type_counts": {
+      "ENTITY_ASSOCIATED_WITH_ENTITY": 11850,
+      "METHOD_EVALUATED_BY": 37,
+      "USED_FOR": 143,
+      "METHOD_IMPROVES_TASK": 111,
+      "METHOD_APPLIED_TO": 21
+    },
+    "papers_by_year": {
+      "2019": 140,
+      "2020": 140,
+      "2021": 140,
+      "2022": 140,
+      "2023": 140,
+      "2024": 140
+    },
+    "papers_zero_entities": 7,
+    "papers_zero_relations": 8,
+    "zero_entity_paper_ids_sample": [
+      "openalex_W2942506922",
+      "openalex_W2978388382",
+      "openalex_W2944587989",
+      "openalex_W3012233527",
+      "openalex_W2914022334",
+      "openalex_W2921827323",
+      "openalex_W4205313296"
+    ],
+    "zero_relation_paper_ids_sample": [
+      "openalex_W2917867348",
+      "openalex_W2942506922",
+      "openalex_W2978388382",
+      "openalex_W2944587989",
+      "openalex_W3012233527",
+      "openalex_W2914022334",
+      "openalex_W2921827323",
+      "openalex_W4205313296"
+    ],
+    "failed_papers": []
+  }
+}

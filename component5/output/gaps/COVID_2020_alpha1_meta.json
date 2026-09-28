@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2020,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 1346,
+  "total_structural_entities": 1346,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1926,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 32,
+    "pairs_after_filter": 11726,
+    "pairs_before_filter": 11758
+  },
+  "total_candidate_pairs_considered": 11726,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00030",
+      "entity_b": "canon_Method_00015",
+      "surface_form_a": "Embase",
+      "surface_form_b": "chat",
+      "structural_score": 0.999083,
+      "semantic_score": 0.756163,
+      "fused_score": 0.999083,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00145",
+      "entity_b": "canon_Other_00776",
+      "surface_form_a": "spike protein",
+      "surface_form_b": "rollout speed",
+      "structural_score": 0.998775,
+      "semantic_score": 0.742022,
+      "fused_score": 0.998775,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00210",
+      "entity_b": "canon_Method_00734",
+      "surface_form_a": "ARTIC amplification",
+      "surface_form_b": "Random Hexamers",
+      "structural_score": 0.998631,
+      "semantic_score": 0.79269,
+      "fused_score": 0.998631,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00760",
+      "entity_b": "canon_Other_00762",
+      "surface_form_a": "epidemiological reporting",
+      "surface_form_b": "human mobility matrices",
+      "structural_score": 0.998617,
+      "semantic_score": 0.826935,
+      "fused_score": 0.998617,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00145",
+      "entity_b": "canon_Other_00686",
+      "surface_form_a": "spike protein",
+      "surface_form_b": "market",
+      "structural_score": 0.998587,
+      "semantic_score": 0.718021,
+      "fused_score": 0.998586,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00145",
+      "entity_b": "canon_Other_00687",
+      "surface_form_a": "spike protein",
+      "surface_form_b": "discriminatory politics",
+      "structural_score": 0.998493,
+      "semantic_score": 0.72416,
+      "fused_score": 0.998492,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00560",
+      "entity_b": "canon_Task_00310",
+      "surface_form_a": "Interpretable Biomanufacturing Process Risk and Sensitivity Analyses",
+      "surface_form_b": "production process",
+      "structural_score": 0.998446,
+      "semantic_score": 0.785422,
+      "fused_score": 0.998446,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00597",
+      "entity_b": "canon_Other_00686",
+      "surface_form_a": "technological change",
+      "surface_form_b": "market",
+      "structural_score": 0.998319,
+      "semantic_score": 0.816978,
+      "fused_score": 0.998319,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00598",
+      "entity_b": "canon_Other_00776",
+      "surface_form_a": "financial and sovereign",
+      "surface_form_b": "rollout speed",
+      "structural_score": 0.998306,
+      "semantic_score": 0.734864,
+      "fused_score": 0.998306,
+      "alpha": 1.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00145",
+      "entity_b": "canon_Other_00777",
+      "surface_form_a": "spike protein",
+      "surface_form_b": "immunity dynamics",
+      "structural_score": 0.998293,
+      "semantic_score": 0.699652,
+      "fused_score": 0.998293,
+      "alpha": 1.0,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 1.66
+}

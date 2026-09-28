@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2019,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 3336,
+  "total_structural_entities": 3336,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 5648,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 142,
+    "pairs_after_filter": 29016,
+    "pairs_before_filter": 29158
+  },
+  "total_candidate_pairs_considered": 29016,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Other_00152",
+      "entity_b": "canon_Other_00942",
+      "surface_form_a": "textual information",
+      "surface_form_b": "textual features",
+      "structural_score": 0.9966,
+      "semantic_score": 0.964847,
+      "fused_score": 0.993488,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_01340",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "hierarchical attention mechanism",
+      "surface_form_b": "dense attention structure",
+      "structural_score": 0.995697,
+      "semantic_score": 0.966564,
+      "fused_score": 0.992511,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00787",
+      "entity_b": "canon_Other_00152",
+      "surface_form_a": "textual content",
+      "surface_form_b": "textual information",
+      "structural_score": 0.994448,
+      "semantic_score": 0.969426,
+      "fused_score": 0.991851,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00787",
+      "entity_b": "canon_Other_00942",
+      "surface_form_a": "textual content",
+      "surface_form_b": "textual features",
+      "structural_score": 0.997791,
+      "semantic_score": 0.937295,
+      "fused_score": 0.991605,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.99381,
+      "semantic_score": 0.952093,
+      "fused_score": 0.990151,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00282",
+      "entity_b": "canon_Other_00297",
+      "surface_form_a": "pla",
+      "surface_form_b": "tree structure",
+      "structural_score": 0.997841,
+      "semantic_score": 0.910182,
+      "fused_score": 0.989188,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_01413",
+      "entity_b": "canon_Other_00282",
+      "surface_form_a": "proto",
+      "surface_form_b": "pla",
+      "structural_score": 0.998005,
+      "semantic_score": 0.900246,
+      "fused_score": 0.988849,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_01201",
+      "entity_b": "canon_Other_01202",
+      "surface_form_a": "passage-level relevance judgments",
+      "surface_form_b": "cross-domain notions of relevance",
+      "structural_score": 0.994147,
+      "semantic_score": 0.931778,
+      "fused_score": 0.988078,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_01302",
+      "entity_b": "canon_Method_01304",
+      "surface_form_a": "FOFE counterparts",
+      "surface_form_b": "dual FOFE",
+      "structural_score": 0.994536,
+      "semantic_score": 0.932828,
+      "fused_score": 0.988051,
+      "alpha": 0.75,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00288",
+      "entity_b": "canon_Material_01413",
+      "surface_form_a": "IC",
+      "surface_form_b": "proto",
+      "structural_score": 0.995223,
+      "semantic_score": 0.91126,
+      "fused_score": 0.98698,
+      "alpha": 0.75,
+      "year": 2019
+    }
+  ],
+  "elapsed_seconds": 4.402
+}

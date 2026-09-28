@@ -1,0 +1,18 @@
+{
+  "domain": "NLP",
+  "vel_window": [
+    2022,
+    2024
+  ],
+  "citation_path": "mention-velocity (fallback)",
+  "fallback_active": true,
+  "total_entities_in_json": 12867,
+  "entities_with_velocity": 4601,
+  "entities_with_positive_velocity": 2193,
+  "entities_with_negative_velocity": 2258,
+  "entities_with_zero_velocity": 8266,
+  "aggregate_build_seconds": 0.098,
+  "velocity_compute_seconds": 0.006,
+  "citation_cache_size": 0,
+  "generated_at": "2026-09-21T20:26:12"
+}

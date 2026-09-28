@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2023,
+  "alpha": 0.75,
+  "index_vector_type": "fused_alpha_0.75",
+  "total_entities_in_slice": 9257,
+  "total_structural_entities": 9257,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 17942,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 255,
+    "pairs_after_filter": 80610,
+    "pairs_before_filter": 80865
+  },
+  "total_candidate_pairs_considered": 80610,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Other_02467",
+      "entity_b": "canon_Other_02759",
+      "surface_form_a": "aspect category-sentiment pairs",
+      "surface_form_b": "user sentiment",
+      "structural_score": 0.996123,
+      "semantic_score": 0.946076,
+      "fused_score": 0.990706,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.994679,
+      "semantic_score": 0.952093,
+      "fused_score": 0.990449,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Metric_00115",
+      "entity_b": "canon_Metric_00426",
+      "surface_form_a": "average",
+      "surface_form_b": "correlation score",
+      "structural_score": 0.99437,
+      "semantic_score": 0.933824,
+      "fused_score": 0.988436,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01870",
+      "entity_b": "canon_Task_01471",
+      "surface_form_a": "information retrieval (IR) techniques",
+      "surface_form_b": "Multi-Task Retrieval",
+      "structural_score": 0.997304,
+      "semantic_score": 0.908316,
+      "fused_score": 0.988339,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00282",
+      "entity_b": "canon_Other_02904",
+      "surface_form_a": "pla",
+      "surface_form_b": "operator",
+      "structural_score": 0.997648,
+      "semantic_score": 0.904113,
+      "fused_score": 0.988027,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_00282",
+      "entity_b": "canon_Other_02402",
+      "surface_form_a": "pla",
+      "surface_form_b": "non-local patterns",
+      "structural_score": 0.998367,
+      "semantic_score": 0.899946,
+      "fused_score": 0.987963,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_02289",
+      "entity_b": "canon_Other_02402",
+      "surface_form_a": "edit spans",
+      "surface_form_b": "non-local patterns",
+      "structural_score": 0.998494,
+      "semantic_score": 0.892291,
+      "fused_score": 0.98781,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_04415",
+      "entity_b": "canon_Method_04416",
+      "surface_form_a": "multiple extractor guided summar",
+      "surface_form_b": "supervised extractor",
+      "structural_score": 0.99585,
+      "semantic_score": 0.908649,
+      "fused_score": 0.987672,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Metric_00315",
+      "entity_b": "canon_Other_02289",
+      "surface_form_a": "annotation speed",
+      "surface_form_b": "edit spans",
+      "structural_score": 0.993175,
+      "semantic_score": 0.937214,
+      "fused_score": 0.987553,
+      "alpha": 0.75,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Other_02289",
+      "entity_b": "canon_Other_02758",
+      "surface_form_a": "edit spans",
+      "surface_form_b": "goal completion",
+      "structural_score": 0.997538,
+      "semantic_score": 0.896214,
+      "fused_score": 0.987492,
+      "alpha": 0.75,
+      "year": 2023
+    }
+  ],
+  "elapsed_seconds": 11.761
+}

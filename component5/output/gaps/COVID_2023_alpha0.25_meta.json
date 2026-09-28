@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2023,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 3285,
+  "total_structural_entities": 3285,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 6040,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 1668,
+    "pairs_after_filter": 28599,
+    "pairs_before_filter": 30267
+  },
+  "total_candidate_pairs_considered": 28599,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_01334",
+      "entity_b": "canon_Method_01335",
+      "surface_form_a": "crowdsource knowledge graph based approach",
+      "surface_form_b": "hierarchical crowdsource knowledge graph based framework",
+      "structural_score": 0.98738,
+      "semantic_score": 0.986233,
+      "fused_score": 0.986441,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00928",
+      "entity_b": "canon_Method_00929",
+      "surface_form_a": "Scientometric Review",
+      "surface_form_b": "scientometric analysis",
+      "structural_score": 0.970302,
+      "semantic_score": 0.987257,
+      "fused_score": 0.985963,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01265",
+      "entity_b": "canon_Method_01281",
+      "surface_form_a": "sentiment analysis mechanism",
+      "surface_form_b": "sentiment analysis approach",
+      "structural_score": 0.905951,
+      "semantic_score": 0.992764,
+      "fused_score": 0.984612,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.970966,
+      "semantic_score": 0.98429,
+      "fused_score": 0.98268,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00762",
+      "entity_b": "canon_Method_01089",
+      "surface_form_a": "machine learning strategy",
+      "surface_form_b": "machine-learning approach",
+      "structural_score": 0.930535,
+      "semantic_score": 0.988712,
+      "fused_score": 0.982597,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00941",
+      "entity_b": "canon_Method_01281",
+      "surface_form_a": "Sentiment and content analysis",
+      "surface_form_b": "sentiment analysis approach",
+      "structural_score": 0.927437,
+      "semantic_score": 0.983392,
+      "fused_score": 0.978684,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_01496",
+      "entity_b": "canon_Method_01528",
+      "surface_form_a": "docking and",
+      "surface_form_b": "docking software",
+      "structural_score": 0.94047,
+      "semantic_score": 0.981498,
+      "fused_score": 0.978366,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00941",
+      "entity_b": "canon_Method_01265",
+      "surface_form_a": "Sentiment and content analysis",
+      "surface_form_b": "sentiment analysis mechanism",
+      "structural_score": 0.953956,
+      "semantic_score": 0.97793,
+      "fused_score": 0.976729,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Method_00336",
+      "entity_b": "canon_Method_00706",
+      "surface_form_a": "machine learning and deep learning models",
+      "surface_form_b": "Deep Learning-based system",
+      "structural_score": 0.898575,
+      "semantic_score": 0.984535,
+      "fused_score": 0.975646,
+      "alpha": 0.25,
+      "year": 2023
+    },
+    {
+      "entity_a": "canon_Metric_00129",
+      "entity_b": "canon_Other_01117",
+      "surface_form_a": "sentiment polarity",
+      "surface_form_b": "sentiments",
+      "structural_score": 0.894987,
+      "semantic_score": 0.97834,
+      "fused_score": 0.973297,
+      "alpha": 0.25,
+      "year": 2023
+    }
+  ],
+  "elapsed_seconds": 4.061
+}

@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2018,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 1815,
+  "total_structural_entities": 1815,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 2823,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 880,
+    "pairs_after_filter": 15819,
+    "pairs_before_filter": 16699
+  },
+  "total_candidate_pairs_considered": 15819,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Task_00159",
+      "entity_b": "canon_Task_00163",
+      "surface_form_a": "NLI)",
+      "surface_form_b": "NLP)",
+      "structural_score": 0.972326,
+      "semantic_score": 0.986635,
+      "fused_score": 0.985583,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01289",
+      "entity_b": "canon_Task_00040",
+      "surface_form_a": "automatic semantic parser",
+      "surface_form_b": "semantic parsing",
+      "structural_score": 0.946149,
+      "semantic_score": 0.975504,
+      "fused_score": 0.97241,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00619",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning approaches",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.770632,
+      "semantic_score": 0.994139,
+      "fused_score": 0.971947,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00074",
+      "entity_b": "canon_Method_00578",
+      "surface_form_a": "neural network architectures",
+      "surface_form_b": "neural network-based approaches",
+      "structural_score": 0.865979,
+      "semantic_score": 0.980682,
+      "fused_score": 0.969254,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_00329",
+      "entity_b": "canon_Other_00778",
+      "surface_form_a": "sentence-level representations",
+      "surface_form_b": "word-level and sentence-level information",
+      "structural_score": 0.905241,
+      "semantic_score": 0.974716,
+      "fused_score": 0.968593,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Material_00170",
+      "entity_b": "canon_Other_00263",
+      "surface_form_a": "adversarial examples",
+      "surface_form_b": "adversarial perturbations",
+      "structural_score": 0.972939,
+      "semantic_score": 0.966076,
+      "fused_score": 0.966472,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01244",
+      "entity_b": "canon_Method_01594",
+      "surface_form_a": "feature modeling",
+      "surface_form_b": "feature-based models",
+      "structural_score": 0.798978,
+      "semantic_score": 0.983658,
+      "fused_score": 0.966123,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Task_00162",
+      "entity_b": "canon_Task_00593",
+      "surface_form_a": "Emotion Prediction",
+      "surface_form_b": "emotion analysis",
+      "structural_score": 0.882019,
+      "semantic_score": 0.972915,
+      "fused_score": 0.964721,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01340",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "hierarchical attention mechanism",
+      "surface_form_b": "dense attention structure",
+      "structural_score": 0.91597,
+      "semantic_score": 0.966564,
+      "fused_score": 0.96417,
+      "alpha": 0.25,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Other_00806",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "Hierarchical and Supervised Attention",
+      "surface_form_b": "dense attention structure",
+      "structural_score": 0.847831,
+      "semantic_score": 0.977909,
+      "fused_score": 0.964131,
+      "alpha": 0.25,
+      "year": 2018
+    }
+  ],
+  "elapsed_seconds": 2.467
+}

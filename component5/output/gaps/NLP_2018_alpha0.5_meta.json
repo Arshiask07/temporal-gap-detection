@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2018,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 1815,
+  "total_structural_entities": 1815,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 2823,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 224,
+    "pairs_after_filter": 15760,
+    "pairs_before_filter": 15984
+  },
+  "total_candidate_pairs_considered": 15760,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Task_00159",
+      "entity_b": "canon_Task_00163",
+      "surface_form_a": "NLI)",
+      "surface_form_b": "NLP)",
+      "structural_score": 0.972326,
+      "semantic_score": 0.986635,
+      "fused_score": 0.980324,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Material_00354",
+      "entity_b": "canon_Task_00611",
+      "surface_form_a": "text streams",
+      "surface_form_b": "text stream alignment",
+      "structural_score": 0.996627,
+      "semantic_score": 0.952093,
+      "fused_score": 0.975649,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01423",
+      "entity_b": "canon_Method_01426",
+      "surface_form_a": "DI-VAE",
+      "surface_form_b": "VAEs",
+      "structural_score": 0.985728,
+      "semantic_score": 0.955866,
+      "fused_score": 0.969346,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Material_00170",
+      "entity_b": "canon_Other_00263",
+      "surface_form_a": "adversarial examples",
+      "surface_form_b": "adversarial perturbations",
+      "structural_score": 0.972939,
+      "semantic_score": 0.966076,
+      "fused_score": 0.968982,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Other_01029",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "attention connections",
+      "surface_form_b": "dense attention structure",
+      "structural_score": 0.988186,
+      "semantic_score": 0.945332,
+      "fused_score": 0.968764,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Task_00748",
+      "entity_b": "canon_Task_00750",
+      "surface_form_a": "sentence clustering",
+      "surface_form_b": "sentence semantic similarity prediction",
+      "structural_score": 0.981662,
+      "semantic_score": 0.944897,
+      "fused_score": 0.964792,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Metric_00072",
+      "entity_b": "canon_Metric_00165",
+      "surface_form_a": "Thematic Similarity Metric",
+      "surface_form_b": "thematic metrics",
+      "structural_score": 0.970716,
+      "semantic_score": 0.954389,
+      "fused_score": 0.964712,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Other_00680",
+      "entity_b": "canon_Task_00318",
+      "surface_form_a": "entity information",
+      "surface_form_b": "entity typing",
+      "structural_score": 0.996652,
+      "semantic_score": 0.92899,
+      "fused_score": 0.964195,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Method_01347",
+      "entity_b": "canon_Other_00419",
+      "surface_form_a": "HiS",
+      "surface_form_b": "AN",
+      "structural_score": 0.972886,
+      "semantic_score": 0.951117,
+      "fused_score": 0.963973,
+      "alpha": 0.5,
+      "year": 2018
+    },
+    {
+      "entity_a": "canon_Other_00810",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "character attention",
+      "surface_form_b": "dense attention structure",
+      "structural_score": 0.979317,
+      "semantic_score": 0.942703,
+      "fused_score": 0.963939,
+      "alpha": 0.5,
+      "year": 2018
+    }
+  ],
+  "elapsed_seconds": 2.384
+}

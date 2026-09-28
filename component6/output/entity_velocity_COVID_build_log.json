@@ -1,0 +1,18 @@
+{
+  "domain": "COVID",
+  "vel_window": [
+    2022,
+    2024
+  ],
+  "citation_path": "mention-velocity (fallback)",
+  "fallback_active": true,
+  "total_entities_in_json": 5500,
+  "entities_with_velocity": 2319,
+  "entities_with_positive_velocity": 1154,
+  "entities_with_negative_velocity": 1097,
+  "entities_with_zero_velocity": 3181,
+  "aggregate_build_seconds": 0.04,
+  "velocity_compute_seconds": 0.003,
+  "citation_cache_size": 0,
+  "generated_at": "2026-09-21T20:26:12"
+}

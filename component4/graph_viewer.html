@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Component 4 — Knowledge Graph Viewer</title>
+<script src="https://unpkg.com/vis-network/9.1.6/dist/vis-network.min.js"></script>
+<link href="https://unpkg.com/vis-network/9.1.6/dist/vis-network.min.css" rel="stylesheet" type="text/css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--foreground, #1a1a1a); }
+  #toolbar {
+    display: flex; gap: 8px; padding: 12px; background: var(--card, #f5f5f5);
+    border-bottom: 1px solid var(--border, #ddd); flex-wrap: wrap;
+  }
+  #toolbar button {
+    padding: 6px 14px; cursor: pointer; border: 1px solid var(--border, #aaa);
+    background: var(--card, #fff); color: var(--foreground, #1a1a1a); border-radius: 4px;
+    font-size: 13px;
+  }
+  #toolbar button:hover { background: var(--accent, #e0e0e0); }
+  #toolbar button.active { background: var(--accent, #1976d2); color: #fff; border-color: var(--accent, #1976d2); }
+  #toolbar label { font-size: 13px; display: flex; align-items: center; gap: 4px; }
+  #toolbar input[type=number] { width: 60px; padding: 4px; border: 1px solid var(--border, #aaa); border-radius: 3px; }
+  #stats {
+    padding: 8px 12px; font-size: 12px; color: var(--muted-foreground, #666);
+    background: var(--card, #f9f9f9); border-bottom: 1px solid var(--border, #ddd);
+  }
+  #network { width: 100%; height: 90vh; }
+  #loading { padding: 40px; text-align: center; font-size: 14px; color: var(--muted-foreground, #888); }
+  #error { padding: 16px; color: #c00; background: #fff0f0; border: 1px solid #fcc; margin: 12px; border-radius: 4px; display: none; }
+  .node-label { font-size: 11px; }
+</style>
+</head>
+<body>
+<div id="toolbar">
+  <button data-view="sample" class="active">Sample 150 nodes</button>
+  <button data-view="nlp">NLP only (100)</button>
+  <button data-view="covid">COVID only (100)</button>
+  <button data-view="used_for">USED_FOR edges</button>
+  <button data-view="method_applied">METHOD_APPLIED_TO</button>
+  <button data-view="high_degree">Top-50 by degree</button>
+  <label>Limit: <input type="number" id="nodeLimit" value="150" min="20" max="500"></label>
+  <button id="refresh">Refresh</button>
+  <span style="margin-left:auto;font-size:12px;color:var(--muted-foreground, #888)">
+    Connect: bolt://localhost:7687
+  </span>
+</div>
+<div id="stats">Loading graph data…</div>
+<div id="error"></div>
+<div id="loading">Connecting to Neo4j & fetching graph…</div>
+<div id="network"></div>
+
+<script>
+const NEO4J_URI = 'bolt://localhost:7687';
+const NEO4J_USER = 'neo4j';
+const NEO4J_PASS = 'neo4j';
+
+const DOMAIN_COLORS = { NLP: '#1976d2', COVID: '#388e3c' };
+const TYPE_COLORS = {
+  Method: '#7b1fa2', Task: '#e65100', Material: '#00838f',
+  Metric: '#c62828', Other: '#616161'
+};
+const RELATION_COLORS = {
+  USED_FOR: '#1565c0', ENTITY_ASSOCIATED_WITH_ENTITY: '#2e7d32',
+  METHOD_APPLIED_TO: '#ef6c00', METHOD_EVALUATED_BY: '#ad1457'
+};
+
+const VIEWS = {
+  sample: `
+    MATCH (e:Entity) WITH e ORDER BY rand() LIMIT $limit
+    MATCH (e)-[r]->(t) WHERE t:Entity
+    RETURN e, r, t
+  `,
+  nlp: `
+    MATCH (e:Entity {domain:'NLP'}) WITH e ORDER BY rand() LIMIT $limit
+    MATCH (e)-[r]->(t:Entity {domain:'NLP'})
+    RETURN e, r, t
+  `,
+  covid: `
+    MATCH (e:Entity {domain:'COVID'}) WITH e ORDER BY rand() LIMIT $limit
+    MATCH (e)-[r]->(t:Entity {domain:'COVID'})
+    RETURN e, r, t
+  `,
+  used_for: `
+    MATCH ()-[r:USED_FOR]->() WITH r ORDER BY rand() LIMIT $limit
+    MATCH (s)-[r]->(t)
+    RETURN s, r, t
+  `,
+  method_applied: `
+    MATCH ()-[r:METHOD_APPLIED_TO]->() WITH r ORDER BY rand() LIMIT $limit
+    MATCH (s)-[r]->(t)
+    RETURN s, t
+  `,
+  high_degree: `
+    MATCH (e:Entity)
+    WITH e, size((e)-[:USED_FOR]->()) + size((e)<-[:USED_FOR]-()) +
+               size((e)-[:ENTITY_ASSOCIATED_WITH_ENTITY]->()) + size((e)<-[:ENTITY_ASSOCIATED_WITH_ENTITY]-()) +
+               size((e)-[:METHOD_APPLIED_TO]->()) + size((e)<-[:METHOD_APPLIED_TO]-()) +
+               size((e)-[:METHOD_EVALUATED_BY]->()) + size((e)<-[:METHOD_EVALUATED_BY]-()) AS deg
+    ORDER BY deg DESC LIMIT $limit
+    MATCH (e)-[r]->(t)
+    RETURN e, r, t
+  `
+};
+
+const network = new vis.Network(document.getElementById('network'), {}, {
+  physics: { stabilization: false, barnesHut: { gravitationalConstant: -3000, centralGravity: 0.3, springLength: 95, springConstant: 0.04, damping: 0.09 }, adaptiveTimestep: true },
+  interaction: { hover: true, tooltipDelay: 200, dragNodes: true, dragView: true, zoomView: true }
+});
+
+const statsEl = document.getElementById('stats');
+const loadingEl = document.getElementById('loading');
+const errorEl = document.getElementById('error');
+
+function showError(msg) {
+  errorEl.textContent = msg;
+  errorEl.style.display = 'block';
+}
+
+function colorForNode(node) {
+  if (node.domain === 'COVID') return DOMAIN_COLORS.COVID;
+  return DOMAIN_COLORS.NLP;
+}
+
+function shapeForNode(node) {
+  // Methods get diamonds, others get circles
+  return node.type === 'Method' ? 'diamond' : 'circle';
+}
+
+function renderView(viewName, limit) {
+  loadingEl.style.display = 'block';
+  errorEl.style.display = 'none';
+  statsEl.textContent = `Loading ${viewName} view (limit ${limit})…`;
+
+  const cypher = VIEWS[viewName];
+  if (!cypher) { showError('Unknown view: ' + viewName); loadingEl.style.display = 'none'; return; }
+
+  network.setData({ nodes: new vis.DataSet(), edges: new vis.DataSet() });
+  network.setOptions({
+    physics: { stabilization: true, barnesHut: { gravitationalConstant: -2000, centralGravity: 0.3, springLength: 100, springConstant: 0.04, damping: 0.1 }, adaptiveTimestep: true },
+    interaction: { hover: true, tooltipDelay: 200, dragNodes: true, dragView: true, zoomView: true }
+  });
+
+  // Use browser fetch to the Neo4j HTTP endpoint
+  fetch('http://localhost:7474/db/neo4j/tx/commit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      statements: [{
+        statement: cypher,
+        parameters: { limit: limit },
+        resultDataState: 'ALL'
+      }]
+    })
+  })
+  .then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' from Neo4j');
+    return r.json();
+  })
+  .then(data => {
+    const nodes = new Map();
+    const edges = [];
+
+    for (const stmt of data.results) {
+      for (const row of stmt.data) {
+        const cols = row.dataframe.columns;
+        const vals = row.dataframe.values[0];
+
+        const eData = vals[0], rData = vals[1] || null, tData = vals[2];
+
+        // Source node
+        if (!nodes.has(eData.id)) {
+          nodes.set(eData.id, {
+            id: eData.id,
+            label: eData.properties.surface_form || eData.properties.canonical_id,
+            title: `
+              <strong>${eData.properties.canonical_id}</strong><br/>
+              Domain: ${eData.properties.domain}<br/>
+              Type: ${eData.properties.type}<br/>
+              First seen: ${eData.properties.first_seen}<br/>
+              Last seen: ${eData.properties.last_seen}<br/>
+              Papers: ${eData.properties.paper_count}
+            `,
+            color: colorForNode(eData.properties),
+            shape: shapeForNode(eData.properties),
+            size: eData.properties.paper_count > 5 ? 12 : 8
+          });
+        }
+        // Target node
+        if (tData && !nodes.has(tData.id)) {
+          nodes.set(tData.id, {
+            id: tData.id,
+            label: tData.properties.surface_form || tData.properties.canonical_id,
+            title: `
+              <strong>${tData.properties.canonical_id}</strong><br/>
+              Domain: ${tData.properties.domain}<br/>
+              Type: ${tData.properties.type}<br/>
+              First seen: ${tData.properties.first_seen}<br/>
+              Last seen: ${tData.properties.last_seen}<br/>
+              Papers: ${tData.properties.paper_count}
+            `,
+            color: colorForNode(tData.properties),
+            shape: shapeForNode(tData.properties),
+            size: tData.properties.paper_count > 5 ? 12 : 8
+          });
+        }
+        // Edge
+        if (rData) {
+          const relType = rData.type;
+          edges.push({
+            from: eData.id,
+            to: tData.id,
+            label: relType.replace('_', ' '),
+            color: { color: RELATION_COLORS[relType] || '#888', highlight: '#000', hover: '#000' },
+            width: 1.5,
+            title: `Year: ${rData.properties.year}<br/>Paper: ${rData.properties.paper_id}<br/>Confidence: ${rData.properties.confidence}`
+          });
+        }
+      }
+    }
+
+    const nodeList = Array.from(nodes.values());
+    const edgeList = edges;
+
+    network.setData({ nodes: new vis.DataSet(nodeList), edges: new vis.DataSet(edgeList) });
+    loadingEl.style.display = 'none';
+
+    // Stats
+    const nlpCount = nodeList.filter(n => n.color === DOMAIN_COLORS.NLP).length;
+    const covidCount = nodeList.filter(n => n.color === DOMAIN_COLORS.COVID).length;
+    statsEl.textContent = `Nodes: ${nodeList.length} (NLP: ${nlpCount}, COVID: ${covidCount}) | Edges: ${edgeList.length} | Physics: on (drag to adjust)`;
+  })
+  .catch(err => {
+    loadingEl.style.display = 'none';
+    showError('Failed to load graph: ' + err.message + '. Is Neo4j running at bolt://localhost:7687? Check http://localhost:7474');
+    statsEl.textContent = 'Error loading graph.';
+    console.error(err);
+  });
+}
+
+// Toolbar button clicks
+document.querySelectorAll('[data-view]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const view = btn.dataset.view;
+    const limit = parseInt(document.getElementById('nodeLimit').value) || 150;
+    renderView(view, Math.min(limit, 500));
+  });
+});
+
+document.getElementById('refresh').addEventListener('click', () => {
+  const activeBtn = document.querySelector('[data-view].active');
+  if (activeBtn) {
+    const view = activeBtn.dataset.view;
+    const limit = parseInt(document.getElementById('nodeLimit').value) || 150;
+    renderView(view, Math.min(limit, 500));
+  }
+});
+
+// Initial load
+renderView('sample', 150);
+</script>
+</body>
+</html>

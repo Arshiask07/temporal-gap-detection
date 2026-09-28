@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2021,
+  "alpha": 0.25,
+  "index_vector_type": "fused_alpha_0.25",
+  "total_entities_in_slice": 6299,
+  "total_structural_entities": 6299,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 11572,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 3803,
+    "pairs_after_filter": 56847,
+    "pairs_before_filter": 60650
+  },
+  "total_candidate_pairs_considered": 56847,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_03327",
+      "entity_b": "canon_Method_03328",
+      "surface_form_a": "Joint Training Method",
+      "surface_form_b": "joint training approach",
+      "structural_score": 0.971105,
+      "semantic_score": 0.994452,
+      "fused_score": 0.991896,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Task_00380",
+      "entity_b": "canon_Task_00796",
+      "surface_form_a": "summarization task",
+      "surface_form_b": "summarization evaluation",
+      "structural_score": 0.944598,
+      "semantic_score": 0.988851,
+      "fused_score": 0.984491,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_02651",
+      "entity_b": "canon_Method_02655",
+      "surface_form_a": "multi-encoder approaches",
+      "surface_form_b": "multi-encoder-based",
+      "structural_score": 0.919806,
+      "semantic_score": 0.991796,
+      "fused_score": 0.984166,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00654",
+      "entity_b": "canon_Method_01511",
+      "surface_form_a": "multi-task learning framework",
+      "surface_form_b": "joint multi-task learning setting",
+      "structural_score": 0.95301,
+      "semantic_score": 0.98839,
+      "fused_score": 0.984025,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00354",
+      "entity_b": "canon_Method_01766",
+      "surface_form_a": "multi-task learning method",
+      "surface_form_b": "Sifted Multi-task Learning",
+      "structural_score": 0.894834,
+      "semantic_score": 0.990569,
+      "fused_score": 0.980674,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00788",
+      "entity_b": "canon_Other_01738",
+      "surface_form_a": "adversarial loss",
+      "surface_form_b": "adversarial objective",
+      "structural_score": 0.932322,
+      "semantic_score": 0.984796,
+      "fused_score": 0.980012,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01994",
+      "entity_b": "canon_Method_02175",
+      "surface_form_a": "imitation learning framework",
+      "surface_form_b": "Restricted Imitation Learning",
+      "structural_score": 0.945478,
+      "semantic_score": 0.983277,
+      "fused_score": 0.979534,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00244",
+      "entity_b": "canon_Material_01064",
+      "surface_form_a": "English wikipedia",
+      "surface_form_b": "Wikipedia languages",
+      "structural_score": 0.934247,
+      "semantic_score": 0.983636,
+      "fused_score": 0.977899,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_01511",
+      "entity_b": "canon_Method_02699",
+      "surface_form_a": "joint multi-task learning setting",
+      "surface_form_b": "Multi-Task Learning and BERT",
+      "structural_score": 0.967001,
+      "semantic_score": 0.977545,
+      "fused_score": 0.9759,
+      "alpha": 0.25,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_03398",
+      "entity_b": "canon_Method_03400",
+      "surface_form_a": "text prediction algorithms",
+      "surface_form_b": "text prediction model",
+      "structural_score": 0.868981,
+      "semantic_score": 0.987592,
+      "fused_score": 0.975539,
+      "alpha": 0.25,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 8.802
+}

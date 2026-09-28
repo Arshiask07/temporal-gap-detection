@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2021,
+  "alpha": 0.0,
+  "index_vector_type": "fused_alpha_0.0",
+  "total_entities_in_slice": 1881,
+  "total_structural_entities": 1881,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 2950,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 848,
+    "pairs_after_filter": 16257,
+    "pairs_before_filter": 17105
+  },
+  "total_candidate_pairs_considered": 16257,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00023",
+      "entity_b": "canon_Method_00207",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning approach",
+      "structural_score": 0.239732,
+      "semantic_score": 0.996355,
+      "fused_score": 0.996355,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00207",
+      "entity_b": "canon_Method_00891",
+      "surface_form_a": "deep learning approach",
+      "surface_form_b": "deep learning based",
+      "structural_score": 0.544177,
+      "semantic_score": 0.995724,
+      "fused_score": 0.995724,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00207",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "deep learning approach",
+      "structural_score": 0.384177,
+      "semantic_score": 0.995436,
+      "fused_score": 0.995436,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00025",
+      "entity_b": "canon_Method_00091",
+      "surface_form_a": "machine learning approach",
+      "surface_form_b": "machine learning techniques",
+      "structural_score": 0.392379,
+      "semantic_score": 0.99537,
+      "fused_score": 0.99537,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00012",
+      "entity_b": "canon_Method_00022",
+      "surface_form_a": "deep learning models",
+      "surface_form_b": "deep learning algorithms",
+      "structural_score": 0.645718,
+      "semantic_score": 0.994528,
+      "fused_score": 0.994527,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00016",
+      "entity_b": "canon_Method_00091",
+      "surface_form_a": "machine learning algorithms",
+      "surface_form_b": "machine learning techniques",
+      "structural_score": 0.597374,
+      "semantic_score": 0.994493,
+      "fused_score": 0.994493,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00022",
+      "entity_b": "canon_Method_00023",
+      "surface_form_a": "deep learning algorithms",
+      "surface_form_b": "deep learning techniques",
+      "structural_score": 0.907701,
+      "semantic_score": 0.994029,
+      "fused_score": 0.994029,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00023",
+      "entity_b": "canon_Method_00891",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning based",
+      "structural_score": 0.437685,
+      "semantic_score": 0.992956,
+      "fused_score": 0.992956,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00012",
+      "entity_b": "canon_Method_00110",
+      "surface_form_a": "deep learning models",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.379006,
+      "semantic_score": 0.992525,
+      "fused_score": 0.992525,
+      "alpha": 0.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.9839,
+      "semantic_score": 0.992523,
+      "fused_score": 0.992523,
+      "alpha": 0.0,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 2.294
+}

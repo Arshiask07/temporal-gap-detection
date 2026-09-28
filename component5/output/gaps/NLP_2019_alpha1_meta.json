@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2019,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 3336,
+  "total_structural_entities": 3336,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 5648,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 90,
+    "pairs_after_filter": 28898,
+    "pairs_before_filter": 28988
+  },
+  "total_candidate_pairs_considered": 28898,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_01898",
+      "entity_b": "canon_Other_01265",
+      "surface_form_a": "DepDist",
+      "surface_form_b": "edge weight",
+      "structural_score": 0.999503,
+      "semantic_score": 0.830394,
+      "fused_score": 0.999502,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00787",
+      "entity_b": "canon_Material_01413",
+      "surface_form_a": "textual content",
+      "surface_form_b": "proto",
+      "structural_score": 0.998842,
+      "semantic_score": 0.789247,
+      "fused_score": 0.998841,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00787",
+      "entity_b": "canon_Method_01803",
+      "surface_form_a": "textual content",
+      "surface_form_b": "typical networks",
+      "structural_score": 0.998782,
+      "semantic_score": 0.76293,
+      "fused_score": 0.998782,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_01803",
+      "entity_b": "canon_Other_00297",
+      "surface_form_a": "typical networks",
+      "surface_form_b": "tree structure",
+      "structural_score": 0.998721,
+      "semantic_score": 0.880634,
+      "fused_score": 0.998721,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_01413",
+      "entity_b": "canon_Other_00297",
+      "surface_form_a": "proto",
+      "surface_form_b": "tree structure",
+      "structural_score": 0.99872,
+      "semantic_score": 0.859591,
+      "fused_score": 0.99872,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00397",
+      "entity_b": "canon_Other_00914",
+      "surface_form_a": "MRC datasets",
+      "surface_form_b": "multiple-sentence reasoning",
+      "structural_score": 0.99866,
+      "semantic_score": 0.761279,
+      "fused_score": 0.99866,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_01413",
+      "entity_b": "canon_Other_00941",
+      "surface_form_a": "proto",
+      "surface_form_b": "gaze features",
+      "structural_score": 0.998537,
+      "semantic_score": 0.777909,
+      "fused_score": 0.998537,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Other_00812",
+      "entity_b": "canon_Other_01293",
+      "surface_form_a": "ordering",
+      "surface_form_b": "user chatting history",
+      "structural_score": 0.998434,
+      "semantic_score": 0.78005,
+      "fused_score": 0.998434,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Material_00107",
+      "entity_b": "canon_Task_00745",
+      "surface_form_a": "Long Documents",
+      "surface_form_b": "contextual bandit (CB) problem",
+      "structural_score": 0.998404,
+      "semantic_score": 0.820237,
+      "fused_score": 0.998404,
+      "alpha": 1.0,
+      "year": 2019
+    },
+    {
+      "entity_a": "canon_Method_01803",
+      "entity_b": "canon_Other_00941",
+      "surface_form_a": "typical networks",
+      "surface_form_b": "gaze features",
+      "structural_score": 0.99838,
+      "semantic_score": 0.732145,
+      "fused_score": 0.99838,
+      "alpha": 1.0,
+      "year": 2019
+    }
+  ],
+  "elapsed_seconds": 4.402
+}

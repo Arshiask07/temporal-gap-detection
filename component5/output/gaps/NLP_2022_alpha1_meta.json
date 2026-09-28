@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2022,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 7810,
+  "total_structural_entities": 7810,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 14670,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 182,
+    "pairs_after_filter": 67896,
+    "pairs_before_filter": 68078
+  },
+  "total_candidate_pairs_considered": 67896,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Material_00648",
+      "entity_b": "canon_Task_01539",
+      "surface_form_a": "adversarial question answering test set",
+      "surface_form_b": "BEL)",
+      "structural_score": 0.998905,
+      "semantic_score": 0.71357,
+      "fused_score": 0.998905,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00647",
+      "entity_b": "canon_Task_01539",
+      "surface_form_a": "changing priors visual question answering dataset",
+      "surface_form_b": "BEL)",
+      "structural_score": 0.998904,
+      "semantic_score": 0.757002,
+      "fused_score": 0.998904,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00647",
+      "entity_b": "canon_Task_01538",
+      "surface_form_a": "changing priors visual question answering dataset",
+      "surface_form_b": "biomedical entity linking (",
+      "structural_score": 0.99835,
+      "semantic_score": 0.748688,
+      "fused_score": 0.99835,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00648",
+      "entity_b": "canon_Task_01538",
+      "surface_form_a": "adversarial question answering test set",
+      "surface_form_b": "biomedical entity linking (",
+      "structural_score": 0.998325,
+      "semantic_score": 0.733142,
+      "fused_score": 0.998325,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Other_02611",
+      "entity_b": "canon_Task_01764",
+      "surface_form_a": "Document Semantic Graphs",
+      "surface_form_b": "sentence ranking or classification problem",
+      "structural_score": 0.998166,
+      "semantic_score": 0.852871,
+      "fused_score": 0.998166,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Task_01646",
+      "entity_b": "canon_Task_01648",
+      "surface_form_a": "Task-Specific Knowledge Distillation",
+      "surface_form_b": "relevance-based text retrieval",
+      "structural_score": 0.998145,
+      "semantic_score": 0.801142,
+      "fused_score": 0.998145,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00648",
+      "entity_b": "canon_Other_02403",
+      "surface_form_a": "adversarial question answering test set",
+      "surface_form_b": "local constituents",
+      "structural_score": 0.997984,
+      "semantic_score": 0.73767,
+      "fused_score": 0.997983,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Material_00647",
+      "entity_b": "canon_Other_02403",
+      "surface_form_a": "changing priors visual question answering dataset",
+      "surface_form_b": "local constituents",
+      "structural_score": 0.997979,
+      "semantic_score": 0.738018,
+      "fused_score": 0.997979,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_02642",
+      "entity_b": "canon_Other_00556",
+      "surface_form_a": "SHG)",
+      "surface_form_b": "click",
+      "structural_score": 0.997971,
+      "semantic_score": 0.811148,
+      "fused_score": 0.997971,
+      "alpha": 1.0,
+      "year": 2022
+    },
+    {
+      "entity_a": "canon_Method_03077",
+      "entity_b": "canon_Task_01539",
+      "surface_form_a": "annotation approach",
+      "surface_form_b": "BEL)",
+      "structural_score": 0.997912,
+      "semantic_score": 0.817515,
+      "fused_score": 0.997912,
+      "alpha": 1.0,
+      "year": 2022
+    }
+  ],
+  "elapsed_seconds": 10.073
+}

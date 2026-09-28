@@ -1,0 +1,13 @@
+# Tier 1 (baseline, executed in this repo) — no external model downloads
+spacy>=3.8.0
+rapidfuzz>=3.0.0
+scikit-learn>=1.3.0
+# en_core_web_sm is installed via: python3 -m pip install <github release wheel URL>
+# (see reports/COMPONENT2_REPORT.md — `spacy download` itself fails under
+# PEP 668 externally-managed environments; install the wheel directly)
+
+# Tier 2 (production, run on a machine with internet access to huggingface.co)
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.19.0
+seqeval>=1.2.2

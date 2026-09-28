@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2021,
+  "alpha": 1.0,
+  "index_vector_type": "fused_alpha_1.0",
+  "total_entities_in_slice": 1881,
+  "total_structural_entities": 1881,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 2950,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 62,
+    "pairs_after_filter": 16260,
+    "pairs_before_filter": 16322
+  },
+  "total_candidate_pairs_considered": 16260,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00247",
+      "entity_b": "canon_Other_01030",
+      "surface_form_a": "des",
+      "surface_form_b": "NTD N5 loop",
+      "structural_score": 0.998794,
+      "semantic_score": 0.806391,
+      "fused_score": 0.998794,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00039",
+      "entity_b": "canon_Other_01030",
+      "surface_form_a": "rem",
+      "surface_form_b": "NTD N5 loop",
+      "structural_score": 0.998777,
+      "semantic_score": 0.839637,
+      "fused_score": 0.998777,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00145",
+      "entity_b": "canon_Other_01030",
+      "surface_form_a": "spike protein",
+      "surface_form_b": "NTD N5 loop",
+      "structural_score": 0.998683,
+      "semantic_score": 0.793716,
+      "fused_score": 0.998683,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00863",
+      "entity_b": "canon_Other_01030",
+      "surface_form_a": "open reading frame 1",
+      "surface_form_b": "NTD N5 loop",
+      "structural_score": 0.998629,
+      "semantic_score": 0.872977,
+      "fused_score": 0.998629,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00145",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "spike protein",
+      "surface_form_b": "glycan sequon",
+      "structural_score": 0.998574,
+      "semantic_score": 0.788483,
+      "fused_score": 0.998574,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00247",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "des",
+      "surface_form_b": "glycan sequon",
+      "structural_score": 0.998563,
+      "semantic_score": 0.763656,
+      "fused_score": 0.998563,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00230",
+      "entity_b": "canon_Other_00231",
+      "surface_form_a": "GRAF PENDULUM",
+      "surface_form_b": "Graceful Fibonacci",
+      "structural_score": 0.99852,
+      "semantic_score": 0.857503,
+      "fused_score": 0.99852,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Material_00049",
+      "entity_b": "canon_Material_00214",
+      "surface_form_a": "PubMed",
+      "surface_form_b": "Cochrane Central",
+      "structural_score": 0.998513,
+      "semantic_score": 0.73548,
+      "fused_score": 0.998513,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Other_00863",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "open reading frame 1",
+      "surface_form_b": "glycan sequon",
+      "structural_score": 0.998503,
+      "semantic_score": 0.864724,
+      "fused_score": 0.998503,
+      "alpha": 1.0,
+      "year": 2021
+    },
+    {
+      "entity_a": "canon_Method_00039",
+      "entity_b": "canon_Other_01031",
+      "surface_form_a": "rem",
+      "surface_form_b": "glycan sequon",
+      "structural_score": 0.998457,
+      "semantic_score": 0.773247,
+      "fused_score": 0.998457,
+      "alpha": 1.0,
+      "year": 2021
+    }
+  ],
+  "elapsed_seconds": 2.31
+}

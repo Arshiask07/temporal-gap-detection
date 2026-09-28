@@ -1,0 +1,133 @@
+{
+  "domain": "NLP",
+  "year": 2020,
+  "alpha": 0.0,
+  "index_vector_type": "fused_alpha_0.0",
+  "total_entities_in_slice": 4840,
+  "total_structural_entities": 4840,
+  "total_semantic_entities": 10611,
+  "total_edges_in_slice": 8660,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 3429,
+    "pairs_after_filter": 41719,
+    "pairs_before_filter": 45148
+  },
+  "total_candidate_pairs_considered": 41719,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00567",
+      "entity_b": "canon_Method_00619",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning approaches",
+      "structural_score": 0.443451,
+      "semantic_score": 0.996505,
+      "fused_score": 0.996505,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00186",
+      "entity_b": "canon_Method_02750",
+      "surface_form_a": "regularization method",
+      "surface_form_b": "regularization strategy",
+      "structural_score": 0.407216,
+      "semantic_score": 0.995381,
+      "fused_score": 0.995382,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_01348",
+      "entity_b": "canon_Method_01902",
+      "surface_form_a": "autoencoder framework",
+      "surface_form_b": "autoencoder model",
+      "structural_score": 0.564072,
+      "semantic_score": 0.994943,
+      "fused_score": 0.994943,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00619",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning approaches",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.309865,
+      "semantic_score": 0.994139,
+      "fused_score": 0.994139,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00315",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning model",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.384068,
+      "semantic_score": 0.993944,
+      "fused_score": 0.993945,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00567",
+      "entity_b": "canon_Method_01226",
+      "surface_form_a": "deep learning techniques",
+      "surface_form_b": "deep learning systems",
+      "structural_score": 0.377571,
+      "semantic_score": 0.993912,
+      "fused_score": 0.993912,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00291",
+      "entity_b": "canon_Method_00315",
+      "surface_form_a": "deep learning architecture",
+      "surface_form_b": "deep learning model",
+      "structural_score": 0.25059,
+      "semantic_score": 0.993555,
+      "fused_score": 0.993555,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00291",
+      "entity_b": "canon_Method_01307",
+      "surface_form_a": "deep learning architecture",
+      "surface_form_b": "deep learning framework",
+      "structural_score": 0.397204,
+      "semantic_score": 0.993335,
+      "fused_score": 0.993335,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00698",
+      "entity_b": "canon_Method_02030",
+      "surface_form_a": "debiasing strategies",
+      "surface_form_b": "debiasing approach",
+      "structural_score": 0.673129,
+      "semantic_score": 0.993324,
+      "fused_score": 0.993324,
+      "alpha": 0.0,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00391",
+      "entity_b": "canon_Method_00801",
+      "surface_form_a": "data augmentation method",
+      "surface_form_b": "data augmentation approach",
+      "structural_score": 0.313537,
+      "semantic_score": 0.99304,
+      "fused_score": 0.993039,
+      "alpha": 0.0,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 6.489
+}

@@ -1,0 +1,133 @@
+{
+  "domain": "COVID",
+  "year": 2020,
+  "alpha": 0.5,
+  "index_vector_type": "fused_alpha_0.5",
+  "total_entities_in_slice": 1346,
+  "total_structural_entities": 1346,
+  "total_semantic_entities": 3968,
+  "total_edges_in_slice": 1926,
+  "near_duplicate_filter": {
+    "threshold_lev": 0.75,
+    "threshold_token_set": 0.9,
+    "normalization_lev": "lowercase + strip non-alphanumerics",
+    "normalization_tsr": "lowercase only (preserve word boundaries)",
+    "pairs_filtered": 142,
+    "pairs_after_filter": 11342,
+    "pairs_before_filter": 11484
+  },
+  "total_candidate_pairs_considered": 11342,
+  "top_10_gaps": [
+    {
+      "entity_a": "canon_Method_00110",
+      "entity_b": "canon_Method_00606",
+      "surface_form_a": "deep learning framework",
+      "surface_form_b": "Deep Learning Toolkit",
+      "structural_score": 0.97547,
+      "semantic_score": 0.992523,
+      "fused_score": 0.984238,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Metric_00024",
+      "entity_b": "canon_Metric_00026",
+      "surface_form_a": "egg quality characteristics",
+      "surface_form_b": "egg quality traits",
+      "structural_score": 0.993195,
+      "semantic_score": 0.969037,
+      "fused_score": 0.98155,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00108",
+      "entity_b": "canon_Method_00192",
+      "surface_form_a": "iLI",
+      "surface_form_b": "iLINCS",
+      "structural_score": 0.986684,
+      "semantic_score": 0.960141,
+      "fused_score": 0.974255,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00368",
+      "entity_b": "canon_Method_00369",
+      "surface_form_a": "Emotion Cognizance",
+      "surface_form_b": "emotion cognizant representations",
+      "structural_score": 0.950794,
+      "semantic_score": 0.98429,
+      "fused_score": 0.969971,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00721",
+      "entity_b": "canon_Other_00725",
+      "surface_form_a": "political orientation",
+      "surface_form_b": "political belief",
+      "structural_score": 0.986421,
+      "semantic_score": 0.949851,
+      "fused_score": 0.96932,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00025",
+      "entity_b": "canon_Method_00762",
+      "surface_form_a": "machine learning approach",
+      "surface_form_b": "machine learning strategy",
+      "structural_score": 0.938142,
+      "semantic_score": 0.992395,
+      "fused_score": 0.965645,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Task_00208",
+      "entity_b": "canon_Task_00258",
+      "surface_form_a": "patient care",
+      "surface_form_b": "preventive care",
+      "structural_score": 0.99587,
+      "semantic_score": 0.934939,
+      "fused_score": 0.965226,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Other_00421",
+      "entity_b": "canon_Other_00860",
+      "surface_form_a": "cont",
+      "surface_form_b": "in",
+      "structural_score": 0.991694,
+      "semantic_score": 0.937768,
+      "fused_score": 0.964905,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Material_00330",
+      "entity_b": "canon_Material_00336",
+      "surface_form_a": "CT Imaging",
+      "surface_form_b": "CT scan",
+      "structural_score": 0.970559,
+      "semantic_score": 0.958817,
+      "fused_score": 0.964069,
+      "alpha": 0.5,
+      "year": 2020
+    },
+    {
+      "entity_a": "canon_Method_00192",
+      "entity_b": "canon_Method_00193",
+      "surface_form_a": "iLINCS",
+      "surface_form_b": "NCS",
+      "structural_score": 0.990231,
+      "semantic_score": 0.934138,
+      "fused_score": 0.964055,
+      "alpha": 0.5,
+      "year": 2020
+    }
+  ],
+  "elapsed_seconds": 1.596
+}
